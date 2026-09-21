@@ -1,0 +1,1784 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pi SDK 插件目录 — 182 个 npm 包</title>
+<style>
+  :root {
+    --bg:#0d1117; --fg:#e6edf3; --muted:#8b949e;
+    --card:#161b22; --border:#30363d; --accent:#58a6ff; --green:#3fb950;
+  }
+  * { box-sizing:border-box }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+         line-height:1.55 }
+  header.top { padding:48px 24px 24px; text-align:center; border-bottom:1px solid var(--border) }
+  header.top h1 { margin:0 0 8px; font-size:32px }
+  header.top p { margin:0; color:var(--muted) }
+  .wrap { max-width:1200px; margin:0 auto; padding:24px }
+  .controls { position:sticky; top:0; z-index:10; background:var(--bg);
+              padding:16px 0; border-bottom:1px solid var(--border); margin-bottom:24px }
+  .controls input { width:100%; padding:12px 16px; font-size:15px;
+                     background:var(--card); color:var(--fg); border:1px solid var(--border);
+                     border-radius:8px; outline:none }
+  .controls input:focus { border-color:var(--accent) }
+  section { margin-bottom:36px }
+  h2 { font-size:20px; padding-bottom:8px; border-bottom:1px solid var(--border) }
+  h2 .count { font-size:13px; color:var(--muted); margin-left:8px }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(340px,1fr)); gap:14px; margin-top:14px }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:10px;
+          padding:14px 16px; transition:.15s }
+  .card:hover { border-color:var(--accent); transform:translateY(-1px) }
+  .card header { display:flex; align-items:center; justify-content:space-between;
+                  margin-bottom:6px; gap:8px }
+  .card h3 { margin:0; font-size:15px; font-family:ui-monospace,SFMono-Regular,Menlo,monospace }
+  .card h3 a { color:var(--accent); text-decoration:none }
+  .card h3 a:hover { text-decoration:underline }
+  .card .npm { font-size:11px; padding:2px 8px; border:1px solid var(--border);
+                border-radius:999px; color:var(--muted); text-decoration:none }
+  .card .npm:hover { color:var(--fg); border-color:var(--accent) }
+  .card .desc { margin:6px 0; font-size:13.5px; color:#c9d1d9 }
+  .card .kw { margin:4px 0; font-size:11px; color:var(--muted) }
+  .card .src { margin:6px 0 0; font-size:11.5px; color:var(--green);
+                font-family:ui-monospace,SFMono-Regular,Menlo,monospace }
+  .card .src a { color:inherit; text-decoration:none }
+  .card .src a:hover { text-decoration:underline }
+  .hidden { display:none !important }
+  footer { padding:32px 24px; text-align:center; color:var(--muted); font-size:13px;
+            border-top:1px solid var(--border); margin-top:48px }
+  footer a { color:var(--accent) }
+</style>
+</head>
+<body>
+<header class="top">
+  <h1>🧩 Pi SDK 插件目录</h1>
+  <p>适配 <a href="https://github.com/earendil-works/pi" target="_blank">@earendil-works/pi-coding-agent</a> 的 npm 包 · 共 <b>182</b> 个 · 按功能分组</p>
+</header>
+<div class="wrap">
+<div class="controls">
+  <input id="q" type="search" placeholder="搜索包名 / 描述 / 关键词 (例如: memory, langfuse, nvidia)" autofocus>
+</div>
+<main>
+<section>
+  <h2>1. 第三方完整 SDK 运行时 <span class="count">3</span></h2>
+  <div class="grid"><article class="card" data-name="@pi-harness/pi-harness" data-desc="[![ci](https://img.shields.io/github/actions/workflow/status/pi-harness/pi-harness/ci.yml?branch=main&label=ci)](https://github.com/pi-harness/pi-harness/actio… ">
+  <header>
+    <h3><a href="https://github.com/pi-harness/pi-harness" target="_blank" rel="noopener">@pi-harness/pi-harness</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@pi-harness/pi-harness" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">[![CI](https://img.shields.io/github/actions/workflow/status/pi-harness/pi-harness/ci.yml?branch=main&label=CI)](https://github.com/pi-harness/pi-harness/actio…</p>
+  
+  <p class="src"><a href="https://github.com/pi-harness/pi-harness" target="_blank" rel="noopener">github.com/pi-harness/pi-harness</a></p>
+</article>
+<article class="card" data-name="@pi-harness/core" data-desc="cordis boot and pi runtime plugins for pi harness ">
+  <header>
+    <h3><a href="https://github.com/pi-harness/pi-harness" target="_blank" rel="noopener">@pi-harness/core</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@pi-harness/core" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Cordis boot and Pi runtime plugins for Pi Harness</p>
+  
+  <p class="src"><a href="https://github.com/pi-harness/pi-harness" target="_blank" rel="noopener">github.com/pi-harness/pi-harness</a></p>
+</article>
+<article class="card" data-name="@pi-harness/plugin-api" data-desc="public contract for authoring pi harness plugins: cordis context services, plugin configuration helpers, and bounded workspace file access agent, cordis, pi-harness, plugin">
+  <header>
+    <h3><a href="https://github.com/pi-harness/pi-harness" target="_blank" rel="noopener">@pi-harness/plugin-api</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@pi-harness/plugin-api" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Public contract for authoring Pi Harness plugins: Cordis context services, plugin configuration helpers, and bounded workspace file access</p>
+  <p class="kw">agent, cordis, pi-harness, plugin</p>
+  <p class="src"><a href="https://github.com/pi-harness/pi-harness" target="_blank" rel="noopener">github.com/pi-harness/pi-harness</a></p>
+</article></div>
+</section>
+<section>
+  <h2>2. Agent 协议 & AI SDK 适配 <span class="count">15</span></h2>
+  <div class="grid"><article class="card" data-name="pi-acp" data-desc="acp adapter for pi coding agent acp, agent-client-protocol, pi-coding-agent, adapter">
+  <header>
+    <h3><a href="https://github.com/svkozak/pi-acp" target="_blank" rel="noopener">pi-acp</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-acp" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">ACP adapter for pi coding agent</p>
+  <p class="kw">acp, agent-client-protocol, pi-coding-agent, adapter</p>
+  <p class="src"><a href="https://github.com/svkozak/pi-acp" target="_blank" rel="noopener">github.com/svkozak/pi-acp</a></p>
+</article>
+<article class="card" data-name="@ai-sdk/harness-pi" data-desc=" ai, harness, pi">
+  <header>
+    <h3><a href="https://github.com/vercel/ai" target="_blank" rel="noopener">@ai-sdk/harness-pi</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@ai-sdk/harness-pi" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc"><i style="color:#888">no description</i></p>
+  <p class="kw">ai, harness, pi</p>
+  <p class="src"><a href="https://github.com/vercel/ai" target="_blank" rel="noopener">github.com/vercel/ai</a></p>
+</article>
+<article class="card" data-name="pi2dsh" data-desc="bridge the pi and deepseek harness ecosystems: a general pi host abi that runs unmodified pi extensions as native dsh plugins, with compatibility inspection an… deepseek-harness, dsh-plugin, pi-package, migration, compatibility">
+  <header>
+    <h3><a href="https://github.com/weijiafu14/pi2dsh" target="_blank" rel="noopener">pi2dsh</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi2dsh" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Bridge the Pi and DeepSeek Harness ecosystems: a general Pi Host ABI that runs unmodified Pi extensions as native DSH plugins, with compatibility inspection an…</p>
+  <p class="kw">deepseek-harness, dsh-plugin, pi-package, migration, compatibility</p>
+  <p class="src"><a href="https://github.com/weijiafu14/pi2dsh" target="_blank" rel="noopener">github.com/weijiafu14/pi2dsh</a></p>
+</article>
+<article class="card" data-name="pi-claude-bridge" data-desc="pi extension that uses claude code (via agent sdk) as a model provider and adds an askclaude tool. pi-package, pi, extension, claude-code, claude-agent-sdk">
+  <header>
+    <h3><a href="https://github.com/elidickinson/pi-claude-bridge" target="_blank" rel="noopener">pi-claude-bridge</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-claude-bridge" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Pi extension that uses Claude Code (via Agent SDK) as a model provider and adds an AskClaude tool.</p>
+  <p class="kw">pi-package, pi, extension, claude-code, claude-agent-sdk</p>
+  <p class="src"><a href="https://github.com/elidickinson/pi-claude-bridge" target="_blank" rel="noopener">github.com/elidickinson/pi-claude-bridge</a></p>
+</article>
+<article class="card" data-name="pi-claude-marketplace" data-desc="access claude plugin marketplaces from pi coding agent. supports claude commands, skills, agents, hooks and mcp servers. claude, claude-code, marketplace, pi, pi-coding-agent, pi-extension">
+  <header>
+    <h3><a href="https://github.com/acolomba/pi-claude-marketplace" target="_blank" rel="noopener">pi-claude-marketplace</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-claude-marketplace" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Access Claude plugin marketplaces from Pi Coding Agent. Supports Claude commands, skills, agents, hooks and MCP servers.</p>
+  <p class="kw">claude, claude-code, marketplace, pi, pi-coding-agent, pi-extension</p>
+  <p class="src"><a href="https://github.com/acolomba/pi-claude-marketplace" target="_blank" rel="noopener">github.com/acolomba/pi-claude-marketplace</a></p>
+</article>
+<article class="card" data-name="@oh-my-pi/pi-coding-agent" data-desc="coding agent cli with read, bash, edit, write tools and session management agent, ai, cli, coding-agent, llm, tui">
+  <header>
+    <h3><a href="https://github.com/can1357/oh-my-pi" target="_blank" rel="noopener">@oh-my-pi/pi-coding-agent</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@oh-my-pi/pi-coding-agent" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Coding agent CLI with read, bash, edit, write tools and session management</p>
+  <p class="kw">agent, ai, cli, coding-agent, llm, tui</p>
+  <p class="src"><a href="https://github.com/can1357/oh-my-pi" target="_blank" rel="noopener">github.com/can1357/oh-my-pi</a></p>
+</article>
+<article class="card" data-name="@hoilab/ada-cli" data-desc="ada cli - coding agent cli (rebranded fork of pi.dev) with read, bash, edit, write tools and session management coding-agent, ai, llm, cli, tui, agent">
+  <header>
+    <h3><a href="https://github.com/earendil-works/pi" target="_blank" rel="noopener">@hoilab/ada-cli</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@hoilab/ada-cli" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Ada CLI - coding agent CLI (rebranded fork of pi.dev) with read, bash, edit, write tools and session management</p>
+  <p class="kw">coding-agent, ai, llm, cli, tui, agent</p>
+  <p class="src"><a href="https://github.com/earendil-works/pi" target="_blank" rel="noopener">github.com/earendil-works/pi</a></p>
+</article>
+<article class="card" data-name="@byok-sdk/pi-coding-agent" data-desc="[byok-sdk fork of @earendil-works/pi-coding-agent 0.85.1 @ d981de1] coding agent cli with read, bash, edit, write tools and session management coding-agent, ai, llm, cli, tui, agent">
+  <header>
+    <h3><a href="https://github.com/earendil-works/pi" target="_blank" rel="noopener">@byok-sdk/pi-coding-agent</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@byok-sdk/pi-coding-agent" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">[byok-sdk fork of @earendil-works/pi-coding-agent 0.85.1 @ d981de1] Coding agent CLI with read, bash, edit, write tools and session management</p>
+  <p class="kw">coding-agent, ai, llm, cli, tui, agent</p>
+  <p class="src"><a href="https://github.com/earendil-works/pi" target="_blank" rel="noopener">github.com/earendil-works/pi</a></p>
+</article>
+<article class="card" data-name="@caupulican/pi-adaptative" data-desc="adaptive fork of pi coding agent for self-evolving agent harness experiments coding-agent, ai, llm, cli, tui, agent">
+  <header>
+    <h3><a href="https://github.com/Caupulican/pi-adaptative" target="_blank" rel="noopener">@caupulican/pi-adaptative</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@caupulican/pi-adaptative" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Adaptive fork of Pi coding agent for self-evolving agent harness experiments</p>
+  <p class="kw">coding-agent, ai, llm, cli, tui, agent</p>
+  <p class="src"><a href="https://github.com/Caupulican/pi-adaptative" target="_blank" rel="noopener">github.com/Caupulican/pi-adaptative</a></p>
+</article>
+<article class="card" data-name="@code-yeongyu/senpi" data-desc="coding agent cli with read, bash, edit, write tools and session management coding-agent, ai, llm, cli, tui, agent">
+  <header>
+    <h3><a href="https://github.com/code-yeongyu/senpi" target="_blank" rel="noopener">@code-yeongyu/senpi</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@code-yeongyu/senpi" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Coding agent CLI with read, bash, edit, write tools and session management</p>
+  <p class="kw">coding-agent, ai, llm, cli, tui, agent</p>
+  <p class="src"><a href="https://github.com/code-yeongyu/senpi" target="_blank" rel="noopener">github.com/code-yeongyu/senpi</a></p>
+</article>
+<article class="card" data-name="@code-yeongyu/senpi-agent-core" data-desc="general-purpose agent with transport abstraction, state management, and attachment support ai, agent, llm, transport, state-management">
+  <header>
+    <h3><a href="https://github.com/code-yeongyu/senpi" target="_blank" rel="noopener">@code-yeongyu/senpi-agent-core</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@code-yeongyu/senpi-agent-core" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">General-purpose agent with transport abstraction, state management, and attachment support</p>
+  <p class="kw">ai, agent, llm, transport, state-management</p>
+  <p class="src"><a href="https://github.com/code-yeongyu/senpi" target="_blank" rel="noopener">github.com/code-yeongyu/senpi</a></p>
+</article>
+<article class="card" data-name="@code-yeongyu/senpi-telemetry" data-desc="vendor-neutral telemetry contracts and typed schema utilities for pi telemetry, tracing, observability">
+  <header>
+    <h3><a href="https://github.com/code-yeongyu/senpi" target="_blank" rel="noopener">@code-yeongyu/senpi-telemetry</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@code-yeongyu/senpi-telemetry" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Vendor-neutral telemetry contracts and typed schema utilities for pi</p>
+  <p class="kw">telemetry, tracing, observability</p>
+  <p class="src"><a href="https://github.com/code-yeongyu/senpi" target="_blank" rel="noopener">github.com/code-yeongyu/senpi</a></p>
+</article>
+<article class="card" data-name="@code-yeongyu/senpi-pty" data-desc="typed pty session loader for senpi persistent terminals pty, terminal, persistent-terminal, typescript">
+  <header>
+    <h3><a href="https://github.com/code-yeongyu/senpi" target="_blank" rel="noopener">@code-yeongyu/senpi-pty</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@code-yeongyu/senpi-pty" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Typed PTY session loader for Senpi persistent terminals</p>
+  <p class="kw">pty, terminal, persistent-terminal, typescript</p>
+  <p class="src"><a href="https://github.com/code-yeongyu/senpi" target="_blank" rel="noopener">github.com/code-yeongyu/senpi</a></p>
+</article>
+<article class="card" data-name="@code-yeongyu/senpi-ai" data-desc="unified llm api with automatic model discovery and provider configuration ai, llm, openai, anthropic, gemini, bedrock">
+  <header>
+    <h3><a href="https://github.com/code-yeongyu/senpi" target="_blank" rel="noopener">@code-yeongyu/senpi-ai</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@code-yeongyu/senpi-ai" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Unified LLM API with automatic model discovery and provider configuration</p>
+  <p class="kw">ai, llm, openai, anthropic, gemini, bedrock</p>
+  <p class="src"><a href="https://github.com/code-yeongyu/senpi" target="_blank" rel="noopener">github.com/code-yeongyu/senpi</a></p>
+</article>
+<article class="card" data-name="@assemblyline-agents/pi" data-desc="canonical pi agent loop for assembly line behind the internal agentharness runtime contract. assembly-line, ai, agents, pi, agent-loop, harness">
+  <header>
+    <h3><a href="https://github.com/jasonbadeaux/assembly-line" target="_blank" rel="noopener">@assemblyline-agents/pi</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@assemblyline-agents/pi" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Canonical Pi agent loop for Assembly Line behind the internal AgentHarness runtime contract.</p>
+  <p class="kw">assembly-line, ai, agents, pi, agent-loop, harness</p>
+  <p class="src"><a href="https://github.com/jasonbadeaux/assembly-line" target="_blank" rel="noopener">github.com/jasonbadeaux/assembly-line</a></p>
+</article></div>
+</section>
+<section>
+  <h2>3. DoomPi 套件 (独立扩展平台) <span class="count">25</span></h2>
+  <div class="grid"><article class="card" data-name="@agimon-ai/doompi-extension-contracts" data-desc="typed lifecycle, protocol, and leader contracts for independently bundled doompi extensions. ai, coding-agent, developer-tools, doompi, extension-api, leader-key">
+  <header>
+    <h3><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">@agimon-ai/doompi-extension-contracts</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@agimon-ai/doompi-extension-contracts" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Typed lifecycle, protocol, and Leader contracts for independently bundled DoomPi extensions.</p>
+  <p class="kw">ai, coding-agent, developer-tools, doompi, extension-api, leader-key</p>
+  <p class="src"><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">github.com/AgiFlow/doompi</a></p>
+</article>
+<article class="card" data-name="@agimon-ai/doompi-telemetry" data-desc="host-neutral telemetry, opentelemetry controls, and log sink adapters for doompi sessions. agent-observability, ai, coding-agent, developer-tools, doompi, log-sink">
+  <header>
+    <h3><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">@agimon-ai/doompi-telemetry</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@agimon-ai/doompi-telemetry" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Host-neutral telemetry, OpenTelemetry controls, and Log Sink adapters for DoomPi sessions.</p>
+  <p class="kw">agent-observability, ai, coding-agent, developer-tools, doompi, log-sink</p>
+  <p class="src"><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">github.com/AgiFlow/doompi</a></p>
+</article>
+<article class="card" data-name="@agimon-ai/doompi-ui" data-desc="leader-key menus, themes, and tui components for doompi and pi extensions. ai, coding-agent, developer-tools, doompi, leader-key, pi-extension">
+  <header>
+    <h3><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">@agimon-ai/doompi-ui</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@agimon-ai/doompi-ui" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Leader-key menus, themes, and TUI components for DoomPi and Pi extensions.</p>
+  <p class="kw">ai, coding-agent, developer-tools, doompi, leader-key, pi-extension</p>
+  <p class="src"><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">github.com/AgiFlow/doompi</a></p>
+</article>
+<article class="card" data-name="@agimon-ai/doompi-hashline" data-desc="shared snapshot-bound file tags and line anchors for doompi tools. ai, coding-agent, developer-tools, doompi, hashline, pi-package">
+  <header>
+    <h3><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">@agimon-ai/doompi-hashline</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@agimon-ai/doompi-hashline" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Shared snapshot-bound file tags and line anchors for DoomPi tools.</p>
+  <p class="kw">ai, coding-agent, developer-tools, doompi, hashline, pi-package</p>
+  <p class="src"><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">github.com/AgiFlow/doompi</a></p>
+</article>
+<article class="card" data-name="@agimon-ai/doompi-edit" data-desc="snapshot-bound hashline edit tool for pi and doompi. ai, coding-agent, developer-tools, doompi, hashline, pi-coding-agent">
+  <header>
+    <h3><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">@agimon-ai/doompi-edit</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@agimon-ai/doompi-edit" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Snapshot-bound hashline edit tool for Pi and DoomPi.</p>
+  <p class="kw">ai, coding-agent, developer-tools, doompi, hashline, pi-coding-agent</p>
+  <p class="src"><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">github.com/AgiFlow/doompi</a></p>
+</article>
+<article class="card" data-name="@agimon-ai/doompi-grep" data-desc="snapshot-bound hashline grep for pi and doompi. ai, coding-agent, developer-tools, doompi, grep, hashline">
+  <header>
+    <h3><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">@agimon-ai/doompi-grep</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@agimon-ai/doompi-grep" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Snapshot-bound hashline grep for Pi and DoomPi.</p>
+  <p class="kw">ai, coding-agent, developer-tools, doompi, grep, hashline</p>
+  <p class="src"><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">github.com/AgiFlow/doompi</a></p>
+</article>
+<article class="card" data-name="@agimon-ai/doompi-config" data-desc="typed configuration loading, validation, and host services for composing doompi sessions. agent-configuration, ai, coding-agent, configuration, dependency-injection, developer-tools">
+  <header>
+    <h3><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">@agimon-ai/doompi-config</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@agimon-ai/doompi-config" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Typed configuration loading, validation, and host services for composing DoomPi sessions.</p>
+  <p class="kw">agent-configuration, ai, coding-agent, configuration, dependency-injection, developer-tools</p>
+  <p class="src"><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">github.com/AgiFlow/doompi</a></p>
+</article>
+<article class="card" data-name="@agimon-ai/doompi-loop" data-desc="session-scoped recurring prompt scheduler and loop controls for pi coding agents. ai, automation, coding-agent, developer-tools, doompi, pi-coding-agent">
+  <header>
+    <h3><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">@agimon-ai/doompi-loop</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@agimon-ai/doompi-loop" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Session-scoped recurring prompt scheduler and loop controls for Pi coding agents.</p>
+  <p class="kw">ai, automation, coding-agent, developer-tools, doompi, pi-coding-agent</p>
+  <p class="src"><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">github.com/AgiFlow/doompi</a></p>
+</article>
+<article class="card" data-name="@agimon-ai/doompi-workflow" data-desc="github actions-style workflow graphs, artifacts, recovery, and asynchronous runs for doompi. ai, automation, coding-agent, developer-tools, doompi, github-actions">
+  <header>
+    <h3><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">@agimon-ai/doompi-workflow</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@agimon-ai/doompi-workflow" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">GitHub Actions-style workflow graphs, artifacts, recovery, and asynchronous runs for DoomPi.</p>
+  <p class="kw">ai, automation, coding-agent, developer-tools, doompi, github-actions</p>
+  <p class="src"><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">github.com/AgiFlow/doompi</a></p>
+</article>
+<article class="card" data-name="@agimon-ai/doompi-voice" data-desc="client audio capture, host transcription, and autonomous narration for pi agents. ai, coding-agent, developer-tools, doompi, macos, pi-extension">
+  <header>
+    <h3><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">@agimon-ai/doompi-voice</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@agimon-ai/doompi-voice" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Client audio capture, host transcription, and autonomous narration for Pi agents.</p>
+  <p class="kw">ai, coding-agent, developer-tools, doompi, macos, pi-extension</p>
+  <p class="src"><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">github.com/AgiFlow/doompi</a></p>
+</article>
+<article class="card" data-name="@agimon-ai/doompi-notification" data-desc="desktop notifications and an animated shell-tab title for doompi sessions. ai, coding-agent, desktop-notifications, developer-tools, doompi, notifications">
+  <header>
+    <h3><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">@agimon-ai/doompi-notification</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@agimon-ai/doompi-notification" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Desktop notifications and an animated shell-tab title for DoomPi sessions.</p>
+  <p class="kw">ai, coding-agent, desktop-notifications, developer-tools, doompi, notifications</p>
+  <p class="src"><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">github.com/AgiFlow/doompi</a></p>
+</article>
+<article class="card" data-name="@agimon-ai/doompi-plan" data-desc="reviewable pi planning mode that removes file-editing tools and persists implementation plans. ai, coding-agent, developer-tools, doompi, implementation-planning, pi-coding-agent">
+  <header>
+    <h3><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">@agimon-ai/doompi-plan</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@agimon-ai/doompi-plan" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Reviewable Pi planning mode that removes file-editing tools and persists implementation plans.</p>
+  <p class="kw">ai, coding-agent, developer-tools, doompi, implementation-planning, pi-coding-agent</p>
+  <p class="src"><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">github.com/AgiFlow/doompi</a></p>
+</article>
+<article class="card" data-name="@agimon-ai/doompi-major-mode" data-desc="named major-mode selection and layer composition switching for doompi sessions. ai, coding-agent, developer-tools, doompi, layer-composition, major-mode">
+  <header>
+    <h3><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">@agimon-ai/doompi-major-mode</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@agimon-ai/doompi-major-mode" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Named major-mode selection and layer composition switching for DoomPi sessions.</p>
+  <p class="kw">ai, coding-agent, developer-tools, doompi, layer-composition, major-mode</p>
+  <p class="src"><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">github.com/AgiFlow/doompi</a></p>
+</article>
+<article class="card" data-name="@agimon-ai/doompi-skill" data-desc="session skill catalogue, deferred skill discovery, and the skill browser for doompi. agent-skills, ai, coding-agent, developer-tools, doompi, pi-coding-agent">
+  <header>
+    <h3><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">@agimon-ai/doompi-skill</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@agimon-ai/doompi-skill" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Session skill catalogue, deferred skill discovery, and the skill browser for DoomPi.</p>
+  <p class="kw">agent-skills, ai, coding-agent, developer-tools, doompi, pi-coding-agent</p>
+  <p class="src"><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">github.com/AgiFlow/doompi</a></p>
+</article>
+<article class="card" data-name="@agimon-ai/doompi-file-edit" data-desc="pi extension for session-scoped file-change timelines and external editor workflows. ai, coding-agent, developer-tools, doompi, external-editor, file-editing">
+  <header>
+    <h3><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">@agimon-ai/doompi-file-edit</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@agimon-ai/doompi-file-edit" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Pi extension for session-scoped file-change timelines and external editor workflows.</p>
+  <p class="kw">ai, coding-agent, developer-tools, doompi, external-editor, file-editing</p>
+  <p class="src"><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">github.com/AgiFlow/doompi</a></p>
+</article>
+<article class="card" data-name="@agimon-ai/doompi-profile" data-desc="persona and environment profile switching for doompi sessions. agent-persona, ai, coding-agent, developer-tools, doompi, pi-coding-agent">
+  <header>
+    <h3><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">@agimon-ai/doompi-profile</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@agimon-ai/doompi-profile" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Persona and environment profile switching for DoomPi sessions.</p>
+  <p class="kw">agent-persona, ai, coding-agent, developer-tools, doompi, pi-coding-agent</p>
+  <p class="src"><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">github.com/AgiFlow/doompi</a></p>
+</article>
+<article class="card" data-name="@agimon-ai/doompi-mcp" data-desc="domain-aware mcp server selection and access boundaries for pi sessions composed with doompi. ai, coding-agent, developer-tools, doompi, mcp, model-context-protocol">
+  <header>
+    <h3><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">@agimon-ai/doompi-mcp</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@agimon-ai/doompi-mcp" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Domain-aware MCP server selection and access boundaries for Pi sessions composed with DoomPi.</p>
+  <p class="kw">ai, coding-agent, developer-tools, doompi, mcp, model-context-protocol</p>
+  <p class="src"><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">github.com/AgiFlow/doompi</a></p>
+</article>
+<article class="card" data-name="@agimon-ai/doompi-autocompact" data-desc="iterative context compaction and checkpoint summaries for pi and doompi agent sessions. ai, coding-agent, context-compaction, context-window, developer-tools, doompi">
+  <header>
+    <h3><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">@agimon-ai/doompi-autocompact</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@agimon-ai/doompi-autocompact" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Iterative context compaction and checkpoint summaries for Pi and DoomPi agent sessions.</p>
+  <p class="kw">ai, coding-agent, context-compaction, context-window, developer-tools, doompi</p>
+  <p class="src"><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">github.com/AgiFlow/doompi</a></p>
+</article>
+<article class="card" data-name="@agimon-ai/doompi-log" data-desc="pi session metrics, findings, sink status, and a log metrics overlay for agent observability. agent-observability, ai, coding-agent, developer-tools, doompi, log-sink">
+  <header>
+    <h3><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">@agimon-ai/doompi-log</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@agimon-ai/doompi-log" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Pi session metrics, findings, sink status, and a Log Metrics overlay for agent observability.</p>
+  <p class="kw">agent-observability, ai, coding-agent, developer-tools, doompi, log-sink</p>
+  <p class="src"><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">github.com/AgiFlow/doompi</a></p>
+</article>
+<article class="card" data-name="@agimon-ai/doompi-goal" data-desc="pi minor mode for persistent agent goals, token budgets, and goal history. agent-goals, ai, coding-agent, developer-tools, doompi, goal-management">
+  <header>
+    <h3><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">@agimon-ai/doompi-goal</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@agimon-ai/doompi-goal" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Pi minor mode for persistent agent goals, token budgets, and goal history.</p>
+  <p class="kw">agent-goals, ai, coding-agent, developer-tools, doompi, goal-management</p>
+  <p class="src"><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">github.com/AgiFlow/doompi</a></p>
+</article>
+<article class="card" data-name="@agimon-ai/doompi-domain" data-desc="domain selection, resource staging, and mcp scoping for doompi sessions. ai, coding-agent, developer-tools, domains, doompi, mcp">
+  <header>
+    <h3><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">@agimon-ai/doompi-domain</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@agimon-ai/doompi-domain" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Domain selection, resource staging, and MCP scoping for DoomPi sessions.</p>
+  <p class="kw">ai, coding-agent, developer-tools, domains, doompi, mcp</p>
+  <p class="src"><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">github.com/AgiFlow/doompi</a></p>
+</article>
+<article class="card" data-name="@agimon-ai/doompi-hook" data-desc="claude-code-compatible repository and plugin hook runner for doompi sessions. ai, claude-code-hooks, coding-agent, developer-tools, doompi, guardrails">
+  <header>
+    <h3><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">@agimon-ai/doompi-hook</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@agimon-ai/doompi-hook" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Claude-Code-compatible repository and plugin hook runner for DoomPi sessions.</p>
+  <p class="kw">ai, claude-code-hooks, coding-agent, developer-tools, doompi, guardrails</p>
+  <p class="src"><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">github.com/AgiFlow/doompi</a></p>
+</article>
+<article class="card" data-name="@agimon-ai/doompi-help" data-desc="activation-gated package guidance and help skills for doompi and pi extensions. agent-documentation, ai, coding-agent, developer-tools, doompi, help-system">
+  <header>
+    <h3><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">@agimon-ai/doompi-help</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@agimon-ai/doompi-help" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Activation-gated package guidance and help skills for DoomPi and Pi extensions.</p>
+  <p class="kw">agent-documentation, ai, coding-agent, developer-tools, doompi, help-system</p>
+  <p class="src"><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">github.com/AgiFlow/doompi</a></p>
+</article>
+<article class="card" data-name="@agimon-ai/doompi-user-feedback" data-desc="structured user questions with interactive and autonomous voice handoff for pi agents. ai, ask-user-question, coding-agent, developer-tools, doompi, human-in-the-loop">
+  <header>
+    <h3><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">@agimon-ai/doompi-user-feedback</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@agimon-ai/doompi-user-feedback" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Structured user questions with interactive and autonomous Voice handoff for Pi agents.</p>
+  <p class="kw">ai, ask-user-question, coding-agent, developer-tools, doompi, human-in-the-loop</p>
+  <p class="src"><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">github.com/AgiFlow/doompi</a></p>
+</article>
+<article class="card" data-name="@agimon-ai/doompi-autostop" data-desc="shuts a doompi session down once the agent settles and stays idle. ai, auto-stop, coding-agent, developer-tools, doompi, idle-timeout">
+  <header>
+    <h3><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">@agimon-ai/doompi-autostop</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@agimon-ai/doompi-autostop" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Shuts a DoomPi session down once the agent settles and stays idle.</p>
+  <p class="kw">ai, auto-stop, coding-agent, developer-tools, doompi, idle-timeout</p>
+  <p class="src"><a href="https://github.com/AgiFlow/doompi" target="_blank" rel="noopener">github.com/AgiFlow/doompi</a></p>
+</article></div>
+</section>
+<section>
+  <h2>4. MCP 集成 <span class="count">2</span></h2>
+  <div class="grid"><article class="card" data-name="pi-mcp-adapter" data-desc="mcp (model context protocol) adapter extension for pi coding agent pi-package, pi, mcp, model-context-protocol, ai, coding-agent">
+  <header>
+    <h3><a href="https://github.com/nicobailon/pi-mcp-adapter" target="_blank" rel="noopener">pi-mcp-adapter</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-mcp-adapter" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">MCP (Model Context Protocol) adapter extension for Pi coding agent</p>
+  <p class="kw">pi-package, pi, mcp, model-context-protocol, ai, coding-agent</p>
+  <p class="src"><a href="https://github.com/nicobailon/pi-mcp-adapter" target="_blank" rel="noopener">github.com/nicobailon/pi-mcp-adapter</a></p>
+</article>
+<article class="card" data-name="pi-mcp-extension" data-desc="mcp (model context protocol) client extension for the pi coding agent — connect pi to any mcp server pi-package, mcp, model-context-protocol, pi, pi-extension, ai-agent">
+  <header>
+    <h3><a href="https://github.com/irahardianto/pi-mcp-extension" target="_blank" rel="noopener">pi-mcp-extension</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-mcp-extension" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">MCP (Model Context Protocol) client extension for the Pi coding agent — connect Pi to any MCP server</p>
+  <p class="kw">pi-package, mcp, model-context-protocol, pi, pi-extension, ai-agent</p>
+  <p class="src"><a href="https://github.com/irahardianto/pi-mcp-extension" target="_blank" rel="noopener">github.com/irahardianto/pi-mcp-extension</a></p>
+</article></div>
+</section>
+<section>
+  <h2>5. 记忆 / 状态 / 持久化 <span class="count">8</span></h2>
+  <div class="grid"><article class="card" data-name="pi-hermes-memory" data-desc="🧠 persistent memory + 🔍 session search + 🛡️ secret scanning for pi. token-aware policy-only memory by default, sqlite fts5 search, auto-consolidation, procedur… pi-package, pi-extension, memory, persistent-memory, session-search, sqlite">
+  <header>
+    <h3><a href="https://github.com/chandra447/pi-hermes-memory" target="_blank" rel="noopener">pi-hermes-memory</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-hermes-memory" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">🧠 Persistent memory + 🔍 session search + 🛡️ secret scanning for Pi. Token-aware policy-only memory by default, SQLite FTS5 search, auto-consolidation, procedur…</p>
+  <p class="kw">pi-package, pi-extension, memory, persistent-memory, session-search, sqlite</p>
+  <p class="src"><a href="https://github.com/chandra447/pi-hermes-memory" target="_blank" rel="noopener">github.com/chandra447/pi-hermes-memory</a></p>
+</article>
+<article class="card" data-name="pi-memory" data-desc="pi coding agent extension for memory with qmd-powered semantic search across daily logs, long-term memory, and scratchpad pi, pi-coding-agent, pi-package, memory, search, qmd">
+  <header>
+    <h3><a href="https://github.com/jayzeng/pi-memory" target="_blank" rel="noopener">pi-memory</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-memory" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Pi coding agent extension for memory with qmd-powered semantic search across daily logs, long-term memory, and scratchpad</p>
+  <p class="kw">pi, pi-coding-agent, pi-package, memory, search, qmd</p>
+  <p class="src"><a href="https://github.com/jayzeng/pi-memory" target="_blank" rel="noopener">github.com/jayzeng/pi-memory</a></p>
+</article>
+<article class="card" data-name="@amaster.ai/pi-memory-mem0" data-desc="mem0 semantic memory for pi — automatic capture, semantic recall, and an agent-callable memory tool. platform, embedded, or self-hosted. pi-package, pi, extension, memory, mem0, semantic-search">
+  <header>
+    <h3><a href="https://github.com/TGYD-helige/pi" target="_blank" rel="noopener">@amaster.ai/pi-memory-mem0</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@amaster.ai/pi-memory-mem0" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Mem0 semantic memory for pi — automatic capture, semantic recall, and an agent-callable memory tool. Platform, embedded, or self-hosted.</p>
+  <p class="kw">pi-package, pi, extension, memory, mem0, semantic-search</p>
+  <p class="src"><a href="https://github.com/TGYD-helige/pi" target="_blank" rel="noopener">github.com/TGYD-helige/pi</a></p>
+</article>
+<article class="card" data-name="pi-blackhole" data-desc="unified compaction + observational memory extension for pi — compresses conversation context while preserving durable observations and reflections agents, ai, blackhole, cli, compact, compaction">
+  <header>
+    <h3><a href="https://github.com/k0valik/pi-blackhole" target="_blank" rel="noopener">pi-blackhole</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-blackhole" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Unified compaction + observational memory extension for Pi — compresses conversation context while preserving durable observations and reflections</p>
+  <p class="kw">agents, ai, blackhole, cli, compact, compaction</p>
+  <p class="src"><a href="https://github.com/k0valik/pi-blackhole" target="_blank" rel="noopener">github.com/k0valik/pi-blackhole</a></p>
+</article>
+<article class="card" data-name="@brianmichel/pi-noodle" data-desc="long-term memory for pi — local libsql database with vector search. pi, pi.dev, pi-package, pi-extension, pi-plugin, ai-agent">
+  <header>
+    <h3><a href="https://github.com/brianmichel/pi-noodle" target="_blank" rel="noopener">@brianmichel/pi-noodle</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@brianmichel/pi-noodle" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Long-term memory for Pi — local libSQL database with vector search.</p>
+  <p class="kw">pi, pi.dev, pi-package, pi-extension, pi-plugin, ai-agent</p>
+  <p class="src"><a href="https://github.com/brianmichel/pi-noodle" target="_blank" rel="noopener">github.com/brianmichel/pi-noodle</a></p>
+</article>
+<article class="card" data-name="@remnic/plugin-pi" data-desc="remnic memory extension for pi coding agent remnic, pi-package, pi, memory, ai-agent, coding-agent">
+  <header>
+    <h3><a href="https://github.com/joshuaswarren/remnic" target="_blank" rel="noopener">@remnic/plugin-pi</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@remnic/plugin-pi" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Remnic memory extension for Pi Coding Agent</p>
+  <p class="kw">remnic, pi-package, pi, memory, ai-agent, coding-agent</p>
+  <p class="src"><a href="https://github.com/joshuaswarren/remnic" target="_blank" rel="noopener">github.com/joshuaswarren/remnic</a></p>
+</article>
+<article class="card" data-name="pi-workspace-history" data-desc="real workspace undo/redo for pi. bring claude code style /rewind and opencode /undo safety to @earendil-works/pi-coding-agent. pi-package, pi, pi-plugin, pi-extension, pi-agent, pi-coding-agent">
+  <header>
+    <h3><a href="https://github.com/wcldyx/pi-workspace-history" target="_blank" rel="noopener">pi-workspace-history</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-workspace-history" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Real workspace undo/redo for Pi. Bring Claude Code style /rewind and OpenCode /undo safety to @earendil-works/pi-coding-agent.</p>
+  <p class="kw">pi-package, pi, pi-plugin, pi-extension, pi-agent, pi-coding-agent</p>
+  <p class="src"><a href="https://github.com/wcldyx/pi-workspace-history" target="_blank" rel="noopener">github.com/wcldyx/pi-workspace-history</a></p>
+</article>
+<article class="card" data-name="@moyai/pi-session-hoarder" data-desc="🐿️ a pi extension that archives sessions into local content-addressed storage. pi-package">
+  <header>
+    <h3><a href="https://github.com/moyai-ai/pi-session-hoarder" target="_blank" rel="noopener">@moyai/pi-session-hoarder</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@moyai/pi-session-hoarder" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">🐿️ A Pi extension that archives sessions into local content-addressed storage.</p>
+  <p class="kw">pi-package</p>
+  <p class="src"><a href="https://github.com/moyai-ai/pi-session-hoarder" target="_blank" rel="noopener">github.com/moyai-ai/pi-session-hoarder</a></p>
+</article></div>
+</section>
+<section>
+  <h2>6. AI 可观测 / Tracing <span class="count">5</span></h2>
+  <div class="grid"><article class="card" data-name="@langfuse/pi-observability-plugin" data-desc="langfuse observability extension for the pi coding agent — traces prompts, agent turns, model generations, and tool calls to langfuse. pi-package, pi-extension, pi, langfuse, observability, tracing">
+  <header>
+    <h3><a href="https://github.com/langfuse/pi-observability-plugin" target="_blank" rel="noopener">@langfuse/pi-observability-plugin</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@langfuse/pi-observability-plugin" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Langfuse observability extension for the pi coding agent — traces prompts, agent turns, model generations, and tool calls to Langfuse.</p>
+  <p class="kw">pi-package, pi-extension, pi, langfuse, observability, tracing</p>
+  <p class="src"><a href="https://github.com/langfuse/pi-observability-plugin" target="_blank" rel="noopener">github.com/langfuse/pi-observability-plugin</a></p>
+</article>
+<article class="card" data-name="@raindrop-ai/pi-agent" data-desc="raindrop observability for pi agent — automatic tracing via subscriber or pi-coding-agent extension pi-package, raindrop, pi-agent, observability, tracing">
+  <header>
+    <h3><a href="https://github.com/raindrop-ai/pi-agent" target="_blank" rel="noopener">@raindrop-ai/pi-agent</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@raindrop-ai/pi-agent" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Raindrop observability for Pi Agent — automatic tracing via subscriber or pi-coding-agent extension</p>
+  <p class="kw">pi-package, raindrop, pi-agent, observability, tracing</p>
+  <p class="src"><a href="https://github.com/raindrop-ai/pi-agent" target="_blank" rel="noopener">github.com/raindrop-ai/pi-agent</a></p>
+</article>
+<article class="card" data-name="@braintrust/pi-extension" data-desc="braintrust extension for pi. includes automatic tracing for pi sessions, turns, llm calls, and tool executions to braintrust. braintrust, llm, observability, pi, pi-package, tracing">
+  <header>
+    <h3><a href="https://github.com/braintrustdata/braintrust-coding-agent-plugins" target="_blank" rel="noopener">@braintrust/pi-extension</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@braintrust/pi-extension" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Braintrust extension for pi. Includes automatic tracing for pi sessions, turns, LLM calls, and tool executions to Braintrust.</p>
+  <p class="kw">braintrust, llm, observability, pi, pi-package, tracing</p>
+  <p class="src"><a href="https://github.com/braintrustdata/braintrust-coding-agent-plugins" target="_blank" rel="noopener">github.com/braintrustdata/braintrust-coding-agent-plugins</a></p>
+</article>
+<article class="card" data-name="pi-phoenix" data-desc="phoenix tracing extension for pi pi-package, pi-extension, phoenix, tracing, opentelemetry">
+  <header>
+    <h3><a href="https://github.com/philipbjorge/pi-phoenix" target="_blank" rel="noopener">pi-phoenix</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-phoenix" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Phoenix tracing extension for pi</p>
+  <p class="kw">pi-package, pi-extension, phoenix, tracing, opentelemetry</p>
+  <p class="src"><a href="https://github.com/philipbjorge/pi-phoenix" target="_blank" rel="noopener">github.com/philipbjorge/pi-phoenix</a></p>
+</article>
+<article class="card" data-name="pi-otel" data-desc="opentelemetry traces for pi-coding-agent — per-prompt span tree (interaction → llm_request, tool.<name>) exported via otlp. aspire-dashboard ready. pi-package, pi-extension, opentelemetry, otel, observability, tracing">
+  <header>
+    <h3><a href="https://github.com/nikiforovall/pi-otel" target="_blank" rel="noopener">pi-otel</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-otel" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">OpenTelemetry traces for pi-coding-agent — per-prompt span tree (interaction → llm_request, tool.<name>) exported via OTLP. Aspire-dashboard ready.</p>
+  <p class="kw">pi-package, pi-extension, opentelemetry, otel, observability, tracing</p>
+  <p class="src"><a href="https://github.com/nikiforovall/pi-otel" target="_blank" rel="noopener">github.com/nikiforovall/pi-otel</a></p>
+</article></div>
+</section>
+<section>
+  <h2>7. Subagent / 多 agent <span class="count">8</span></h2>
+  <div class="grid"><article class="card" data-name="pi-subagents" data-desc="pi extension for single-agent delegation and scripted multi-agent workflows pi-package, pi, pi-coding-agent, subagents, ai, agents">
+  <header>
+    <h3><a href="https://github.com/nicobailon/pi-subagents" target="_blank" rel="noopener">pi-subagents</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-subagents" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Pi extension for single-agent delegation and scripted multi-agent workflows</p>
+  <p class="kw">pi-package, pi, pi-coding-agent, subagents, ai, agents</p>
+  <p class="src"><a href="https://github.com/nicobailon/pi-subagents" target="_blank" rel="noopener">github.com/nicobailon/pi-subagents</a></p>
+</article>
+<article class="card" data-name="@tintinweb/pi-subagents" data-desc="a pi extension that brings claude code-like sub-agents and workflow orchestration to pi — parallel execution, live widget, fleet view, custom agent types, mid-… pi-package, pi, pi-extension, subagent, agent, autonomous">
+  <header>
+    <h3><a href="https://github.com/tintinweb/pi-subagents" target="_blank" rel="noopener">@tintinweb/pi-subagents</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@tintinweb/pi-subagents" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">A pi extension that brings Claude Code-like sub-agents and workflow orchestration to pi — parallel execution, live widget, fleet view, custom agent types, mid-…</p>
+  <p class="kw">pi-package, pi, pi-extension, subagent, agent, autonomous</p>
+  <p class="src"><a href="https://github.com/tintinweb/pi-subagents" target="_blank" rel="noopener">github.com/tintinweb/pi-subagents</a></p>
+</article>
+<article class="card" data-name="@gotgenes/pi-subagents" data-desc="a focused, in-process sub-agent core for pi — autonomous agents plus a typed api and lifecycle events other extensions build on. friendly fork of @tintinweb/pi… pi-package, pi, pi-extension, subagent, agent, autonomous">
+  <header>
+    <h3><a href="https://github.com/gotgenes/pi-packages" target="_blank" rel="noopener">@gotgenes/pi-subagents</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@gotgenes/pi-subagents" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">A focused, in-process sub-agent core for pi — autonomous agents plus a typed API and lifecycle events other extensions build on. Friendly fork of @tintinweb/pi…</p>
+  <p class="kw">pi-package, pi, pi-extension, subagent, agent, autonomous</p>
+  <p class="src"><a href="https://github.com/gotgenes/pi-packages" target="_blank" rel="noopener">github.com/gotgenes/pi-packages</a></p>
+</article>
+<article class="card" data-name="@arhen/pi-core-subagent" data-desc="pi extension: fast in-process subagents with a dependency-graph scheduler (needs edges gate tasks and carry upstream output into dependent prompts), plus backg… pi, pi-coding-agent, pi-extension, pi-package, subagent, agent-orchestration">
+  <header>
+    <h3><a href="https://github.com/arhen/pi-extensions" target="_blank" rel="noopener">@arhen/pi-core-subagent</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@arhen/pi-core-subagent" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">pi extension: fast in-process subagents with a dependency-graph scheduler (needs edges gate tasks and carry upstream output into dependent prompts), plus backg…</p>
+  <p class="kw">pi, pi-coding-agent, pi-extension, pi-package, subagent, agent-orchestration</p>
+  <p class="src"><a href="https://github.com/arhen/pi-extensions" target="_blank" rel="noopener">github.com/arhen/pi-extensions</a></p>
+</article>
+<article class="card" data-name="@henryqw/pi-subagent" data-desc="delegate bounded single, parallel, or chained tasks to isolated pi roles. pi-package, pi, subagent, delegation">
+  <header>
+    <h3><a href="https://github.com/HenryQW/pi-harness" target="_blank" rel="noopener">@henryqw/pi-subagent</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@henryqw/pi-subagent" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Delegate bounded single, parallel, or chained tasks to isolated Pi roles.</p>
+  <p class="kw">pi-package, pi, subagent, delegation</p>
+  <p class="src"><a href="https://github.com/HenryQW/pi-harness" target="_blank" rel="noopener">github.com/HenryQW/pi-harness</a></p>
+</article>
+<article class="card" data-name="@ferris1225/pi-subagents" data-desc="a managed sub-agent team for pi: scout, artisan, steward, and sentinel roles, one-shot runs, read-only status, and git worktree isolation. pi-package, pi-extension, subagent, sub-agent, delegation, code-cleanup">
+  <header>
+    <h3><a href="https://github.com/MCapricorns/pi-subagents" target="_blank" rel="noopener">@ferris1225/pi-subagents</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@ferris1225/pi-subagents" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">A managed sub-agent team for pi: scout, artisan, steward, and sentinel roles, one-shot runs, read-only status, and Git worktree isolation.</p>
+  <p class="kw">pi-package, pi-extension, subagent, sub-agent, delegation, code-cleanup</p>
+  <p class="src"><a href="https://github.com/MCapricorns/pi-subagents" target="_blank" rel="noopener">github.com/MCapricorns/pi-subagents</a></p>
+</article>
+<article class="card" data-name="pi-subagents-j0k3r" data-desc="installable pi package that adds markdown-defined subagents, delegated task tools, history, and model profiles. pi-package, pi-extension, pi, subagents, coding-agent, agent">
+  <header>
+    <h3><a href="https://github.com/j0k3r-dev-rgl/pi-subagents-j0k3r" target="_blank" rel="noopener">pi-subagents-j0k3r</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-subagents-j0k3r" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Installable Pi package that adds markdown-defined subagents, delegated task tools, history, and model profiles.</p>
+  <p class="kw">pi-package, pi-extension, pi, subagents, coding-agent, agent</p>
+  <p class="src"><a href="https://github.com/j0k3r-dev-rgl/pi-subagents-j0k3r" target="_blank" rel="noopener">github.com/j0k3r-dev-rgl/pi-subagents-j0k3r</a></p>
+</article>
+<article class="card" data-name="@baryonlabs/pi-agent-harness" data-desc="team-architecture factory for the pi coding agent — turns one domain sentence into a multi-agent team: specialist agents (.pi/agents), their skills (.pi/skills… pi-package, pi, pi-coding-agent, pi-agent, pi-plugin, harness">
+  <header>
+    <h3><a href="https://github.com/baryonlabs/pi-agent-harness" target="_blank" rel="noopener">@baryonlabs/pi-agent-harness</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@baryonlabs/pi-agent-harness" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Team-architecture factory for the pi coding agent — turns one domain sentence into a multi-agent team: specialist agents (.pi/agents), their skills (.pi/skills…</p>
+  <p class="kw">pi-package, pi, pi-coding-agent, pi-agent, pi-plugin, harness</p>
+  <p class="src"><a href="https://github.com/baryonlabs/pi-agent-harness" target="_blank" rel="noopener">github.com/baryonlabs/pi-agent-harness</a></p>
+</article></div>
+</section>
+<section>
+  <h2>8. Web 搜索 / 抓取 / 网访问 <span class="count">8</span></h2>
+  <div class="grid"><article class="card" data-name="pi-web-access" data-desc="web search, url fetching, github repo cloning, pdf extraction, youtube video understanding, and local video analysis for pi coding agent. supports openai, brav… pi-package, pi, pi-coding-agent, extension, web-search, tinyfish">
+  <header>
+    <h3><a href="https://github.com/nicobailon/pi-web-access" target="_blank" rel="noopener">pi-web-access</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-web-access" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Web search, URL fetching, GitHub repo cloning, PDF extraction, YouTube video understanding, and local video analysis for Pi coding agent. Supports OpenAI, Brav…</p>
+  <p class="kw">pi-package, pi, pi-coding-agent, extension, web-search, tinyfish</p>
+  <p class="src"><a href="https://github.com/nicobailon/pi-web-access" target="_blank" rel="noopener">github.com/nicobailon/pi-web-access</a></p>
+</article>
+<article class="card" data-name="pi-web-search" data-desc="provider-native web search for pi: gemini + url context, xai grok, openai responses (azure/codex/copilot), anthropic, and opencode zen/go pi, pi-extension, pi-package, web-search, gemini, google">
+  <header>
+    <h3><a href="https://github.com/ttttmr/pi-web-search" target="_blank" rel="noopener">pi-web-search</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-web-search" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Provider-native web search for pi: Gemini + URL Context, xAI Grok, OpenAI Responses (Azure/Codex/Copilot), Anthropic, and OpenCode Zen/Go</p>
+  <p class="kw">pi, pi-extension, pi-package, web-search, gemini, google</p>
+  <p class="src"><a href="https://github.com/ttttmr/pi-web-search" target="_blank" rel="noopener">github.com/ttttmr/pi-web-search</a></p>
+</article>
+<article class="card" data-name="@juicesharp/rpiv-web-tools" data-desc="pi extension. web search and fetch for the model with pluggable providers (brave, tavily, serper, exa, you.com, jina, firecrawl, perplexity, searxng, ollama). pi-package, pi-extension, rpiv, web-search, web-fetch, search">
+  <header>
+    <h3><a href="https://github.com/juicesharp/rpiv-mono" target="_blank" rel="noopener">@juicesharp/rpiv-web-tools</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@juicesharp/rpiv-web-tools" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Pi extension. Web search and fetch for the model with pluggable providers (Brave, Tavily, Serper, Exa, You.com, Jina, Firecrawl, Perplexity, SearXNG, Ollama).</p>
+  <p class="kw">pi-package, pi-extension, rpiv, web-search, web-fetch, search</p>
+  <p class="src"><a href="https://github.com/juicesharp/rpiv-mono" target="_blank" rel="noopener">github.com/juicesharp/rpiv-mono</a></p>
+</article>
+<article class="card" data-name="@ollama/pi-web-search" data-desc="web search and fetch tools for pi agent - uses ollama's web search and fetch apis pi-package, pi-extension, web-search, ollama">
+  <header>
+    <h3><a href="https://www.npmjs.com/package/@ollama/pi-web-search" target="_blank" rel="noopener">@ollama/pi-web-search</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@ollama/pi-web-search" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Web search and fetch tools for Pi agent - uses Ollama's web search and fetch APIs</p>
+  <p class="kw">pi-package, pi-extension, web-search, ollama</p>
+  <p class="src"><a href="https://www.npmjs.com/package/@ollama/pi-web-search" target="_blank" rel="noopener">www.npmjs.com/package/@ollama/pi-web-search</a></p>
+</article>
+<article class="card" data-name="@bacnh85/pi-web" data-desc="pi extension for web search, page extraction, firecrawl scraping/crawling, crawl4ai headless browser crawling, real-browser interaction (trusted click/type/eva… pi-package, pi-extension, web-search, brave-search, firecrawl, crawl4ai">
+  <header>
+    <h3><a href="https://github.com/bacnh85/pi-extensions" target="_blank" rel="noopener">@bacnh85/pi-web</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@bacnh85/pi-web" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Pi extension for web search, page extraction, Firecrawl scraping/crawling, Crawl4AI headless browser crawling, real-browser interaction (trusted click/type/eva…</p>
+  <p class="kw">pi-package, pi-extension, web-search, brave-search, firecrawl, crawl4ai</p>
+  <p class="src"><a href="https://github.com/bacnh85/pi-extensions" target="_blank" rel="noopener">github.com/bacnh85/pi-extensions</a></p>
+</article>
+<article class="card" data-name="@narumitw/pi-firecrawl" data-desc="pi extension that exposes firecrawl web scraping and crawling tools. pi-package, pi-extension, pi, firecrawl, scrape, crawl">
+  <header>
+    <h3><a href="https://github.com/narumiruna/pi-extensions" target="_blank" rel="noopener">@narumitw/pi-firecrawl</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@narumitw/pi-firecrawl" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Pi extension that exposes Firecrawl web scraping and crawling tools.</p>
+  <p class="kw">pi-package, pi-extension, pi, firecrawl, scrape, crawl</p>
+  <p class="src"><a href="https://github.com/narumiruna/pi-extensions" target="_blank" rel="noopener">github.com/narumiruna/pi-extensions</a></p>
+</article>
+<article class="card" data-name="pi-deepseek-search" data-desc="web search for pi using deepseek's server side search. only works with deepseek models. pi-package, pi-extension, web-search, deepseek, search">
+  <header>
+    <h3><a href="https://github.com/bxff/pi-deepseek-search" target="_blank" rel="noopener">pi-deepseek-search</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-deepseek-search" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Web search for Pi using DeepSeek's server side search. Only works with DeepSeek models.</p>
+  <p class="kw">pi-package, pi-extension, web-search, deepseek, search</p>
+  <p class="src"><a href="https://github.com/bxff/pi-deepseek-search" target="_blank" rel="noopener">github.com/bxff/pi-deepseek-search</a></p>
+</article>
+<article class="card" data-name="pi-ollama-cloud-link" data-desc="unified pi extension for the ollama cloud account: live model discovery with capability/pricing metadata, web search/fetch agent tools with a disk cache, a liv… pi-package, pi, pi-extension, ollama, ollama-cloud, web-search">
+  <header>
+    <h3><a href="https://www.npmjs.com/package/pi-ollama-cloud-link" target="_blank" rel="noopener">pi-ollama-cloud-link</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-ollama-cloud-link" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Unified pi extension for the Ollama Cloud account: live model discovery with capability/pricing metadata, web search/fetch agent tools with a disk cache, a liv…</p>
+  <p class="kw">pi-package, pi, pi-extension, ollama, ollama-cloud, web-search</p>
+  <p class="src"><a href="https://www.npmjs.com/package/pi-ollama-cloud-link" target="_blank" rel="noopener">www.npmjs.com/package/pi-ollama-cloud-link</a></p>
+</article></div>
+</section>
+<section>
+  <h2>9. 计划 / 任务 / 目标 / 工作流 <span class="count">10</span></h2>
+  <div class="grid"><article class="card" data-name="pi-goal-x" data-desc="adds /goal to pi: conversational goal planning, flexible or ordered goals, persistent progress, and an independent completion auditor. pi-package, pi, pi-extension, goal, sisyphus, autoresearch">
+  <header>
+    <h3><a href="https://github.com/tmonk/pi-goal-x" target="_blank" rel="noopener">pi-goal-x</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-goal-x" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Adds /goal to pi: conversational goal planning, flexible or ordered goals, persistent progress, and an independent completion auditor.</p>
+  <p class="kw">pi-package, pi, pi-extension, goal, sisyphus, autoresearch</p>
+  <p class="src"><a href="https://github.com/tmonk/pi-goal-x" target="_blank" rel="noopener">github.com/tmonk/pi-goal-x</a></p>
+</article>
+<article class="card" data-name="@narumitw/pi-goal" data-desc="pi extension for autonomous single-objective /goal completion. pi-package, pi-extension, pi, goal, automation">
+  <header>
+    <h3><a href="https://github.com/narumiruna/pi-extensions" target="_blank" rel="noopener">@narumitw/pi-goal</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@narumitw/pi-goal" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Pi extension for autonomous single-objective /goal completion.</p>
+  <p class="kw">pi-package, pi-extension, pi, goal, automation</p>
+  <p class="src"><a href="https://github.com/narumiruna/pi-extensions" target="_blank" rel="noopener">github.com/narumiruna/pi-extensions</a></p>
+</article>
+<article class="card" data-name="@schovest/pi-goal" data-desc="pi extension for autonomous single-objective /goal completion. pi-package, pi-extension, pi, goal, automation">
+  <header>
+    <h3><a href="https://github.com/schovest/pi-package-mono" target="_blank" rel="noopener">@schovest/pi-goal</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@schovest/pi-goal" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Pi extension for autonomous single-objective /goal completion.</p>
+  <p class="kw">pi-package, pi-extension, pi, goal, automation</p>
+  <p class="src"><a href="https://github.com/schovest/pi-package-mono" target="_blank" rel="noopener">github.com/schovest/pi-package-mono</a></p>
+</article>
+<article class="card" data-name="@narumitw/pi-plan-mode" data-desc="pi extension that adds a codex-like read-only /plan collaboration mode. pi-package, pi-extension, pi, plan-mode, planning">
+  <header>
+    <h3><a href="https://github.com/narumiruna/pi-extensions" target="_blank" rel="noopener">@narumitw/pi-plan-mode</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@narumitw/pi-plan-mode" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Pi extension that adds a Codex-like read-only /plan collaboration mode.</p>
+  <p class="kw">pi-package, pi-extension, pi, plan-mode, planning</p>
+  <p class="src"><a href="https://github.com/narumiruna/pi-extensions" target="_blank" rel="noopener">github.com/narumiruna/pi-extensions</a></p>
+</article>
+<article class="card" data-name="@janvitos/pi-plan-build" data-desc="plan safely, approve explicitly, then implement here or in a clean session. pi-package, pi-coding-agent, plan-mode, build-mode, developer-tools">
+  <header>
+    <h3><a href="https://github.com/janvitos/pi-plan-build" target="_blank" rel="noopener">@janvitos/pi-plan-build</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@janvitos/pi-plan-build" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Plan safely, approve explicitly, then implement here or in a clean session.</p>
+  <p class="kw">pi-package, pi-coding-agent, plan-mode, build-mode, developer-tools</p>
+  <p class="src"><a href="https://github.com/janvitos/pi-plan-build" target="_blank" rel="noopener">github.com/janvitos/pi-plan-build</a></p>
+</article>
+<article class="card" data-name="@mjasnikovs/pi-task" data-desc="deterministic task planning and spec-orchestration for local models — crash-safe /task pipelines with verify/enforce gates, a real-time remote web view, and we… pi-package, pi, pi-extension, pi-coding-agent, pi.dev, coding-agent">
+  <header>
+    <h3><a href="https://github.com/mjasnikovs/pi-task" target="_blank" rel="noopener">@mjasnikovs/pi-task</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@mjasnikovs/pi-task" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Deterministic task planning and spec-orchestration for local models — crash-safe /task pipelines with verify/enforce gates, a real-time remote web view, and we…</p>
+  <p class="kw">pi-package, pi, pi-extension, pi-coding-agent, pi.dev, coding-agent</p>
+  <p class="src"><a href="https://github.com/mjasnikovs/pi-task" target="_blank" rel="noopener">github.com/mjasnikovs/pi-task</a></p>
+</article>
+<article class="card" data-name="@quintinshaw/pi-dynamic-workflows" data-desc="claude-code-style dynamic workflows for pi — fan a task out across 100s of subagents with real model routing, token/cost accounting, resume, git-worktree isola… pi-package, pi, pi-coding-agent, workflow, workflows, dynamic-workflows">
+  <header>
+    <h3><a href="https://github.com/QuintinShaw/pi-dynamic-workflows" target="_blank" rel="noopener">@quintinshaw/pi-dynamic-workflows</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@quintinshaw/pi-dynamic-workflows" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Claude-Code-style dynamic workflows for Pi — fan a task out across 100s of subagents with real model routing, token/cost accounting, resume, git-worktree isola…</p>
+  <p class="kw">pi-package, pi, pi-coding-agent, workflow, workflows, dynamic-workflows</p>
+  <p class="src"><a href="https://github.com/QuintinShaw/pi-dynamic-workflows" target="_blank" rel="noopener">github.com/QuintinShaw/pi-dynamic-workflows</a></p>
+</article>
+<article class="card" data-name="@akagilnc/pi-workflow-roles" data-desc="soul-bound workflow roles for pi pi-package, ai-agents, agents, agentic, multi-agent, agent-framework">
+  <header>
+    <h3><a href="https://github.com/Akagilnc/ak-pi-workflow-roles" target="_blank" rel="noopener">@akagilnc/pi-workflow-roles</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@akagilnc/pi-workflow-roles" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Soul-bound workflow roles for Pi</p>
+  <p class="kw">pi-package, ai-agents, agents, agentic, multi-agent, agent-framework</p>
+  <p class="src"><a href="https://github.com/Akagilnc/ak-pi-workflow-roles" target="_blank" rel="noopener">github.com/Akagilnc/ak-pi-workflow-roles</a></p>
+</article>
+<article class="card" data-name="@tintinweb/pi-tasks" data-desc="a pi extension that brings claude code-style task tracking and coordination to pi. pi-package, pi, pi-extension, task, tasks, todo">
+  <header>
+    <h3><a href="https://github.com/tintinweb/pi-tasks" target="_blank" rel="noopener">@tintinweb/pi-tasks</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@tintinweb/pi-tasks" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">A pi extension that brings Claude Code-style task tracking and coordination to pi.</p>
+  <p class="kw">pi-package, pi, pi-extension, task, tasks, todo</p>
+  <p class="src"><a href="https://github.com/tintinweb/pi-tasks" target="_blank" rel="noopener">github.com/tintinweb/pi-tasks</a></p>
+</article>
+<article class="card" data-name="pi-goal-list-loop-audit" data-desc="mission control for long running pi work: interview drafted goals, an audited task queue, and metric or audit loops that run for hours. every completion is rec… pi-package, pi, pi-extension, goal, loop, list">
+  <header>
+    <h3><a href="https://github.com/DraconDev/pi-goal-list-loop-audit" target="_blank" rel="noopener">pi-goal-list-loop-audit</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-goal-list-loop-audit" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Mission control for long running pi work: interview drafted goals, an audited task queue, and metric or audit loops that run for hours. Every completion is rec…</p>
+  <p class="kw">pi-package, pi, pi-extension, goal, loop, list</p>
+  <p class="src"><a href="https://github.com/DraconDev/pi-goal-list-loop-audit" target="_blank" rel="noopener">github.com/DraconDev/pi-goal-list-loop-audit</a></p>
+</article></div>
+</section>
+<section>
+  <h2>10. 上下文 / 压缩 / 缓存 <span class="count">7</span></h2>
+  <div class="grid"><article class="card" data-name="billion-context" data-desc="context-compression proxy that lets ai coding agents run for days — billions of tokens through one context window. sits between any agent (claude code, codex,… context, compression, proxy, acp, ai, agent">
+  <header>
+    <h3><a href="https://github.com/ranxianglei/billion-context" target="_blank" rel="noopener">billion-context</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/billion-context" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Context-compression proxy that lets AI coding agents run for days — billions of tokens through one context window. Sits between any agent (Claude Code, Codex,…</p>
+  <p class="kw">context, compression, proxy, acp, ai, agent</p>
+  <p class="src"><a href="https://github.com/ranxianglei/billion-context" target="_blank" rel="noopener">github.com/ranxianglei/billion-context</a></p>
+</article>
+<article class="card" data-name="billion-context-pi" data-desc="one billion, not one million. model-driven context management for the pi coding agent. pi, acp, context, compression, context-management, llm">
+  <header>
+    <h3><a href="https://github.com/ranxianglei/billion-context-pi" target="_blank" rel="noopener">billion-context-pi</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/billion-context-pi" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">One billion, not one million. Model-driven context management for the Pi coding agent.</p>
+  <p class="kw">pi, acp, context, compression, context-management, llm</p>
+  <p class="src"><a href="https://github.com/ranxianglei/billion-context-pi" target="_blank" rel="noopener">github.com/ranxianglei/billion-context-pi</a></p>
+</article>
+<article class="card" data-name="context-mode" data-desc="mcp plugin that saves 98% of your context window. works with claude code, gemini cli, vs code copilot, opencode, and codex cli. sandboxed code execution, fts5… mcp, model-context-protocol, claude, claude-code, gemini-cli, vscode-copilot">
+  <header>
+    <h3><a href="https://github.com/mksglu/context-mode" target="_blank" rel="noopener">context-mode</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/context-mode" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">MCP plugin that saves 98% of your context window. Works with Claude Code, Gemini CLI, VS Code Copilot, OpenCode, and Codex CLI. Sandboxed code execution, FTS5…</p>
+  <p class="kw">mcp, model-context-protocol, claude, claude-code, gemini-cli, vscode-copilot</p>
+  <p class="src"><a href="https://github.com/mksglu/context-mode" target="_blank" rel="noopener">github.com/mksglu/context-mode</a></p>
+</article>
+<article class="card" data-name="pi-cache-optimizer" data-desc="improve pi prompt/kv cache hit rates with stable prompts, openai-compatible cache keys, proxy compat warnings, and footer cache stats. pi-package, deepseek, openai, claude, gemini, cache">
+  <header>
+    <h3><a href="https://github.com/jiangge/pi-cache-optimizer" target="_blank" rel="noopener">pi-cache-optimizer</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-cache-optimizer" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Improve Pi prompt/KV cache hit rates with stable prompts, OpenAI-compatible cache keys, proxy compat warnings, and footer cache stats.</p>
+  <p class="kw">pi-package, deepseek, openai, claude, gemini, cache</p>
+  <p class="src"><a href="https://github.com/jiangge/pi-cache-optimizer" target="_blank" rel="noopener">github.com/jiangge/pi-cache-optimizer</a></p>
+</article>
+<article class="card" data-name="pi-max-context" data-desc="set a persistent maximum context length for pi. when reached, compacts the session and prompts the model to continue. pi, pi-plugin, extension, context, compaction, tokens">
+  <header>
+    <h3><a href="https://www.npmjs.com/package/pi-max-context" target="_blank" rel="noopener">pi-max-context</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-max-context" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Set a persistent maximum context length for pi. When reached, compacts the session and prompts the model to continue.</p>
+  <p class="kw">pi, pi-plugin, extension, context, compaction, tokens</p>
+  <p class="src"><a href="https://www.npmjs.com/package/pi-max-context" target="_blank" rel="noopener">www.npmjs.com/package/pi-max-context</a></p>
+</article>
+<article class="card" data-name="@d3ara1n/pi-context-include" data-desc="@path syntax for agents.md — include files by reference with recursive resolution pi-package, pi, pi-extension">
+  <header>
+    <h3><a href="https://github.com/d3ara1n/pi-extensions" target="_blank" rel="noopener">@d3ara1n/pi-context-include</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@d3ara1n/pi-context-include" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">@path syntax for AGENTS.md — include files by reference with recursive resolution</p>
+  <p class="kw">pi-package, pi, pi-extension</p>
+  <p class="src"><a href="https://github.com/d3ara1n/pi-extensions" target="_blank" rel="noopener">github.com/d3ara1n/pi-extensions</a></p>
+</article>
+<article class="card" data-name="pi-context-view" data-desc="pi extension to visualize context usage and inspect the hidden parts: base prompt, tools defs, and extension injections pi, pi-extension, pi-package, coding-agent, context, tokens">
+  <header>
+    <h3><a href="https://github.com/dimk90/pi-context-view" target="_blank" rel="noopener">pi-context-view</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-context-view" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Pi extension to visualize context usage and inspect the hidden parts: base prompt, tools defs, and extension injections</p>
+  <p class="kw">pi, pi-extension, pi-package, coding-agent, context, tokens</p>
+  <p class="src"><a href="https://github.com/dimk90/pi-context-view" target="_blank" rel="noopener">github.com/dimk90/pi-context-view</a></p>
+</article></div>
+</section>
+<section>
+  <h2>11. 模型 provider / 桥接 <span class="count">20</span></h2>
+  <div class="grid"><article class="card" data-name="@earendil-works/pi-radius" data-desc="radius provider, web search, and api access for pi pi-package">
+  <header>
+    <h3><a href="https://github.com/earendil-works/pi-extensions" target="_blank" rel="noopener">@earendil-works/pi-radius</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@earendil-works/pi-radius" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Radius provider, web search, and API access for Pi</p>
+  <p class="kw">pi-package</p>
+  <p class="src"><a href="https://github.com/earendil-works/pi-extensions" target="_blank" rel="noopener">github.com/earendil-works/pi-extensions</a></p>
+</article>
+<article class="card" data-name="@earendil-works/pi-radius-work" data-desc="radius google workspace and image generation extensions for pi pi-package">
+  <header>
+    <h3><a href="https://github.com/earendil-works/pi-extensions" target="_blank" rel="noopener">@earendil-works/pi-radius-work</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@earendil-works/pi-radius-work" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Radius Google Workspace and image generation extensions for Pi</p>
+  <p class="kw">pi-package</p>
+  <p class="src"><a href="https://github.com/earendil-works/pi-extensions" target="_blank" rel="noopener">github.com/earendil-works/pi-extensions</a></p>
+</article>
+<article class="card" data-name="pi-provider-litellm" data-desc="litellm proxy provider extension for pi pi-mono, pi-package, litellm, llm, extension, provider">
+  <header>
+    <h3><a href="https://github.com/balcsida/pi-provider-litellm" target="_blank" rel="noopener">pi-provider-litellm</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-provider-litellm" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">LiteLLM proxy provider extension for Pi</p>
+  <p class="kw">pi-mono, pi-package, litellm, llm, extension, provider</p>
+  <p class="src"><a href="https://github.com/balcsida/pi-provider-litellm" target="_blank" rel="noopener">github.com/balcsida/pi-provider-litellm</a></p>
+</article>
+<article class="card" data-name="pi-extension-nvidia-nim" data-desc="model-aware nvidia nim reasoning compatibility for the pi coding agent pi-package, pi, nvidia, nim, nvidia-nim, llm">
+  <header>
+    <h3><a href="https://github.com/Tibbee/pi-nvidia-nim-provider" target="_blank" rel="noopener">pi-extension-nvidia-nim</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-extension-nvidia-nim" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Model-aware NVIDIA NIM reasoning compatibility for the pi coding agent</p>
+  <p class="kw">pi-package, pi, nvidia, nim, nvidia-nim, llm</p>
+  <p class="src"><a href="https://github.com/Tibbee/pi-nvidia-nim-provider" target="_blank" rel="noopener">github.com/Tibbee/pi-nvidia-nim-provider</a></p>
+</article>
+<article class="card" data-name="pi-nvidia-nim" data-desc="nvidia nim api provider extension for pi coding agent — access 100+ models from build.nvidia.com pi-package">
+  <header>
+    <h3><a href="https://github.com/xRyul/pi-nvidia-nim" target="_blank" rel="noopener">pi-nvidia-nim</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-nvidia-nim" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">NVIDIA NIM API provider extension for pi coding agent — access 100+ models from build.nvidia.com</p>
+  <p class="kw">pi-package</p>
+  <p class="src"><a href="https://github.com/xRyul/pi-nvidia-nim" target="_blank" rel="noopener">github.com/xRyul/pi-nvidia-nim</a></p>
+</article>
+<article class="card" data-name="pi-antigravity" data-desc="personal antigravity / cloud code assist provider for pi coding agent pi-package, pi-extension, antigravity, google, oauth, provider">
+  <header>
+    <h3><a href="https://github.com/Rahularya01/pi-antigravity" target="_blank" rel="noopener">pi-antigravity</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-antigravity" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Personal Antigravity / Cloud Code Assist provider for Pi Coding Agent</p>
+  <p class="kw">pi-package, pi-extension, antigravity, google, oauth, provider</p>
+  <p class="src"><a href="https://github.com/Rahularya01/pi-antigravity" target="_blank" rel="noopener">github.com/Rahularya01/pi-antigravity</a></p>
+</article>
+<article class="card" data-name="pi-tokenrouter" data-desc="tokenrouter provider extension for pi — dynamic model discovery with openrouter-compatible pricing pi, pi-package, pi-extension, pi-provider, tokenrouter, openrouter">
+  <header>
+    <h3><a href="https://github.com/liaowang11/pi-tokenrouter" target="_blank" rel="noopener">pi-tokenrouter</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-tokenrouter" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">TokenRouter provider extension for pi — dynamic model discovery with OpenRouter-compatible pricing</p>
+  <p class="kw">pi, pi-package, pi-extension, pi-provider, tokenrouter, openrouter</p>
+  <p class="src"><a href="https://github.com/liaowang11/pi-tokenrouter" target="_blank" rel="noopener">github.com/liaowang11/pi-tokenrouter</a></p>
+</article>
+<article class="card" data-name="pi-llama-cpp" data-desc="pi extension for llama.cpp integration. supports router, single and legacy models. supports multiple servers. pi, pi-package, pi-extension, llama-cpp">
+  <header>
+    <h3><a href="https://github.com/gsanhueza/pi-llama-cpp" target="_blank" rel="noopener">pi-llama-cpp</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-llama-cpp" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Pi extension for llama.cpp integration. Supports router, single and legacy models. Supports multiple servers.</p>
+  <p class="kw">pi, pi-package, pi-extension, llama-cpp</p>
+  <p class="src"><a href="https://github.com/gsanhueza/pi-llama-cpp" target="_blank" rel="noopener">github.com/gsanhueza/pi-llama-cpp</a></p>
+</article>
+<article class="card" data-name="pi-commandcode-provider" data-desc="pi custom provider for command code api (commandcode.ai) pi-package, pi-extension, commandcode, provider">
+  <header>
+    <h3><a href="https://github.com/patlux/pi-commandcode-provider" target="_blank" rel="noopener">pi-commandcode-provider</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-commandcode-provider" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">pi custom provider for Command Code API (commandcode.ai)</p>
+  <p class="kw">pi-package, pi-extension, commandcode, provider</p>
+  <p class="src"><a href="https://github.com/patlux/pi-commandcode-provider" target="_blank" rel="noopener">github.com/patlux/pi-commandcode-provider</a></p>
+</article>
+<article class="card" data-name="pi-deepseek-usage" data-desc=" ">
+  <header>
+    <h3><a href="https://www.npmjs.com/package/pi-deepseek-usage" target="_blank" rel="noopener">pi-deepseek-usage</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-deepseek-usage" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc"><i style="color:#888">no description</i></p>
+  
+  <p class="src"><a href="https://www.npmjs.com/package/pi-deepseek-usage" target="_blank" rel="noopener">www.npmjs.com/package/pi-deepseek-usage</a></p>
+</article>
+<article class="card" data-name="@alexanderfortin/pi-deepseek-usage" data-desc="pi extension for monitoring deepseek api balance pi-package, pi-extension, deepseek, usage-monitoring, api-balance">
+  <header>
+    <h3><a href="https://github.com/shaftoe/pi-deepseek-usage" target="_blank" rel="noopener">@alexanderfortin/pi-deepseek-usage</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@alexanderfortin/pi-deepseek-usage" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Pi extension for monitoring DeepSeek API balance</p>
+  <p class="kw">pi-package, pi-extension, deepseek, usage-monitoring, api-balance</p>
+  <p class="src"><a href="https://github.com/shaftoe/pi-deepseek-usage" target="_blank" rel="noopener">github.com/shaftoe/pi-deepseek-usage</a></p>
+</article>
+<article class="card" data-name="@narumitw/pi-usage" data-desc="pi extension that shows current-account usage and deepseek api balance for supported providers. pi-package, pi-extension, pi, usage, quota, balance">
+  <header>
+    <h3><a href="https://github.com/narumiruna/pi-extensions" target="_blank" rel="noopener">@narumitw/pi-usage</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@narumitw/pi-usage" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Pi extension that shows current-account usage and DeepSeek API balance for supported providers.</p>
+  <p class="kw">pi-package, pi-extension, pi, usage, quota, balance</p>
+  <p class="src"><a href="https://github.com/narumiruna/pi-extensions" target="_blank" rel="noopener">github.com/narumiruna/pi-extensions</a></p>
+</article>
+<article class="card" data-name="@sreetej510/pi-usage" data-desc="pi extension that reports provider usage/rate-limit budgets (codex, anthropic oauth, etc.) via /usage, with a live statusline widget. pi-package, pi-extension, pi, usage, rate-limit, statusline">
+  <header>
+    <h3><a href="https://github.com/Sreetej510/pi-extensions" target="_blank" rel="noopener">@sreetej510/pi-usage</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@sreetej510/pi-usage" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Pi extension that reports provider usage/rate-limit budgets (Codex, Anthropic OAuth, etc.) via /usage, with a live statusline widget.</p>
+  <p class="kw">pi-package, pi-extension, pi, usage, rate-limit, statusline</p>
+  <p class="src"><a href="https://github.com/Sreetej510/pi-extensions" target="_blank" rel="noopener">github.com/Sreetej510/pi-extensions</a></p>
+</article>
+<article class="card" data-name="pi-token-speed" data-desc="pi extension to measure tokens per second via sliding window. pi, pi-package, pi-extension">
+  <header>
+    <h3><a href="https://github.com/gsanhueza/pi-token-speed" target="_blank" rel="noopener">pi-token-speed</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-token-speed" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Pi extension to measure tokens per second via sliding window.</p>
+  <p class="kw">pi, pi-package, pi-extension</p>
+  <p class="src"><a href="https://github.com/gsanhueza/pi-token-speed" target="_blank" rel="noopener">github.com/gsanhueza/pi-token-speed</a></p>
+</article>
+<article class="card" data-name="@czottmann/pi-nebius-token-factory" data-desc="nebius token factory api provider extension for pi coding agent. pi, pi-extension, pi-package, pi-plugin, nebius, nebius-token-factory">
+  <header>
+    <h3><a href="https://github.com/czottmann/pi-nebius-token-factory" target="_blank" rel="noopener">@czottmann/pi-nebius-token-factory</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@czottmann/pi-nebius-token-factory" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Nebius Token Factory API provider extension for pi coding agent.</p>
+  <p class="kw">pi, pi-extension, pi-package, pi-plugin, nebius, nebius-token-factory</p>
+  <p class="src"><a href="https://github.com/czottmann/pi-nebius-token-factory" target="_blank" rel="noopener">github.com/czottmann/pi-nebius-token-factory</a></p>
+</article>
+<article class="card" data-name="@twogiants/pi-anthropic-vertex" data-desc="anthropic claude models on google cloud vertex ai for pi pi-package, pi-extension, anthropic, vertex-ai, claude">
+  <header>
+    <h3><a href="https://github.com/twoGiants/pi-anthropic-vertex" target="_blank" rel="noopener">@twogiants/pi-anthropic-vertex</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@twogiants/pi-anthropic-vertex" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Anthropic Claude models on Google Cloud Vertex AI for pi</p>
+  <p class="kw">pi-package, pi-extension, anthropic, vertex-ai, claude</p>
+  <p class="src"><a href="https://github.com/twoGiants/pi-anthropic-vertex" target="_blank" rel="noopener">github.com/twoGiants/pi-anthropic-vertex</a></p>
+</article>
+<article class="card" data-name="msco-pi-lot" data-desc="microsoft copilot provider extension for pi coding agent. pi, pi-extension, pi-package, microsoft-copilot, copilot-provider, coding-agent">
+  <header>
+    <h3><a href="ssh://git@github.com/atomic-reactor/msco-pi-lot" target="_blank" rel="noopener">msco-pi-lot</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/msco-pi-lot" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Microsoft Copilot provider extension for pi coding agent.</p>
+  <p class="kw">pi, pi-extension, pi-package, microsoft-copilot, copilot-provider, coding-agent</p>
+  <p class="src"><a href="ssh://git@github.com/atomic-reactor/msco-pi-lot" target="_blank" rel="noopener">ssh://git@github.com/atomic-reactor/msco-pi-lot</a></p>
+</article>
+<article class="card" data-name="@atomic-ai/msco-pi-lot" data-desc="microsoft copilot provider extension for pi coding agent. pi, pi-extension, pi-package, microsoft-copilot, copilot-provider, coding-agent">
+  <header>
+    <h3><a href="ssh://git@github.com/atomic-reactor/msco-pi-lot" target="_blank" rel="noopener">@atomic-ai/msco-pi-lot</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@atomic-ai/msco-pi-lot" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Microsoft Copilot provider extension for pi coding agent.</p>
+  <p class="kw">pi, pi-extension, pi-package, microsoft-copilot, copilot-provider, coding-agent</p>
+  <p class="src"><a href="ssh://git@github.com/atomic-reactor/msco-pi-lot" target="_blank" rel="noopener">ssh://git@github.com/atomic-reactor/msco-pi-lot</a></p>
+</article>
+<article class="card" data-name="pi-freeflow" data-desc="thin provider for omp/pi — model list + dumb relay proxy + log; host pi-ai owns thinking/normalization pi-package, pi-extension, oh-my-pi, omp, free-models, opencode">
+  <header>
+    <h3><a href="https://github.com/trefeon/pi-freeflow" target="_blank" rel="noopener">pi-freeflow</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-freeflow" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Thin provider for OMP/Pi — model list + dumb relay proxy + log; host pi-ai owns thinking/normalization</p>
+  <p class="kw">pi-package, pi-extension, oh-my-pi, omp, free-models, opencode</p>
+  <p class="src"><a href="https://github.com/trefeon/pi-freeflow" target="_blank" rel="noopener">github.com/trefeon/pi-freeflow</a></p>
+</article>
+<article class="card" data-name="auto-model-router" data-desc="local cost/complexity-aware model router for oh my pi, backed by openrouter pi-package">
+  <header>
+    <h3><a href="https://github.com/drewappling/auto-model-router" target="_blank" rel="noopener">auto-model-router</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/auto-model-router" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Local cost/complexity-aware model router for Oh My Pi, backed by OpenRouter</p>
+  <p class="kw">pi-package</p>
+  <p class="src"><a href="https://github.com/drewappling/auto-model-router" target="_blank" rel="noopener">github.com/drewappling/auto-model-router</a></p>
+</article></div>
+</section>
+<section>
+  <h2>12. 工具增强 (LSP / Hashline / 编辑) <span class="count">8</span></h2>
+  <div class="grid"><article class="card" data-name="pi-lens" data-desc="real-time code feedback for pi — lsp, linters, formatters, type-checking, structural analysis & booboo pi, pi-extension, pi-package, linter, biome, ast-grep">
+  <header>
+    <h3><a href="https://github.com/apmantza/pi-lens" target="_blank" rel="noopener">pi-lens</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-lens" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Real-time code feedback for pi — LSP, linters, formatters, type-checking, structural analysis & booboo</p>
+  <p class="kw">pi, pi-extension, pi-package, linter, biome, ast-grep</p>
+  <p class="src"><a href="https://github.com/apmantza/pi-lens" target="_blank" rel="noopener">github.com/apmantza/pi-lens</a></p>
+</article>
+<article class="card" data-name="@narumitw/pi-lsp" data-desc="pi extension that exposes configurable, language-agnostic lsp tools through a shared runner. pi-package, pi-extension, pi, lsp, language-server-protocol, configurable">
+  <header>
+    <h3><a href="https://github.com/narumiruna/pi-extensions" target="_blank" rel="noopener">@narumitw/pi-lsp</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@narumitw/pi-lsp" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Pi extension that exposes configurable, language-agnostic LSP tools through a shared runner.</p>
+  <p class="kw">pi-package, pi-extension, pi, lsp, language-server-protocol, configurable</p>
+  <p class="src"><a href="https://github.com/narumiruna/pi-extensions" target="_blank" rel="noopener">github.com/narumiruna/pi-extensions</a></p>
+</article>
+<article class="card" data-name="pi-hashline-edit-pro" data-desc="hash-anchored read/replace/insert/grep tools for pi-coding-agent. every line gets a unique 4-char tokenizer-friendly anchor that stays stable across edits; sta… pi-package, pi, coding-agent, extension, hashline, hash-anchored">
+  <header>
+    <h3><a href="https://github.com/YuGiMob/pi-hashline-edit-pro" target="_blank" rel="noopener">pi-hashline-edit-pro</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-hashline-edit-pro" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Hash-anchored read/replace/insert/grep tools for pi-coding-agent. Every line gets a unique 4-char tokenizer-friendly anchor that stays stable across edits; sta…</p>
+  <p class="kw">pi-package, pi, coding-agent, extension, hashline, hash-anchored</p>
+  <p class="src"><a href="https://github.com/YuGiMob/pi-hashline-edit-pro" target="_blank" rel="noopener">github.com/YuGiMob/pi-hashline-edit-pro</a></p>
+</article>
+<article class="card" data-name="@ff-labs/pi-fff" data-desc="pi extension: fff-powered fuzzy file and content search pi, pi-package, pi-extension, fff, search, grep">
+  <header>
+    <h3><a href="https://github.com/dmtrKovalenko/fff" target="_blank" rel="noopener">@ff-labs/pi-fff</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@ff-labs/pi-fff" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">pi extension: FFF-powered fuzzy file and content search</p>
+  <p class="kw">pi, pi-package, pi-extension, fff, search, grep</p>
+  <p class="src"><a href="https://github.com/dmtrKovalenko/fff" target="_blank" rel="noopener">github.com/dmtrKovalenko/fff</a></p>
+</article>
+<article class="card" data-name="@xynogen/pix-pretty" data-desc="enhanced tool output rendering with syntax highlighting, file icons, tree views, diff rendering, and fff search pi, pi-package, pi-extension, syntax-highlighting, fff, paste-chips">
+  <header>
+    <h3><a href="https://github.com/xynogen/pix-mono" target="_blank" rel="noopener">@xynogen/pix-pretty</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@xynogen/pix-pretty" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Enhanced tool output rendering with syntax highlighting, file icons, tree views, diff rendering, and FFF search</p>
+  <p class="kw">pi, pi-package, pi-extension, syntax-highlighting, fff, paste-chips</p>
+  <p class="src"><a href="https://github.com/xynogen/pix-mono" target="_blank" rel="noopener">github.com/xynogen/pix-mono</a></p>
+</article>
+<article class="card" data-name="@heyhuynhgiabuu/pi-pretty" data-desc="pretty terminal output for pi — syntax-highlighted file reads, colored bash output, tree-view directory listings, and more. pi, pi-extension, pi-package, pretty-print, shiki, syntax-highlighting">
+  <header>
+    <h3><a href="https://github.com/heyhuynhgiabuu/pi-pretty" target="_blank" rel="noopener">@heyhuynhgiabuu/pi-pretty</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@heyhuynhgiabuu/pi-pretty" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Pretty terminal output for pi — syntax-highlighted file reads, colored bash output, tree-view directory listings, and more.</p>
+  <p class="kw">pi, pi-extension, pi-package, pretty-print, shiki, syntax-highlighting</p>
+  <p class="src"><a href="https://github.com/heyhuynhgiabuu/pi-pretty" target="_blank" rel="noopener">github.com/heyhuynhgiabuu/pi-pretty</a></p>
+</article>
+<article class="card" data-name="@peppa_q/pi-collapse-tools" data-desc="pi plugin that collapses built-in tool calls (bash, read, edit, write, grep, find, ls) into a single compact row with an expand badge. pi, pi-plugin, pi-coding-agent, earendil, earendil-works, collapse">
+  <header>
+    <h3><a href="ssh://git@github.com/Q-Peppa/pi-collapse-tools" target="_blank" rel="noopener">@peppa_q/pi-collapse-tools</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@peppa_q/pi-collapse-tools" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Pi plugin that collapses built-in tool calls (bash, read, edit, write, grep, find, ls) into a single compact row with an expand badge.</p>
+  <p class="kw">pi, pi-plugin, pi-coding-agent, earendil, earendil-works, collapse</p>
+  <p class="src"><a href="ssh://git@github.com/Q-Peppa/pi-collapse-tools" target="_blank" rel="noopener">ssh://git@github.com/Q-Peppa/pi-collapse-tools</a></p>
+</article>
+<article class="card" data-name="@narumitw/pi-stamp" data-desc="pi extension for transcript timestamps, assistant metadata, and tool timing. pi-package, pi-extension, pi, timestamp, metadata, provenance">
+  <header>
+    <h3><a href="https://github.com/narumiruna/pi-extensions" target="_blank" rel="noopener">@narumitw/pi-stamp</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@narumitw/pi-stamp" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Pi extension for transcript timestamps, assistant metadata, and tool timing.</p>
+  <p class="kw">pi-package, pi-extension, pi, timestamp, metadata, provenance</p>
+  <p class="src"><a href="https://github.com/narumiruna/pi-extensions" target="_blank" rel="noopener">github.com/narumiruna/pi-extensions</a></p>
+</article></div>
+</section>
+<section>
+  <h2>13. 权限 / 安全 / 沙箱 <span class="count">3</span></h2>
+  <div class="grid"><article class="card" data-name="@gotgenes/pi-permission-system" data-desc="permission enforcement extension for the pi coding agent. pi-package, pi, pi-extension, pi-coding-agent, coding-agent, permissions">
+  <header>
+    <h3><a href="https://github.com/gotgenes/pi-packages" target="_blank" rel="noopener">@gotgenes/pi-permission-system</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@gotgenes/pi-permission-system" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Permission enforcement extension for the Pi coding agent.</p>
+  <p class="kw">pi-package, pi, pi-extension, pi-coding-agent, coding-agent, permissions</p>
+  <p class="src"><a href="https://github.com/gotgenes/pi-packages" target="_blank" rel="noopener">github.com/gotgenes/pi-packages</a></p>
+</article>
+<article class="card" data-name="cc-safety-net" data-desc="a coding agent cli hook - block destructive commands and secret file access claude-code, opencode, safety, plugin, security, pi-package">
+  <header>
+    <h3><a href="https://github.com/kenryu42/cc-safety-net" target="_blank" rel="noopener">cc-safety-net</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/cc-safety-net" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">A coding agent CLI hook - block destructive commands and secret file access</p>
+  <p class="kw">claude-code, opencode, safety, plugin, security, pi-package</p>
+  <p class="src"><a href="https://github.com/kenryu42/cc-safety-net" target="_blank" rel="noopener">github.com/kenryu42/cc-safety-net</a></p>
+</article>
+<article class="card" data-name="@trim21/personal-pi-extensions" data-desc="custom pi coding-agent extensions: bwrap sandbox, workspace guard, opencode edit, and more pi-package">
+  <header>
+    <h3><a href="https://github.com/trim21/pi-extensions" target="_blank" rel="noopener">@trim21/personal-pi-extensions</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@trim21/personal-pi-extensions" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Custom pi coding-agent extensions: bwrap sandbox, workspace guard, opencode edit, and more</p>
+  <p class="kw">pi-package</p>
+  <p class="src"><a href="https://github.com/trim21/pi-extensions" target="_blank" rel="noopener">github.com/trim21/pi-extensions</a></p>
+</article></div>
+</section>
+<section>
+  <h2>14. Skills / 方法论 <span class="count">7</span></h2>
+  <div class="grid"><article class="card" data-name="bigpowers" data-desc="73 agent skills synthesizing 17 years of software engineering discipline into a prescriptive methodology for solo developers skills, agents, claude, development, spec-driven, test-first">
+  <header>
+    <h3><a href="https://github.com/danielvm-git/bigpowers" target="_blank" rel="noopener">bigpowers</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/bigpowers" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">73 agent skills synthesizing 17 years of software engineering discipline into a prescriptive methodology for solo developers</p>
+  <p class="kw">skills, agents, claude, development, spec-driven, test-first</p>
+  <p class="src"><a href="https://github.com/danielvm-git/bigpowers" target="_blank" rel="noopener">github.com/danielvm-git/bigpowers</a></p>
+</article>
+<article class="card" data-name="@dietrichgebert/ponytail" data-desc="lazy senior dev mode for ai agents. the best code is the code you never wrote. opencode-plugin, opencode, ponytail, pi-package, pi, skills">
+  <header>
+    <h3><a href="https://github.com/DietrichGebert/ponytail" target="_blank" rel="noopener">@dietrichgebert/ponytail</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@dietrichgebert/ponytail" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Lazy senior dev mode for AI agents. The best code is the code you never wrote.</p>
+  <p class="kw">opencode-plugin, opencode, ponytail, pi-package, pi, skills</p>
+  <p class="src"><a href="https://github.com/DietrichGebert/ponytail" target="_blank" rel="noopener">github.com/DietrichGebert/ponytail</a></p>
+</article>
+<article class="card" data-name="@reddb-io/red-skills-dev" data-desc="reddb.io dev plugin - engineering skills for code agents (autonomous /afk loop, /go dispatch, triage, tdd, diagnose, graph-aware codebase understanding, ...) pi-package, reddb-io, red-skills">
+  <header>
+    <h3><a href="https://github.com/reddb-io/redskilled" target="_blank" rel="noopener">@reddb-io/red-skills-dev</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@reddb-io/red-skills-dev" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">reddb.io dev plugin - engineering skills for code agents (autonomous /afk loop, /go dispatch, triage, tdd, diagnose, graph-aware codebase understanding, ...)</p>
+  <p class="kw">pi-package, reddb-io, red-skills</p>
+  <p class="src"><a href="https://github.com/reddb-io/redskilled" target="_blank" rel="noopener">github.com/reddb-io/redskilled</a></p>
+</article>
+<article class="card" data-name="@reddb-io/red-skills-memory" data-desc="reddb.io memory plugin - governed operational memory for code agents that lives on top of dev. supports markdown notes, reddb graph memory, zero-token governed… pi-package, reddb-io, red-skills, dep:dev">
+  <header>
+    <h3><a href="https://github.com/reddb-io/redskilled" target="_blank" rel="noopener">@reddb-io/red-skills-memory</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@reddb-io/red-skills-memory" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">reddb.io memory plugin - governed operational memory for code agents that lives on top of dev. Supports markdown notes, RedDB graph memory, zero-token governed…</p>
+  <p class="kw">pi-package, reddb-io, red-skills, dep:dev</p>
+  <p class="src"><a href="https://github.com/reddb-io/redskilled" target="_blank" rel="noopener">github.com/reddb-io/redskilled</a></p>
+</article>
+<article class="card" data-name="@7n/rules" data-desc="cli еталонних правил і skills (префікс n-): синк у репозиторій, дельта-lint, конформність cli, rules, lint, mdc, n, pi-package">
+  <header>
+    <h3><a href="https://github.com/nitra/7n-rules" target="_blank" rel="noopener">@7n/rules</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@7n/rules" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">CLI еталонних правил і skills (префікс n-): синк у репозиторій, дельта-lint, конформність</p>
+  <p class="kw">cli, rules, lint, mdc, n, pi-package</p>
+  <p class="src"><a href="https://github.com/nitra/7n-rules" target="_blank" rel="noopener">github.com/nitra/7n-rules</a></p>
+</article>
+<article class="card" data-name="@nitra/cursor" data-desc="cli для завантаження cursor-правил (префікс n-) у локальний репозиторій cli, cursor, cursor-rules, mdc, n, pi-package">
+  <header>
+    <h3><a href="https://github.com/n/cursor" target="_blank" rel="noopener">@nitra/cursor</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@nitra/cursor" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">CLI для завантаження cursor-правил (префікс n-) у локальний репозиторій</p>
+  <p class="kw">cli, cursor, cursor-rules, mdc, n, pi-package</p>
+  <p class="src"><a href="https://github.com/n/cursor" target="_blank" rel="noopener">github.com/n/cursor</a></p>
+</article>
+<article class="card" data-name="@mutmutco/pi-plugin" data-desc="mmi workflow skills and org gates delivery. mmi, mutmutco, pi-package, jervcode">
+  <header>
+    <h3><a href="https://github.com/mutmutco/MMI-Hub" target="_blank" rel="noopener">@mutmutco/pi-plugin</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@mutmutco/pi-plugin" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">MMI workflow skills and org gates delivery.</p>
+  <p class="kw">mmi, mutmutco, pi-package, jervcode</p>
+  <p class="src"><a href="https://github.com/mutmutco/MMI-Hub" target="_blank" rel="noopener">github.com/mutmutco/MMI-Hub</a></p>
+</article></div>
+</section>
+<section>
+  <h2>15. UI / 终端 / 状态栏 <span class="count">11</span></h2>
+  <div class="grid"><article class="card" data-name="pi-open-tui" data-desc="a polished tui for pi coding agent: animated logo header, starship-style footer, rounded editor with model metadata, and prompt-box user messages. pi-package, pi, pi-coding-agent, pi-extension, tui, starship">
+  <header>
+    <h3><a href="https://github.com/OldSuns/pi-open-tui" target="_blank" rel="noopener">pi-open-tui</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-open-tui" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">A polished TUI for Pi coding agent: animated logo header, Starship-style footer, rounded editor with model metadata, and prompt-box user messages.</p>
+  <p class="kw">pi-package, pi, pi-coding-agent, pi-extension, tui, starship</p>
+  <p class="src"><a href="https://github.com/OldSuns/pi-open-tui" target="_blank" rel="noopener">github.com/OldSuns/pi-open-tui</a></p>
+</article>
+<article class="card" data-name="pi-zentui" data-desc="a starship-inspired statusline and opencode-style tui for pi. pi-package, pi-extension, pi-theme, starship, tui">
+  <header>
+    <h3><a href="https://github.com/lmilojevicc/pi-zentui" target="_blank" rel="noopener">pi-zentui</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-zentui" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">A Starship-inspired statusline and Opencode-style TUI for Pi.</p>
+  <p class="kw">pi-package, pi-extension, pi-theme, starship, tui</p>
+  <p class="src"><a href="https://github.com/lmilojevicc/pi-zentui" target="_blank" rel="noopener">github.com/lmilojevicc/pi-zentui</a></p>
+</article>
+<article class="card" data-name="pi-powerline-footer" data-desc="powerline-style status bar extension for pi coding agent pi-package, pi, coding-agent, powerline, status-bar, extension">
+  <header>
+    <h3><a href="https://github.com/nicobailon/pi-powerline-footer" target="_blank" rel="noopener">pi-powerline-footer</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-powerline-footer" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Powerline-style status bar extension for pi coding agent</p>
+  <p class="kw">pi-package, pi, coding-agent, powerline, status-bar, extension</p>
+  <p class="src"><a href="https://github.com/nicobailon/pi-powerline-footer" target="_blank" rel="noopener">github.com/nicobailon/pi-powerline-footer</a></p>
+</article>
+<article class="card" data-name="@narumitw/pi-statusline" data-desc="pi extension that replaces the footer with an information-rich statusline. pi-package, pi-extension, pi, statusline, footer">
+  <header>
+    <h3><a href="https://github.com/narumiruna/pi-extensions" target="_blank" rel="noopener">@narumitw/pi-statusline</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@narumitw/pi-statusline" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Pi extension that replaces the footer with an information-rich statusline.</p>
+  <p class="kw">pi-package, pi-extension, pi, statusline, footer</p>
+  <p class="src"><a href="https://github.com/narumiruna/pi-extensions" target="_blank" rel="noopener">github.com/narumiruna/pi-extensions</a></p>
+</article>
+<article class="card" data-name="@magiusche/pi-webview" data-desc="webview ui for the pi coding agent: standalone, chrome side panel and ide companions pi-package, pi-extension, pi, webview, ide, vscode">
+  <header>
+    <h3><a href="https://github.com/MagiusCHE/pi-webview" target="_blank" rel="noopener">@magiusche/pi-webview</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@magiusche/pi-webview" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">WebView UI for the pi coding agent: standalone, Chrome Side Panel and IDE companions</p>
+  <p class="kw">pi-package, pi-extension, pi, webview, ide, vscode</p>
+  <p class="src"><a href="https://github.com/MagiusCHE/pi-webview" target="_blank" rel="noopener">github.com/MagiusCHE/pi-webview</a></p>
+</article>
+<article class="card" data-name="@xynogen/pix-runtime" data-desc="pix shared runtime — versioned pix.json config, atomic persistence, typed change events pi, pi-package, pi-extension, config, runtime">
+  <header>
+    <h3><a href="https://github.com/xynogen/pix-mono" target="_blank" rel="noopener">@xynogen/pix-runtime</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@xynogen/pix-runtime" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Pix shared runtime — versioned pix.json config, atomic persistence, typed change events</p>
+  <p class="kw">pi, pi-package, pi-extension, config, runtime</p>
+  <p class="src"><a href="https://github.com/xynogen/pix-mono" target="_blank" rel="noopener">github.com/xynogen/pix-mono</a></p>
+</article>
+<article class="card" data-name="@plannotator/pi-extension" data-desc="plannotator pi extension - interactive plan review with annotations, annotate agent messages, and review code/prs pi-package, plannotator, plan-review, ai-agent, coding-agent">
+  <header>
+    <h3><a href="https://github.com/backnotprop/plannotator" target="_blank" rel="noopener">@plannotator/pi-extension</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@plannotator/pi-extension" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Plannotator Pi extension - interactive plan review with annotations, annotate agent messages, and review code/PRs</p>
+  <p class="kw">pi-package, plannotator, plan-review, ai-agent, coding-agent</p>
+  <p class="src"><a href="https://github.com/backnotprop/plannotator" target="_blank" rel="noopener">github.com/backnotprop/plannotator</a></p>
+</article>
+<article class="card" data-name="@pi-unipi/unipi" data-desc="all-in-one extension suite for pi coding agent pi-package, pi-extension, pi-coding-agent, unipi">
+  <header>
+    <h3><a href="https://github.com/Neuron-Mr-White/unipi" target="_blank" rel="noopener">@pi-unipi/unipi</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@pi-unipi/unipi" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">All-in-one extension suite for Pi coding agent</p>
+  <p class="kw">pi-package, pi-extension, pi-coding-agent, unipi</p>
+  <p class="src"><a href="https://github.com/Neuron-Mr-White/unipi" target="_blank" rel="noopener">github.com/Neuron-Mr-White/unipi</a></p>
+</article>
+<article class="card" data-name="@pi-unipi/core" data-desc="shared utilities, event types, and constants for unipi extension suite pi-package, pi-extension, unipi">
+  <header>
+    <h3><a href="https://github.com/Neuron-Mr-White/unipi" target="_blank" rel="noopener">@pi-unipi/core</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@pi-unipi/core" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Shared utilities, event types, and constants for Unipi extension suite</p>
+  <p class="kw">pi-package, pi-extension, unipi</p>
+  <p class="src"><a href="https://github.com/Neuron-Mr-White/unipi" target="_blank" rel="noopener">github.com/Neuron-Mr-White/unipi</a></p>
+</article>
+<article class="card" data-name="@pi-unipi/notify" data-desc="cross-platform notification extension for pi — native os, gotify, and telegram notifications for agent lifecycle events pi-package, pi-extension, pi-coding-agent, unipi, notify, notifications">
+  <header>
+    <h3><a href="https://github.com/Neuron-Mr-White/unipi" target="_blank" rel="noopener">@pi-unipi/notify</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@pi-unipi/notify" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Cross-platform notification extension for Pi — native OS, Gotify, and Telegram notifications for agent lifecycle events</p>
+  <p class="kw">pi-package, pi-extension, pi-coding-agent, unipi, notify, notifications</p>
+  <p class="src"><a href="https://github.com/Neuron-Mr-White/unipi" target="_blank" rel="noopener">github.com/Neuron-Mr-White/unipi</a></p>
+</article>
+<article class="card" data-name="@groeponline/pi-wishcraft" data-desc="operator cockpit for pi: live powerline status, searchable skills, idea queue, sticky bash, hooks, policy controls, and session ux. pi-package, pi-extension, pi-coding-agent, pi, wishcraft, cockpit">
+  <header>
+    <h3><a href="https://github.com/GroepOnline/pi-wishcraft" target="_blank" rel="noopener">@groeponline/pi-wishcraft</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@groeponline/pi-wishcraft" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Operator cockpit for Pi: live powerline status, searchable skills, idea queue, sticky Bash, hooks, policy controls, and session UX.</p>
+  <p class="kw">pi-package, pi-extension, pi-coding-agent, pi, wishcraft, cockpit</p>
+  <p class="src"><a href="https://github.com/GroepOnline/pi-wishcraft" target="_blank" rel="noopener">github.com/GroepOnline/pi-wishcraft</a></p>
+</article></div>
+</section>
+<section>
+  <h2>16. 工作流引擎 / Agent 框架变种 <span class="count">12</span></h2>
+  <div class="grid"><article class="card" data-name="pi-maestro-flow" data-desc="all-in-one multi-agent orchestration for the pi coding agent — parallel teammate dispatch, goals, plans, knowledge system, mcp/lsp/browser, and cockpit visuali… pi-package, pi, pi-coding-agent, maestro, agents, explore">
+  <header>
+    <h3><a href="https://www.npmjs.com/package/pi-maestro-flow" target="_blank" rel="noopener">pi-maestro-flow</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-maestro-flow" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">All-in-one multi-agent orchestration for the Pi coding agent — parallel teammate dispatch, goals, plans, knowledge system, MCP/LSP/browser, and cockpit visuali…</p>
+  <p class="kw">pi-package, pi, pi-coding-agent, maestro, agents, explore</p>
+  <p class="src"><a href="https://www.npmjs.com/package/pi-maestro-flow" target="_blank" rel="noopener">www.npmjs.com/package/pi-maestro-flow</a></p>
+</article>
+<article class="card" data-name="gentle-pi" data-desc="turn pi into el gentleman: a senior-architect development harness with sdd/openspec, subagents, strict tdd evidence, review guardrails, and skill discovery. pi-package, pi, pi-coding-agent, gentle-pi, gentle-ai, sdd">
+  <header>
+    <h3><a href="https://github.com/Gentleman-Programming/gentle-shell" target="_blank" rel="noopener">gentle-pi</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/gentle-pi" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Turn Pi into el Gentleman: a senior-architect development harness with SDD/OpenSpec, subagents, strict TDD evidence, review guardrails, and skill discovery.</p>
+  <p class="kw">pi-package, pi, pi-coding-agent, gentle-pi, gentle-ai, sdd</p>
+  <p class="src"><a href="https://github.com/Gentleman-Programming/gentle-shell" target="_blank" rel="noopener">github.com/Gentleman-Programming/gentle-shell</a></p>
+</article>
+<article class="card" data-name="pi-advisor-flow" data-desc="advanced executor/advisor flow for pi, fully configurable and extendable. pi-package, pi-extension, pi-coding-agent, advisor, pi-advisor, herdr">
+  <header>
+    <h3><a href="https://github.com/philipbrembeck/pi-advisor" target="_blank" rel="noopener">pi-advisor-flow</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-advisor-flow" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Advanced Executor/Advisor flow for Pi, fully configurable and extendable.</p>
+  <p class="kw">pi-package, pi-extension, pi-coding-agent, advisor, pi-advisor, herdr</p>
+  <p class="src"><a href="https://github.com/philipbrembeck/pi-advisor" target="_blank" rel="noopener">github.com/philipbrembeck/pi-advisor</a></p>
+</article>
+<article class="card" data-name="pi-interview" data-desc="interactive interview form extension for pi coding agent pi, pi-coding-agent, pi-package, interview, form, extension">
+  <header>
+    <h3><a href="https://github.com/nicobailon/pi-interview-tool" target="_blank" rel="noopener">pi-interview</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-interview" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Interactive interview form extension for pi coding agent</p>
+  <p class="kw">pi, pi-coding-agent, pi-package, interview, form, extension</p>
+  <p class="src"><a href="https://github.com/nicobailon/pi-interview-tool" target="_blank" rel="noopener">github.com/nicobailon/pi-interview-tool</a></p>
+</article>
+<article class="card" data-name="shariq-pi-extensions" data-desc="cross-platform extension suite for the pi coding agent. pi-package, pi-extension">
+  <header>
+    <h3><a href="https://github.com/shariqriazz/shariq-pi-extensions" target="_blank" rel="noopener">shariq-pi-extensions</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/shariq-pi-extensions" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Cross-platform extension suite for the Pi coding agent.</p>
+  <p class="kw">pi-package, pi-extension</p>
+  <p class="src"><a href="https://github.com/shariqriazz/shariq-pi-extensions" target="_blank" rel="noopener">github.com/shariqriazz/shariq-pi-extensions</a></p>
+</article>
+<article class="card" data-name="tether-agent-core" data-desc="local deepseek-first agent runtime for the tether desktop workbench (tools, sandbox, sessions, rpc). ">
+  <header>
+    <h3><a href="https://github.com/tt-11-dd/tether-runtime" target="_blank" rel="noopener">tether-agent-core</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/tether-agent-core" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Local DeepSeek-first agent runtime for the Tether desktop workbench (tools, sandbox, sessions, RPC).</p>
+  
+  <p class="src"><a href="https://github.com/tt-11-dd/tether-runtime" target="_blank" rel="noopener">github.com/tt-11-dd/tether-runtime</a></p>
+</article>
+<article class="card" data-name="infinity-harness" data-desc="a pi agent extension that runs a gated build pipeline unattended — enforces phases, validates with deterministic gates, and keeps working for hours or days wit… pi-package, pi-extension, harness, agent-pipeline, autonomous, continuous-development">
+  <header>
+    <h3><a href="https://github.com/bakr-bagaber/infinity-harness" target="_blank" rel="noopener">infinity-harness</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/infinity-harness" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">A pi agent extension that runs a gated build pipeline unattended — enforces phases, validates with deterministic gates, and keeps working for hours or days wit…</p>
+  <p class="kw">pi-package, pi-extension, harness, agent-pipeline, autonomous, continuous-development</p>
+  <p class="src"><a href="https://github.com/bakr-bagaber/infinity-harness" target="_blank" rel="noopener">github.com/bakr-bagaber/infinity-harness</a></p>
+</article>
+<article class="card" data-name="@ashx-j/lunr-agent" data-desc="general-purpose agent with transport abstraction, state management, and attachment support ai, agent, llm, transport, state-management">
+  <header>
+    <h3><a href="https://github.com/ashx-j/lunR" target="_blank" rel="noopener">@ashx-j/lunr-agent</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@ashx-j/lunr-agent" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">General-purpose agent with transport abstraction, state management, and attachment support</p>
+  <p class="kw">ai, agent, llm, transport, state-management</p>
+  <p class="src"><a href="https://github.com/ashx-j/lunR" target="_blank" rel="noopener">github.com/ashx-j/lunR</a></p>
+</article>
+<article class="card" data-name="@cgh567/agent" data-desc="elyntic self-improvement lab pi-package, pi-coding-agent, elyntic, ai-agent, graph-brain">
+  <header>
+    <h3><a href="https://github.com/helios-agi/helios-agent" target="_blank" rel="noopener">@cgh567/agent</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@cgh567/agent" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Elyntic self-improvement lab</p>
+  <p class="kw">pi-package, pi-coding-agent, elyntic, ai-agent, graph-brain</p>
+  <p class="src"><a href="https://github.com/helios-agi/helios-agent" target="_blank" rel="noopener">github.com/helios-agi/helios-agent</a></p>
+</article>
+<article class="card" data-name="@cotal-ai/pi" data-desc=" ">
+  <header>
+    <h3><a href="https://github.com/Cotal-AI/Cotal" target="_blank" rel="noopener">@cotal-ai/pi</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@cotal-ai/pi" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc"><i style="color:#888">no description</i></p>
+  
+  <p class="src"><a href="https://github.com/Cotal-AI/Cotal" target="_blank" rel="noopener">github.com/Cotal-AI/Cotal</a></p>
+</article>
+<article class="card" data-name="@bastani/pi-ai" data-desc="bastani-branded unified llm api with automatic model discovery and provider configuration ai, llm, openai, anthropic, gemini, bedrock">
+  <header>
+    <h3><a href="https://github.com/bastani-inc/atomic" target="_blank" rel="noopener">@bastani/pi-ai</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@bastani/pi-ai" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Bastani-branded unified LLM API with automatic model discovery and provider configuration</p>
+  <p class="kw">ai, llm, openai, anthropic, gemini, bedrock</p>
+  <p class="src"><a href="https://github.com/bastani-inc/atomic" target="_blank" rel="noopener">github.com/bastani-inc/atomic</a></p>
+</article>
+<article class="card" data-name="rolebox" data-desc="agent plugin — define custom ai agent roles with per-role prompts, models, skills, and permissions opencode, opencode-plugin, pi-extension, pi-package, dsh, codex">
+  <header>
+    <h3><a href="https://github.com/EricMoin/rolebox" target="_blank" rel="noopener">rolebox</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/rolebox" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Agent plugin — define custom AI agent roles with per-role prompts, models, skills, and permissions</p>
+  <p class="kw">opencode, opencode-plugin, pi-extension, pi-package, dsh, codex</p>
+  <p class="src"><a href="https://github.com/EricMoin/rolebox" target="_blank" rel="noopener">github.com/EricMoin/rolebox</a></p>
+</article></div>
+</section>
+<section>
+  <h2>17. UX 辅助 / 交互 <span class="count">11</span></h2>
+  <div class="grid"><article class="card" data-name="@juicesharp/rpiv-ask-user-question" data-desc="pi extension. a structured questionnaire the model can put to you when it would otherwise guess, with typed options instead of free-form replies. pi-package, pi-extension, rpiv">
+  <header>
+    <h3><a href="https://github.com/juicesharp/rpiv-mono" target="_blank" rel="noopener">@juicesharp/rpiv-ask-user-question</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@juicesharp/rpiv-ask-user-question" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Pi extension. A structured questionnaire the model can put to you when it would otherwise guess, with typed options instead of free-form replies.</p>
+  <p class="kw">pi-package, pi-extension, rpiv</p>
+  <p class="src"><a href="https://github.com/juicesharp/rpiv-mono" target="_blank" rel="noopener">github.com/juicesharp/rpiv-mono</a></p>
+</article>
+<article class="card" data-name="@juicesharp/rpiv-todo" data-desc="pi extension. a todo list for the model, rendered as a live overlay that survives /reload and conversation compaction. pi-package, pi-extension, rpiv, todo">
+  <header>
+    <h3><a href="https://github.com/juicesharp/rpiv-mono" target="_blank" rel="noopener">@juicesharp/rpiv-todo</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@juicesharp/rpiv-todo" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Pi extension. A todo list for the model, rendered as a live overlay that survives /reload and conversation compaction.</p>
+  <p class="kw">pi-package, pi-extension, rpiv, todo</p>
+  <p class="src"><a href="https://github.com/juicesharp/rpiv-mono" target="_blank" rel="noopener">github.com/juicesharp/rpiv-mono</a></p>
+</article>
+<article class="card" data-name="@juicesharp/rpiv-advisor" data-desc="pi extension. a second opinion the model can request from a stronger reviewer model before it acts. pi-package, pi-extension, rpiv, advisor">
+  <header>
+    <h3><a href="https://github.com/juicesharp/rpiv-mono" target="_blank" rel="noopener">@juicesharp/rpiv-advisor</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@juicesharp/rpiv-advisor" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Pi extension. A second opinion the model can request from a stronger reviewer model before it acts.</p>
+  <p class="kw">pi-package, pi-extension, rpiv, advisor</p>
+  <p class="src"><a href="https://github.com/juicesharp/rpiv-mono" target="_blank" rel="noopener">github.com/juicesharp/rpiv-mono</a></p>
+</article>
+<article class="card" data-name="@juicesharp/rpiv-btw" data-desc="pi extension. the /btw slash command, for putting a one-off side question to the same primary model without polluting the main conversation. pi-package, pi-extension, rpiv, btw, side-question, overlay">
+  <header>
+    <h3><a href="https://github.com/juicesharp/rpiv-mono" target="_blank" rel="noopener">@juicesharp/rpiv-btw</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@juicesharp/rpiv-btw" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Pi extension. The /btw slash command, for putting a one-off side question to the same primary model without polluting the main conversation.</p>
+  <p class="kw">pi-package, pi-extension, rpiv, btw, side-question, overlay</p>
+  <p class="src"><a href="https://github.com/juicesharp/rpiv-mono" target="_blank" rel="noopener">github.com/juicesharp/rpiv-mono</a></p>
+</article>
+<article class="card" data-name="@juicesharp/rpiv-i18n" data-desc="pi extension. the localization foundation for rpiv-* skills: locale detection, the /languages command, the --locale flag, and a cross-package locale registry. pi-package, pi-extension, rpiv, i18n, localization">
+  <header>
+    <h3><a href="https://github.com/juicesharp/rpiv-mono" target="_blank" rel="noopener">@juicesharp/rpiv-i18n</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@juicesharp/rpiv-i18n" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Pi extension. The localization foundation for rpiv-* skills: locale detection, the /languages command, the --locale flag, and a cross-package locale registry.</p>
+  <p class="kw">pi-package, pi-extension, rpiv, i18n, localization</p>
+  <p class="src"><a href="https://github.com/juicesharp/rpiv-mono" target="_blank" rel="noopener">github.com/juicesharp/rpiv-mono</a></p>
+</article>
+<article class="card" data-name="@companion-ai/feynman" data-desc="research-first cli agent built on pi and alphaxiv pi-package, research-agent, literature-review, experiments">
+  <header>
+    <h3><a href="https://github.com/companion-inc/feynman" target="_blank" rel="noopener">@companion-ai/feynman</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@companion-ai/feynman" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Research-first CLI agent built on Pi and alphaXiv</p>
+  <p class="kw">pi-package, research-agent, literature-review, experiments</p>
+  <p class="src"><a href="https://github.com/companion-inc/feynman" target="_blank" rel="noopener">github.com/companion-inc/feynman</a></p>
+</article>
+<article class="card" data-name="pi-dsh-pet" data-desc="floating desktop deepseek chan for the pi coding agent: idle breathing, random actions, screen wandering, and pi event reactivity (thinking/coding/idle → match… pi, pi-plugin, pi-extension, pi-package, desktop-pet, pet">
+  <header>
+    <h3><a href="https://github.com/SOMWHY/pi-dsh-pet" target="_blank" rel="noopener">pi-dsh-pet</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-dsh-pet" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Floating desktop deepseek chan for the pi coding agent: idle breathing, random actions, screen wandering, and pi event reactivity (thinking/coding/idle → match…</p>
+  <p class="kw">pi, pi-plugin, pi-extension, pi-package, desktop-pet, pet</p>
+  <p class="src"><a href="https://github.com/SOMWHY/pi-dsh-pet" target="_blank" rel="noopener">github.com/SOMWHY/pi-dsh-pet</a></p>
+</article>
+<article class="card" data-name="imgify-pi" data-desc="pi extension: convert a written prompt into an image and send it to the chat model pi-package, pi-extension, pi-plugin, image, text-to-image, vision">
+  <header>
+    <h3><a href="https://github.com/mandavkarpranjal/imgify" target="_blank" rel="noopener">imgify-pi</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/imgify-pi" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">pi extension: convert a written prompt into an image and send it to the chat model</p>
+  <p class="kw">pi-package, pi-extension, pi-plugin, image, text-to-image, vision</p>
+  <p class="src"><a href="https://github.com/mandavkarpranjal/imgify" target="_blank" rel="noopener">github.com/mandavkarpranjal/imgify</a></p>
+</article>
+<article class="card" data-name="pi-nasty-verbs" data-desc="replaces pi's default 'working...' message with some better words. claude, coding-agent, extension, pi-coding-agent, pi-extension, pi-package">
+  <header>
+    <h3><a href="https://github.com/kynnyhsap/pi-nasty-verbs" target="_blank" rel="noopener">pi-nasty-verbs</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-nasty-verbs" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Replaces Pi's default 'Working...' message with some better words.</p>
+  <p class="kw">claude, coding-agent, extension, pi-coding-agent, pi-extension, pi-package</p>
+  <p class="src"><a href="https://github.com/kynnyhsap/pi-nasty-verbs" target="_blank" rel="noopener">github.com/kynnyhsap/pi-nasty-verbs</a></p>
+</article>
+<article class="card" data-name="agent-comms" data-desc="cross-harness communication mesh for llm agents — rooms, dms, presence, and real-time push delivery over tcp agent, communication, cross-harness, dm, llm, mcp">
+  <header>
+    <h3><a href="https://github.com/ExaDev/agent-comms" target="_blank" rel="noopener">agent-comms</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/agent-comms" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Cross-harness communication mesh for LLM agents — rooms, DMs, presence, and real-time push delivery over TCP</p>
+  <p class="kw">agent, communication, cross-harness, dm, llm, mcp</p>
+  <p class="src"><a href="https://github.com/ExaDev/agent-comms" target="_blank" rel="noopener">github.com/ExaDev/agent-comms</a></p>
+</article>
+<article class="card" data-name="@chronova/pi-plugin" data-desc="chronova heartbeat tracking extension for oh-my-pi — sends coding activity to your chronova dashboard via chronova-cli ai-coding, chronova, coding-analytics, developer-analytics, heartbeat, oh-my-pi">
+  <header>
+    <h3><a href="https://github.com/nx-solutions-ug/chronova-pi-plugin" target="_blank" rel="noopener">@chronova/pi-plugin</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@chronova/pi-plugin" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Chronova heartbeat tracking extension for oh-my-pi — sends coding activity to your Chronova dashboard via chronova-cli</p>
+  <p class="kw">ai-coding, chronova, coding-analytics, developer-analytics, heartbeat, oh-my-pi</p>
+  <p class="src"><a href="https://github.com/nx-solutions-ug/chronova-pi-plugin" target="_blank" rel="noopener">github.com/nx-solutions-ug/chronova-pi-plugin</a></p>
+</article></div>
+</section>
+<section>
+  <h2>18. 性能 / 启动优化 <span class="count">1</span></h2>
+  <div class="grid"><article class="card" data-name="pi-extension-optimizer" data-desc="precompile typescript pi extensions into dist-opt/ .js so jiti skips transpilation at cold start (~13.2s → ~3.0s in the author setup). auto-scans enabled exten… pi, pi-extension, earendil, startup, performance, typescript">
+  <header>
+    <h3><a href="https://github.com/LosLiSang/pi-extension-optimizer" target="_blank" rel="noopener">pi-extension-optimizer</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/pi-extension-optimizer" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Precompile TypeScript Pi extensions into dist-opt/ .js so jiti skips transpilation at cold start (~13.2s → ~3.0s in the author setup). Auto-scans enabled exten…</p>
+  <p class="kw">pi, pi-extension, earendil, startup, performance, typescript</p>
+  <p class="src"><a href="https://github.com/LosLiSang/pi-extension-optimizer" target="_blank" rel="noopener">github.com/LosLiSang/pi-extension-optimizer</a></p>
+</article></div>
+</section>
+<section>
+  <h2>19. 跨 harness / 通用工具 <span class="count">10</span></h2>
+  <div class="grid"><article class="card" data-name="@onkernel/browser-loop" data-desc="browser tools for your agent: framework-neutral tool catalog, per-model compilation, kernel-browser execution, and a pi binding + extension pi-package, pi-extension, computer-use, kernel">
+  <header>
+    <h3><a href="https://github.com/kernel/browser-loop" target="_blank" rel="noopener">@onkernel/browser-loop</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@onkernel/browser-loop" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Browser tools for your agent: framework-neutral tool catalog, per-model compilation, Kernel-browser execution, and a pi binding + extension</p>
+  <p class="kw">pi-package, pi-extension, computer-use, kernel</p>
+  <p class="src"><a href="https://github.com/kernel/browser-loop" target="_blank" rel="noopener">github.com/kernel/browser-loop</a></p>
+</article>
+<article class="card" data-name="betterwright" data-desc="a persistent, policy-guarded playwright browser for ai agents with network controls, trusted credential filling, proof screenshots, and captcha helpers. playwright, browser, automation, agent, llm, ai">
+  <header>
+    <h3><a href="https://github.com/BetterWright/betterwright" target="_blank" rel="noopener">betterwright</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/betterwright" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">A persistent, policy-guarded Playwright browser for AI agents with network controls, trusted credential filling, proof screenshots, and CAPTCHA helpers.</p>
+  <p class="kw">playwright, browser, automation, agent, llm, ai</p>
+  <p class="src"><a href="https://github.com/BetterWright/betterwright" target="_blank" rel="noopener">github.com/BetterWright/betterwright</a></p>
+</article>
+<article class="card" data-name="glimpseui" data-desc="native micro-ui for scripts and agents — cross-platform webview windows with bidirectional json communication macos, linux, windows, webview, native, ui">
+  <header>
+    <h3><a href="https://github.com/hazat/glimpse" target="_blank" rel="noopener">glimpseui</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/glimpseui" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Native micro-UI for scripts and agents — cross-platform WebView windows with bidirectional JSON communication</p>
+  <p class="kw">macos, linux, windows, webview, native, ui</p>
+  <p class="src"><a href="https://github.com/hazat/glimpse" target="_blank" rel="noopener">github.com/hazat/glimpse</a></p>
+</article>
+<article class="card" data-name="latchkey" data-desc="a cli tool that injects api credentials into curl requests to third-party services cli, curl, api, credentials, authentication, agents">
+  <header>
+    <h3><a href="https://github.com/imbue-ai/latchkey" target="_blank" rel="noopener">latchkey</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/latchkey" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">A CLI tool that injects API credentials into curl requests to third-party services</p>
+  <p class="kw">cli, curl, api, credentials, authentication, agents</p>
+  <p class="src"><a href="https://github.com/imbue-ai/latchkey" target="_blank" rel="noopener">github.com/imbue-ai/latchkey</a></p>
+</article>
+<article class="card" data-name="confluence-cli" data-desc="a command-line interface for atlassian confluence with page creation and editing capabilities pi-package, confluence, atlassian, cli, wiki, documentation">
+  <header>
+    <h3><a href="https://github.com/pchuri/confluence-cli" target="_blank" rel="noopener">confluence-cli</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/confluence-cli" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">A command-line interface for Atlassian Confluence with page creation and editing capabilities</p>
+  <p class="kw">pi-package, confluence, atlassian, cli, wiki, documentation</p>
+  <p class="src"><a href="https://github.com/pchuri/confluence-cli" target="_blank" rel="noopener">github.com/pchuri/confluence-cli</a></p>
+</article>
+<article class="card" data-name="@agimon-ai/log-sink-mcp" data-desc="log sink mcp server with http ingestion and ai analysis mcp, model-context-protocol, pi-package, telemetry, typescript">
+  <header>
+    <h3><a href="https://www.npmjs.com/package/@agimon-ai/log-sink-mcp" target="_blank" rel="noopener">@agimon-ai/log-sink-mcp</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@agimon-ai/log-sink-mcp" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Log sink MCP server with HTTP ingestion and AI analysis</p>
+  <p class="kw">mcp, model-context-protocol, pi-package, telemetry, typescript</p>
+  <p class="src"><a href="https://www.npmjs.com/package/@agimon-ai/log-sink-mcp" target="_blank" rel="noopener">www.npmjs.com/package/@agimon-ai/log-sink-mcp</a></p>
+</article>
+<article class="card" data-name="donsetch" data-desc="mcp server that gives ai agents the web: fetch, search, crawl and screenshot from one local rust binary. zero api keys, zero accounts, chrome-true tls. pi-package, mcp, mcp-server, model-context-protocol, ai-agent, agent-tools">
+  <header>
+    <h3><a href="https://github.com/dondai44423/donsetch" target="_blank" rel="noopener">donsetch</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/donsetch" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">MCP server that gives AI agents the web: fetch, search, crawl and screenshot from one local Rust binary. Zero API keys, zero accounts, Chrome-true TLS.</p>
+  <p class="kw">pi-package, mcp, mcp-server, model-context-protocol, ai-agent, agent-tools</p>
+  <p class="src"><a href="https://github.com/dondai44423/donsetch" target="_blank" rel="noopener">github.com/dondai44423/donsetch</a></p>
+</article>
+<article class="card" data-name="@agentskit/doc-bridge" data-desc="human↔agent documentation bridge — deterministic handoffs, doc-site links, memory→docs, optional agentskit rag/chat. agentskit, documentation, mcp, pi-package, for-agents, llms-txt">
+  <header>
+    <h3><a href="https://github.com/AgentsKit-io/doc-bridge" target="_blank" rel="noopener">@agentskit/doc-bridge</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@agentskit/doc-bridge" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Human↔agent documentation bridge — deterministic handoffs, doc-site links, memory→docs, optional AgentsKit RAG/chat.</p>
+  <p class="kw">agentskit, documentation, mcp, pi-package, for-agents, llms-txt</p>
+  <p class="src"><a href="https://github.com/AgentsKit-io/doc-bridge" target="_blank" rel="noopener">github.com/AgentsKit-io/doc-bridge</a></p>
+</article>
+<article class="card" data-name="agents-gitflow-guard" data-desc="a configurable branch-role guard for ai coding agents (dsh / claude code / codex / opencode / antigravity / pi / codebuddy / zcode / cursor) — zero-config defa… dsh, deepseek-harness, dsh-plugin, claude-code, codex, opencode">
+  <header>
+    <h3><a href="https://github.com/FeatureAgents/AgentsGitFlowController" target="_blank" rel="noopener">agents-gitflow-guard</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/agents-gitflow-guard" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">A configurable branch-role guard for AI coding agents (DSH / Claude Code / Codex / OpenCode / Antigravity / Pi / CodeBuddy / ZCode / Cursor) — zero-config defa…</p>
+  <p class="kw">dsh, deepseek-harness, dsh-plugin, claude-code, codex, opencode</p>
+  <p class="src"><a href="https://github.com/FeatureAgents/AgentsGitFlowController" target="_blank" rel="noopener">github.com/FeatureAgents/AgentsGitFlowController</a></p>
+</article>
+<article class="card" data-name="@cortexkit/magic-context" data-desc="unified cli for magic context — setup, doctor, and migration across opencode, pi, and omp opencode, opencode-plugin, pi, pi-extension, omp, oh-my-pi">
+  <header>
+    <h3><a href="https://github.com/cortexkit/magic-context" target="_blank" rel="noopener">@cortexkit/magic-context</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@cortexkit/magic-context" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Unified CLI for Magic Context — setup, doctor, and migration across OpenCode, Pi, and OMP</p>
+  <p class="kw">opencode, opencode-plugin, pi, pi-extension, omp, oh-my-pi</p>
+  <p class="src"><a href="https://github.com/cortexkit/magic-context" target="_blank" rel="noopener">github.com/cortexkit/magic-context</a></p>
+</article></div>
+</section>
+<section>
+  <h2>20. 官方 Fork / 变种发行版 <span class="count">8</span></h2>
+  <div class="grid"><article class="card" data-name="@skydiveai/pi-server" data-desc=" ">
+  <header>
+    <h3><a href="https://www.npmjs.com/package/@skydiveai/pi-server" target="_blank" rel="noopener">@skydiveai/pi-server</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@skydiveai/pi-server" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc"><i style="color:#888">no description</i></p>
+  
+  <p class="src"><a href="https://www.npmjs.com/package/@skydiveai/pi-server" target="_blank" rel="noopener">www.npmjs.com/package/@skydiveai/pi-server</a></p>
+</article>
+<article class="card" data-name="@earendil-works/pi-server" data-desc="experimental server package for pi pi, server">
+  <header>
+    <h3><a href="https://github.com/earendil-works/pi" target="_blank" rel="noopener">@earendil-works/pi-server</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@earendil-works/pi-server" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">experimental server package for pi</p>
+  <p class="kw">pi, server</p>
+  <p class="src"><a href="https://github.com/earendil-works/pi" target="_blank" rel="noopener">github.com/earendil-works/pi</a></p>
+</article>
+<article class="card" data-name="@earendil-works/pi-client" data-desc="transport-neutral client for remote pi sessions over framed cbor bytes pi, client, protocol, cbor, binary">
+  <header>
+    <h3><a href="https://github.com/earendil-works/pi" target="_blank" rel="noopener">@earendil-works/pi-client</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@earendil-works/pi-client" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Transport-neutral client for remote pi sessions over framed CBOR bytes</p>
+  <p class="kw">pi, client, protocol, cbor, binary</p>
+  <p class="src"><a href="https://github.com/earendil-works/pi" target="_blank" rel="noopener">github.com/earendil-works/pi</a></p>
+</article>
+<article class="card" data-name="@earendil-works/pi-protocol" data-desc="transport-neutral cbor protocol for remote pi sessions pi, protocol, cbor, binary, framing">
+  <header>
+    <h3><a href="https://github.com/earendil-works/pi" target="_blank" rel="noopener">@earendil-works/pi-protocol</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@earendil-works/pi-protocol" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Transport-neutral CBOR protocol for remote pi sessions</p>
+  <p class="kw">pi, protocol, cbor, binary, framing</p>
+  <p class="src"><a href="https://github.com/earendil-works/pi" target="_blank" rel="noopener">github.com/earendil-works/pi</a></p>
+</article>
+<article class="card" data-name="@earendil-works/pi-telemetry" data-desc="vendor-neutral telemetry contracts and typed schema utilities for pi telemetry, tracing, observability">
+  <header>
+    <h3><a href="https://github.com/earendil-works/pi" target="_blank" rel="noopener">@earendil-works/pi-telemetry</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@earendil-works/pi-telemetry" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Vendor-neutral telemetry contracts and typed schema utilities for pi</p>
+  <p class="kw">telemetry, tracing, observability</p>
+  <p class="src"><a href="https://github.com/earendil-works/pi" target="_blank" rel="noopener">github.com/earendil-works/pi</a></p>
+</article>
+<article class="card" data-name="@earendil-works/pi-web-ui" data-desc="reusable web ui components for ai chat interfaces powered by @earendil-works/pi-ai ai, chat, ui, components, llm, web-components">
+  <header>
+    <h3><a href="https://www.npmjs.com/package/@earendil-works/pi-web-ui" target="_blank" rel="noopener">@earendil-works/pi-web-ui</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@earendil-works/pi-web-ui" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Reusable web UI components for AI chat interfaces powered by @earendil-works/pi-ai</p>
+  <p class="kw">ai, chat, ui, components, llm, web-components</p>
+  <p class="src"><a href="https://www.npmjs.com/package/@earendil-works/pi-web-ui" target="_blank" rel="noopener">www.npmjs.com/package/@earendil-works/pi-web-ui</a></p>
+</article>
+<article class="card" data-name="@earendil-works/pi-session-backend-sqlite-node" data-desc="node sqlite session backend for @earendil-works/pi-agent-core sessions ">
+  <header>
+    <h3><a href="https://github.com/earendil-works/pi" target="_blank" rel="noopener">@earendil-works/pi-session-backend-sqlite-node</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/@earendil-works/pi-session-backend-sqlite-node" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc">Node sqlite session backend for @earendil-works/pi-agent-core sessions</p>
+  
+  <p class="src"><a href="https://github.com/earendil-works/pi" target="_blank" rel="noopener">github.com/earendil-works/pi</a></p>
+</article>
+<article class="card" data-name="selesai/code" data-desc=" ">
+  <header>
+    <h3><a href="https://www.npmjs.com/package/selesai/code" target="_blank" rel="noopener">selesai/code</a></h3>
+    <a class="npm" href="https://www.npmjs.com/package/selesai/code" target="_blank" rel="noopener" title="npm">npm</a>
+  </header>
+  <p class="desc"><i style="color:#888">no description</i></p>
+  
+  <p class="src"><a href="https://www.npmjs.com/package/selesai/code" target="_blank" rel="noopener">www.npmjs.com/package/selesai/code</a></p>
+</article></div>
+</section>
+</main>
+</div>
+<footer>
+  数据源:<a href="https://registry.npmjs.org" target="_blank">npm registry</a> ·
+  检索范围:keywords=pi-package/pi-extension/pi-plugin · peer-dep @earendil-works/pi-* ·
+  生成于 Pi SDK 插件目录生成器
+</footer>
+<script>
+const q = document.getElementById('q');
+const cards = document.querySelectorAll('.card');
+q.addEventListener('input', () => {
+  const v = q.value.trim().toLowerCase();
+  cards.forEach(c => {
+    const hit = !v || c.dataset.name.includes(v) || c.dataset.desc.includes(v);
+    c.classList.toggle('hidden', !hit);
+  });
+  document.querySelectorAll('section').forEach(s => {
+    const any = s.querySelector('.card:not(.hidden)');
+    s.classList.toggle('hidden', !any);
+  });
+});
+</script>
+</body>
+</html>

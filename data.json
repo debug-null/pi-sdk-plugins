@@ -1,0 +1,2867 @@
+[
+  {
+    "name": "@pi-harness/pi-harness",
+    "desc": "[![CI](https://img.shields.io/github/actions/workflow/status/pi-harness/pi-harness/ci.yml?branch=main&label=CI)](https://github.com/pi-harness/pi-harness/actions/workflows/ci.yml) [![npm version](https://img.shields.io/npm/v/%40pi-harness%2Fpi-harness?log",
+    "repo": "https://github.com/pi-harness/pi-harness",
+    "homepage": "https://github.com/pi-harness/pi-harness#readme",
+    "keywords": []
+  },
+  {
+    "name": "@pi-harness/core",
+    "desc": "Cordis boot and Pi runtime plugins for Pi Harness",
+    "repo": "https://github.com/pi-harness/pi-harness",
+    "homepage": "https://github.com/pi-harness/pi-harness#readme",
+    "keywords": []
+  },
+  {
+    "name": "@pi-harness/plugin-api",
+    "desc": "Public contract for authoring Pi Harness plugins: Cordis context services, plugin configuration helpers, and bounded workspace file access",
+    "repo": "https://github.com/pi-harness/pi-harness",
+    "homepage": "https://github.com/pi-harness/pi-harness/tree/main/packages/plugin-api#readme",
+    "keywords": [
+      "agent",
+      "cordis",
+      "pi-harness",
+      "plugin"
+    ]
+  },
+  {
+    "name": "pi-acp",
+    "desc": "ACP adapter for pi coding agent",
+    "repo": "https://github.com/svkozak/pi-acp",
+    "homepage": "https://github.com/svkozak/pi-acp#readme",
+    "keywords": [
+      "acp",
+      "agent-client-protocol",
+      "pi-coding-agent",
+      "adapter"
+    ]
+  },
+  {
+    "name": "@ai-sdk/harness-pi",
+    "desc": "",
+    "repo": "https://github.com/vercel/ai",
+    "homepage": "https://ai-sdk.dev/docs",
+    "keywords": [
+      "ai",
+      "harness",
+      "pi"
+    ]
+  },
+  {
+    "name": "pi2dsh",
+    "desc": "Bridge the Pi and DeepSeek Harness ecosystems: a general Pi Host ABI that runs unmodified Pi extensions as native DSH plugins, with compatibility inspection and Pi-to-DSH MCP config translation.",
+    "repo": "https://github.com/weijiafu14/pi2dsh",
+    "homepage": "https://github.com/weijiafu14/pi2dsh#readme",
+    "keywords": [
+      "deepseek-harness",
+      "dsh-plugin",
+      "pi-package",
+      "migration",
+      "compatibility"
+    ]
+  },
+  {
+    "name": "pi-claude-bridge",
+    "desc": "Pi extension that uses Claude Code (via Agent SDK) as a model provider and adds an AskClaude tool.",
+    "repo": "https://github.com/elidickinson/pi-claude-bridge",
+    "homepage": "https://github.com/elidickinson/pi-claude-bridge#readme",
+    "keywords": [
+      "pi-package",
+      "pi",
+      "extension",
+      "claude-code",
+      "claude-agent-sdk"
+    ]
+  },
+  {
+    "name": "pi-claude-marketplace",
+    "desc": "Access Claude plugin marketplaces from Pi Coding Agent. Supports Claude commands, skills, agents, hooks and MCP servers.",
+    "repo": "https://github.com/acolomba/pi-claude-marketplace",
+    "homepage": "https://github.com/acolomba/pi-claude-marketplace#readme",
+    "keywords": [
+      "claude",
+      "claude-code",
+      "marketplace",
+      "pi",
+      "pi-coding-agent",
+      "pi-extension",
+      "pi-package",
+      "plugins"
+    ]
+  },
+  {
+    "name": "@oh-my-pi/pi-coding-agent",
+    "desc": "Coding agent CLI with read, bash, edit, write tools and session management",
+    "repo": "https://github.com/can1357/oh-my-pi",
+    "homepage": "https://omp.sh",
+    "keywords": [
+      "agent",
+      "ai",
+      "cli",
+      "coding-agent",
+      "llm",
+      "tui"
+    ]
+  },
+  {
+    "name": "@hoilab/ada-cli",
+    "desc": "Ada CLI - coding agent CLI (rebranded fork of pi.dev) with read, bash, edit, write tools and session management",
+    "repo": "https://github.com/earendil-works/pi",
+    "homepage": "https://github.com/earendil-works/pi#readme",
+    "keywords": [
+      "coding-agent",
+      "ai",
+      "llm",
+      "cli",
+      "tui",
+      "agent"
+    ]
+  },
+  {
+    "name": "@byok-sdk/pi-coding-agent",
+    "desc": "[byok-sdk fork of @earendil-works/pi-coding-agent 0.85.1 @ d981de1] Coding agent CLI with read, bash, edit, write tools and session management",
+    "repo": "https://github.com/earendil-works/pi",
+    "homepage": "https://github.com/earendil-works/pi#readme",
+    "keywords": [
+      "coding-agent",
+      "ai",
+      "llm",
+      "cli",
+      "tui",
+      "agent"
+    ]
+  },
+  {
+    "name": "@caupulican/pi-adaptative",
+    "desc": "Adaptive fork of Pi coding agent for self-evolving agent harness experiments",
+    "repo": "https://github.com/Caupulican/pi-adaptative",
+    "homepage": "https://github.com/Caupulican/pi-adaptative#readme",
+    "keywords": [
+      "coding-agent",
+      "ai",
+      "llm",
+      "cli",
+      "tui",
+      "agent"
+    ]
+  },
+  {
+    "name": "@code-yeongyu/senpi",
+    "desc": "Coding agent CLI with read, bash, edit, write tools and session management",
+    "repo": "https://github.com/code-yeongyu/senpi",
+    "homepage": "https://github.com/code-yeongyu/senpi#readme",
+    "keywords": [
+      "coding-agent",
+      "ai",
+      "llm",
+      "cli",
+      "tui",
+      "agent"
+    ]
+  },
+  {
+    "name": "@code-yeongyu/senpi-agent-core",
+    "desc": "General-purpose agent with transport abstraction, state management, and attachment support",
+    "repo": "https://github.com/code-yeongyu/senpi",
+    "homepage": "https://github.com/code-yeongyu/senpi#readme",
+    "keywords": [
+      "ai",
+      "agent",
+      "llm",
+      "transport",
+      "state-management"
+    ]
+  },
+  {
+    "name": "@code-yeongyu/senpi-telemetry",
+    "desc": "Vendor-neutral telemetry contracts and typed schema utilities for pi",
+    "repo": "https://github.com/code-yeongyu/senpi",
+    "homepage": "https://github.com/code-yeongyu/senpi#readme",
+    "keywords": [
+      "telemetry",
+      "tracing",
+      "observability"
+    ]
+  },
+  {
+    "name": "@code-yeongyu/senpi-pty",
+    "desc": "Typed PTY session loader for Senpi persistent terminals",
+    "repo": "https://github.com/code-yeongyu/senpi",
+    "homepage": "https://github.com/code-yeongyu/senpi#readme",
+    "keywords": [
+      "pty",
+      "terminal",
+      "persistent-terminal",
+      "typescript"
+    ]
+  },
+  {
+    "name": "@code-yeongyu/senpi-ai",
+    "desc": "Unified LLM API with automatic model discovery and provider configuration",
+    "repo": "https://github.com/code-yeongyu/senpi",
+    "homepage": "https://github.com/code-yeongyu/senpi#readme",
+    "keywords": [
+      "ai",
+      "llm",
+      "openai",
+      "anthropic",
+      "gemini",
+      "bedrock",
+      "unified",
+      "api"
+    ]
+  },
+  {
+    "name": "@assemblyline-agents/pi",
+    "desc": "Canonical Pi agent loop for Assembly Line behind the internal AgentHarness runtime contract.",
+    "repo": "https://github.com/jasonbadeaux/assembly-line",
+    "homepage": "https://github.com/jasonbadeaux/assembly-line#readme",
+    "keywords": [
+      "assembly-line",
+      "ai",
+      "agents",
+      "pi",
+      "agent-loop",
+      "harness",
+      "runtime"
+    ]
+  },
+  {
+    "name": "@agimon-ai/doompi-extension-contracts",
+    "desc": "Typed lifecycle, protocol, and Leader contracts for independently bundled DoomPi extensions.",
+    "repo": "https://github.com/AgiFlow/doompi",
+    "homepage": "https://agimon.ai",
+    "keywords": [
+      "ai",
+      "coding-agent",
+      "developer-tools",
+      "doompi",
+      "extension-api",
+      "leader-key",
+      "lifecycle",
+      "pi-extension",
+      "pi-package",
+      "protocol",
+      "typescript"
+    ]
+  },
+  {
+    "name": "@agimon-ai/doompi-telemetry",
+    "desc": "Host-neutral telemetry, OpenTelemetry controls, and Log Sink adapters for DoomPi sessions.",
+    "repo": "https://github.com/AgiFlow/doompi",
+    "homepage": "https://agimon.ai",
+    "keywords": [
+      "agent-observability",
+      "ai",
+      "coding-agent",
+      "developer-tools",
+      "doompi",
+      "log-sink",
+      "metrics",
+      "opentelemetry",
+      "pi-package",
+      "telemetry",
+      "tracing"
+    ]
+  },
+  {
+    "name": "@agimon-ai/doompi-ui",
+    "desc": "Leader-key menus, themes, and TUI components for DoomPi and Pi extensions.",
+    "repo": "https://github.com/AgiFlow/doompi",
+    "homepage": "https://agimon.ai",
+    "keywords": [
+      "ai",
+      "coding-agent",
+      "developer-tools",
+      "doompi",
+      "leader-key",
+      "pi-extension",
+      "pi-package",
+      "pi-tui",
+      "terminal-ui",
+      "tui"
+    ]
+  },
+  {
+    "name": "@agimon-ai/doompi-hashline",
+    "desc": "Shared snapshot-bound file tags and line anchors for DoomPi tools.",
+    "repo": "https://github.com/AgiFlow/doompi",
+    "homepage": "https://agimon.ai",
+    "keywords": [
+      "ai",
+      "coding-agent",
+      "developer-tools",
+      "doompi",
+      "hashline",
+      "pi-package",
+      "protocol",
+      "typescript"
+    ]
+  },
+  {
+    "name": "@agimon-ai/doompi-edit",
+    "desc": "Snapshot-bound hashline edit tool for Pi and DoomPi.",
+    "repo": "https://github.com/AgiFlow/doompi",
+    "homepage": "https://agimon.ai",
+    "keywords": [
+      "ai",
+      "coding-agent",
+      "developer-tools",
+      "doompi",
+      "hashline",
+      "pi-coding-agent",
+      "pi-extension",
+      "pi-package"
+    ]
+  },
+  {
+    "name": "@agimon-ai/doompi-grep",
+    "desc": "Snapshot-bound hashline grep for Pi and DoomPi.",
+    "repo": "https://github.com/AgiFlow/doompi",
+    "homepage": "https://agimon.ai",
+    "keywords": [
+      "ai",
+      "coding-agent",
+      "developer-tools",
+      "doompi",
+      "grep",
+      "hashline",
+      "pi-coding-agent",
+      "pi-extension",
+      "pi-package"
+    ]
+  },
+  {
+    "name": "@agimon-ai/doompi-config",
+    "desc": "Typed configuration loading, validation, and host services for composing DoomPi sessions.",
+    "repo": "https://github.com/AgiFlow/doompi",
+    "homepage": "https://agimon.ai",
+    "keywords": [
+      "agent-configuration",
+      "ai",
+      "coding-agent",
+      "configuration",
+      "dependency-injection",
+      "developer-tools",
+      "doompi",
+      "pi-coding-agent",
+      "pi-package",
+      "typescript",
+      "yaml"
+    ]
+  },
+  {
+    "name": "@agimon-ai/doompi-loop",
+    "desc": "Session-scoped recurring prompt scheduler and loop controls for Pi coding agents.",
+    "repo": "https://github.com/AgiFlow/doompi",
+    "homepage": "https://agimon.ai",
+    "keywords": [
+      "ai",
+      "automation",
+      "coding-agent",
+      "developer-tools",
+      "doompi",
+      "pi-coding-agent",
+      "pi-extension",
+      "pi-package",
+      "prompt-scheduler",
+      "recurring-tasks"
+    ]
+  },
+  {
+    "name": "@agimon-ai/doompi-workflow",
+    "desc": "GitHub Actions-style workflow graphs, artifacts, recovery, and asynchronous runs for DoomPi.",
+    "repo": "https://github.com/AgiFlow/doompi",
+    "homepage": "https://agimon.ai",
+    "keywords": [
+      "ai",
+      "automation",
+      "coding-agent",
+      "developer-tools",
+      "doompi",
+      "github-actions",
+      "pi-extension",
+      "pi-package",
+      "workflow",
+      "workflow-orchestration"
+    ]
+  },
+  {
+    "name": "@agimon-ai/doompi-voice",
+    "desc": "Client audio capture, host transcription, and autonomous narration for Pi agents.",
+    "repo": "https://github.com/AgiFlow/doompi",
+    "homepage": "https://agimon.ai",
+    "keywords": [
+      "ai",
+      "coding-agent",
+      "developer-tools",
+      "doompi",
+      "macos",
+      "pi-extension",
+      "pi-package",
+      "speech-to-text",
+      "text-to-speech",
+      "voice"
+    ]
+  },
+  {
+    "name": "@agimon-ai/doompi-notification",
+    "desc": "Desktop notifications and an animated shell-tab title for DoomPi sessions.",
+    "repo": "https://github.com/AgiFlow/doompi",
+    "homepage": "https://agimon.ai",
+    "keywords": [
+      "ai",
+      "coding-agent",
+      "desktop-notifications",
+      "developer-tools",
+      "doompi",
+      "notifications",
+      "pi-coding-agent",
+      "pi-extension",
+      "pi-package",
+      "shell-title",
+      "terminal-title"
+    ]
+  },
+  {
+    "name": "@agimon-ai/doompi-plan",
+    "desc": "Reviewable Pi planning mode that removes file-editing tools and persists implementation plans.",
+    "repo": "https://github.com/AgiFlow/doompi",
+    "homepage": "https://agimon.ai",
+    "keywords": [
+      "ai",
+      "coding-agent",
+      "developer-tools",
+      "doompi",
+      "implementation-planning",
+      "pi-coding-agent",
+      "pi-extension",
+      "pi-package",
+      "plan-mode",
+      "tool-restrictions"
+    ]
+  },
+  {
+    "name": "@agimon-ai/doompi-major-mode",
+    "desc": "Named major-mode selection and layer composition switching for DoomPi sessions.",
+    "repo": "https://github.com/AgiFlow/doompi",
+    "homepage": "https://agimon.ai",
+    "keywords": [
+      "ai",
+      "coding-agent",
+      "developer-tools",
+      "doompi",
+      "layer-composition",
+      "major-mode",
+      "pi-coding-agent",
+      "pi-extension",
+      "pi-package",
+      "session-reload"
+    ]
+  },
+  {
+    "name": "@agimon-ai/doompi-skill",
+    "desc": "Session skill catalogue, deferred skill discovery, and the skill browser for DoomPi.",
+    "repo": "https://github.com/AgiFlow/doompi",
+    "homepage": "https://agimon.ai",
+    "keywords": [
+      "agent-skills",
+      "ai",
+      "coding-agent",
+      "developer-tools",
+      "doompi",
+      "pi-coding-agent",
+      "pi-extension",
+      "pi-package",
+      "skill-catalog",
+      "skill-discovery"
+    ]
+  },
+  {
+    "name": "@agimon-ai/doompi-file-edit",
+    "desc": "Pi extension for session-scoped file-change timelines and external editor workflows.",
+    "repo": "https://github.com/AgiFlow/doompi",
+    "homepage": "https://agimon.ai",
+    "keywords": [
+      "ai",
+      "coding-agent",
+      "developer-tools",
+      "doompi",
+      "external-editor",
+      "file-editing",
+      "pi-coding-agent",
+      "pi-extension",
+      "pi-package",
+      "session-timeline"
+    ]
+  },
+  {
+    "name": "@agimon-ai/doompi-profile",
+    "desc": "Persona and environment profile switching for DoomPi sessions.",
+    "repo": "https://github.com/AgiFlow/doompi",
+    "homepage": "https://agimon.ai",
+    "keywords": [
+      "agent-persona",
+      "ai",
+      "coding-agent",
+      "developer-tools",
+      "doompi",
+      "pi-coding-agent",
+      "pi-extension",
+      "pi-package",
+      "profile-switching",
+      "system-prompt"
+    ]
+  },
+  {
+    "name": "@agimon-ai/doompi-mcp",
+    "desc": "Domain-aware MCP server selection and access boundaries for Pi sessions composed with DoomPi.",
+    "repo": "https://github.com/AgiFlow/doompi",
+    "homepage": "https://agimon.ai",
+    "keywords": [
+      "ai",
+      "coding-agent",
+      "developer-tools",
+      "doompi",
+      "mcp",
+      "model-context-protocol",
+      "pi-coding-agent",
+      "pi-extension",
+      "pi-package",
+      "server-selection"
+    ]
+  },
+  {
+    "name": "@agimon-ai/doompi-autocompact",
+    "desc": "Iterative context compaction and checkpoint summaries for Pi and DoomPi agent sessions.",
+    "repo": "https://github.com/AgiFlow/doompi",
+    "homepage": "https://agimon.ai",
+    "keywords": [
+      "ai",
+      "coding-agent",
+      "context-compaction",
+      "context-window",
+      "developer-tools",
+      "doompi",
+      "pi-coding-agent",
+      "pi-extension",
+      "pi-package",
+      "summarization"
+    ]
+  },
+  {
+    "name": "@agimon-ai/doompi-log",
+    "desc": "Pi session metrics, findings, sink status, and a Log Metrics overlay for agent observability.",
+    "repo": "https://github.com/AgiFlow/doompi",
+    "homepage": "https://agimon.ai",
+    "keywords": [
+      "agent-observability",
+      "ai",
+      "coding-agent",
+      "developer-tools",
+      "doompi",
+      "log-sink",
+      "logging",
+      "metrics",
+      "pi-extension",
+      "pi-package",
+      "telemetry"
+    ]
+  },
+  {
+    "name": "@agimon-ai/doompi-goal",
+    "desc": "Pi minor mode for persistent agent goals, token budgets, and goal history.",
+    "repo": "https://github.com/AgiFlow/doompi",
+    "homepage": "https://agimon.ai",
+    "keywords": [
+      "agent-goals",
+      "ai",
+      "coding-agent",
+      "developer-tools",
+      "doompi",
+      "goal-management",
+      "pi-coding-agent",
+      "pi-extension",
+      "pi-package",
+      "token-budget"
+    ]
+  },
+  {
+    "name": "@agimon-ai/doompi-domain",
+    "desc": "Domain selection, resource staging, and MCP scoping for DoomPi sessions.",
+    "repo": "https://github.com/AgiFlow/doompi",
+    "homepage": "https://agimon.ai",
+    "keywords": [
+      "ai",
+      "coding-agent",
+      "developer-tools",
+      "domains",
+      "doompi",
+      "mcp",
+      "pi-coding-agent",
+      "pi-extension",
+      "pi-package",
+      "plugins",
+      "session-reload",
+      "skills"
+    ]
+  },
+  {
+    "name": "@agimon-ai/doompi-hook",
+    "desc": "Claude-Code-compatible repository and plugin hook runner for DoomPi sessions.",
+    "repo": "https://github.com/AgiFlow/doompi",
+    "homepage": "https://agimon.ai",
+    "keywords": [
+      "ai",
+      "claude-code-hooks",
+      "coding-agent",
+      "developer-tools",
+      "doompi",
+      "guardrails",
+      "hooks",
+      "pi-coding-agent",
+      "pi-extension",
+      "pi-package",
+      "repository-hooks"
+    ]
+  },
+  {
+    "name": "@agimon-ai/doompi-help",
+    "desc": "Activation-gated package guidance and help skills for DoomPi and Pi extensions.",
+    "repo": "https://github.com/AgiFlow/doompi",
+    "homepage": "https://agimon.ai",
+    "keywords": [
+      "agent-documentation",
+      "ai",
+      "coding-agent",
+      "developer-tools",
+      "doompi",
+      "help-system",
+      "pi-coding-agent",
+      "pi-extension",
+      "pi-package",
+      "skills"
+    ]
+  },
+  {
+    "name": "@agimon-ai/doompi-user-feedback",
+    "desc": "Structured user questions with interactive and autonomous Voice handoff for Pi agents.",
+    "repo": "https://github.com/AgiFlow/doompi",
+    "homepage": "https://agimon.ai",
+    "keywords": [
+      "ai",
+      "ask-user-question",
+      "coding-agent",
+      "developer-tools",
+      "doompi",
+      "human-in-the-loop",
+      "pi-coding-agent",
+      "pi-extension",
+      "pi-package",
+      "user-feedback"
+    ]
+  },
+  {
+    "name": "@agimon-ai/doompi-autostop",
+    "desc": "Shuts a DoomPi session down once the agent settles and stays idle.",
+    "repo": "https://github.com/AgiFlow/doompi",
+    "homepage": "https://agimon.ai",
+    "keywords": [
+      "ai",
+      "auto-stop",
+      "coding-agent",
+      "developer-tools",
+      "doompi",
+      "idle-timeout",
+      "pi-coding-agent",
+      "pi-extension",
+      "pi-package",
+      "session-shutdown"
+    ]
+  },
+  {
+    "name": "pi-mcp-adapter",
+    "desc": "MCP (Model Context Protocol) adapter extension for Pi coding agent",
+    "repo": "https://github.com/nicobailon/pi-mcp-adapter",
+    "homepage": "https://github.com/nicobailon/pi-mcp-adapter#readme",
+    "keywords": [
+      "pi-package",
+      "pi",
+      "mcp",
+      "model-context-protocol",
+      "ai",
+      "coding-agent",
+      "extension",
+      "claude",
+      "llm"
+    ]
+  },
+  {
+    "name": "pi-mcp-extension",
+    "desc": "MCP (Model Context Protocol) client extension for the Pi coding agent — connect Pi to any MCP server",
+    "repo": "https://github.com/irahardianto/pi-mcp-extension",
+    "homepage": "https://github.com/irahardianto/pi-mcp-extension",
+    "keywords": [
+      "pi-package",
+      "mcp",
+      "model-context-protocol",
+      "pi",
+      "pi-extension",
+      "ai-agent",
+      "tool-bridge"
+    ]
+  },
+  {
+    "name": "pi-hermes-memory",
+    "desc": "🧠 Persistent memory + 🔍 session search + 🛡️ secret scanning for Pi. Token-aware policy-only memory by default, SQLite FTS5 search, auto-consolidation, procedural skills. 732 tests. Ported from Hermes agent.",
+    "repo": "https://github.com/chandra447/pi-hermes-memory",
+    "homepage": "https://github.com/chandra447/pi-hermes-memory#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "memory",
+      "persistent-memory",
+      "session-search",
+      "sqlite",
+      "fts5",
+      "skills",
+      "learning-loop",
+      "agent",
+      "hermes",
+      "secret-scanning",
+      "content-scanner",
+      "correction-detection",
+      "auto-consolidation",
+      "memory-aging",
+      "context-fencing",
+      "two-tier-memory"
+    ]
+  },
+  {
+    "name": "pi-memory",
+    "desc": "Pi coding agent extension for memory with qmd-powered semantic search across daily logs, long-term memory, and scratchpad",
+    "repo": "https://github.com/jayzeng/pi-memory",
+    "homepage": "https://github.com/jayzeng/pi-memory#readme",
+    "keywords": [
+      "pi",
+      "pi-coding-agent",
+      "pi-package",
+      "memory",
+      "search",
+      "qmd",
+      "scratchpad",
+      "daily-log"
+    ]
+  },
+  {
+    "name": "@amaster.ai/pi-memory-mem0",
+    "desc": "Mem0 semantic memory for pi — automatic capture, semantic recall, and an agent-callable memory tool. Platform, embedded, or self-hosted.",
+    "repo": "https://github.com/TGYD-helige/pi",
+    "homepage": "https://github.com/TGYD-helige/pi#readme",
+    "keywords": [
+      "pi-package",
+      "pi",
+      "extension",
+      "memory",
+      "mem0",
+      "semantic-search",
+      "sqlite"
+    ]
+  },
+  {
+    "name": "pi-blackhole",
+    "desc": "Unified compaction + observational memory extension for Pi — compresses conversation context while preserving durable observations and reflections",
+    "repo": "https://github.com/k0valik/pi-blackhole",
+    "homepage": "https://github.com/k0valik/pi-blackhole#readme",
+    "keywords": [
+      "agents",
+      "ai",
+      "blackhole",
+      "cli",
+      "compact",
+      "compaction",
+      "observational-memory",
+      "pi",
+      "pi-agent",
+      "pi-blackhole",
+      "pi-coding-agent",
+      "pi-extension",
+      "pi-package",
+      "recall"
+    ]
+  },
+  {
+    "name": "@brianmichel/pi-noodle",
+    "desc": "Long-term memory for Pi — local libSQL database with vector search.",
+    "repo": "https://github.com/brianmichel/pi-noodle",
+    "homepage": "https://github.com/brianmichel/pi-noodle#readme",
+    "keywords": [
+      "pi",
+      "pi.dev",
+      "pi-package",
+      "pi-extension",
+      "pi-plugin",
+      "ai-agent",
+      "agent-memory",
+      "memory",
+      "libsql",
+      "turso",
+      "vector-search"
+    ]
+  },
+  {
+    "name": "@remnic/plugin-pi",
+    "desc": "Remnic memory extension for Pi Coding Agent",
+    "repo": "https://github.com/joshuaswarren/remnic",
+    "homepage": "https://github.com/joshuaswarren/remnic#readme",
+    "keywords": [
+      "remnic",
+      "pi-package",
+      "pi",
+      "memory",
+      "ai-agent",
+      "coding-agent"
+    ]
+  },
+  {
+    "name": "pi-workspace-history",
+    "desc": "Real workspace undo/redo for Pi. Bring Claude Code style /rewind and OpenCode /undo safety to @earendil-works/pi-coding-agent.",
+    "repo": "https://github.com/wcldyx/pi-workspace-history",
+    "homepage": "https://github.com/wcldyx/pi-workspace-history#readme",
+    "keywords": [
+      "pi-package",
+      "pi",
+      "pi-plugin",
+      "pi-extension",
+      "pi-agent",
+      "pi-coding-agent",
+      "workspace-history",
+      "undo",
+      "redo",
+      "rewind",
+      "rollback",
+      "snapshot",
+      "git-snapshot",
+      "time-machine",
+      "claude-code",
+      "opencode"
+    ]
+  },
+  {
+    "name": "@moyai/pi-session-hoarder",
+    "desc": "🐿️ A Pi extension that archives sessions into local content-addressed storage.",
+    "repo": "https://github.com/moyai-ai/pi-session-hoarder",
+    "homepage": "https://github.com/moyai-ai/pi-session-hoarder#readme",
+    "keywords": [
+      "pi-package"
+    ]
+  },
+  {
+    "name": "@langfuse/pi-observability-plugin",
+    "desc": "Langfuse observability extension for the pi coding agent — traces prompts, agent turns, model generations, and tool calls to Langfuse.",
+    "repo": "https://github.com/langfuse/pi-observability-plugin",
+    "homepage": "https://github.com/langfuse/pi-observability-plugin#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "pi",
+      "langfuse",
+      "observability",
+      "tracing",
+      "opentelemetry"
+    ]
+  },
+  {
+    "name": "@raindrop-ai/pi-agent",
+    "desc": "Raindrop observability for Pi Agent — automatic tracing via subscriber or pi-coding-agent extension",
+    "repo": "https://github.com/raindrop-ai/pi-agent",
+    "homepage": "https://www.raindrop.ai/docs/integrations/pi-agent/",
+    "keywords": [
+      "pi-package",
+      "raindrop",
+      "pi-agent",
+      "observability",
+      "tracing"
+    ]
+  },
+  {
+    "name": "@braintrust/pi-extension",
+    "desc": "Braintrust extension for pi. Includes automatic tracing for pi sessions, turns, LLM calls, and tool executions to Braintrust.",
+    "repo": "https://github.com/braintrustdata/braintrust-coding-agent-plugins",
+    "homepage": "",
+    "keywords": [
+      "braintrust",
+      "llm",
+      "observability",
+      "pi",
+      "pi-package",
+      "tracing"
+    ]
+  },
+  {
+    "name": "pi-phoenix",
+    "desc": "Phoenix tracing extension for pi",
+    "repo": "https://github.com/philipbjorge/pi-phoenix",
+    "homepage": "https://github.com/philipbjorge/pi-phoenix#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "phoenix",
+      "tracing",
+      "opentelemetry"
+    ]
+  },
+  {
+    "name": "pi-otel",
+    "desc": "OpenTelemetry traces for pi-coding-agent — per-prompt span tree (interaction → llm_request, tool.<name>) exported via OTLP. Aspire-dashboard ready.",
+    "repo": "https://github.com/nikiforovall/pi-otel",
+    "homepage": "https://github.com/nikiforovall/pi-otel#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "opentelemetry",
+      "otel",
+      "observability",
+      "tracing",
+      "gen_ai"
+    ]
+  },
+  {
+    "name": "pi-subagents",
+    "desc": "Pi extension for single-agent delegation and scripted multi-agent workflows",
+    "repo": "https://github.com/nicobailon/pi-subagents",
+    "homepage": "https://github.com/nicobailon/pi-subagents#readme",
+    "keywords": [
+      "pi-package",
+      "pi",
+      "pi-coding-agent",
+      "subagents",
+      "ai",
+      "agents",
+      "cli"
+    ]
+  },
+  {
+    "name": "@tintinweb/pi-subagents",
+    "desc": "A pi extension that brings Claude Code-like sub-agents and workflow orchestration to pi — parallel execution, live widget, fleet view, custom agent types, mid-run steering, dynamic workflows, Claude Code compatibility, look and feel.",
+    "repo": "https://github.com/tintinweb/pi-subagents",
+    "homepage": "https://github.com/tintinweb/pi-subagents#readme",
+    "keywords": [
+      "pi-package",
+      "pi",
+      "pi-extension",
+      "subagent",
+      "agent",
+      "autonomous"
+    ]
+  },
+  {
+    "name": "@gotgenes/pi-subagents",
+    "desc": "A focused, in-process sub-agent core for pi — autonomous agents plus a typed API and lifecycle events other extensions build on. Friendly fork of @tintinweb/pi-subagents.",
+    "repo": "https://github.com/gotgenes/pi-packages",
+    "homepage": "https://github.com/gotgenes/pi-packages/tree/main/packages/pi-subagents#readme",
+    "keywords": [
+      "pi-package",
+      "pi",
+      "pi-extension",
+      "subagent",
+      "agent",
+      "autonomous"
+    ]
+  },
+  {
+    "name": "@arhen/pi-core-subagent",
+    "desc": "pi extension: fast in-process subagents with a dependency-graph scheduler (needs edges gate tasks and carry upstream output into dependent prompts), plus background runs, intercom and agent-to-agent mailbox. Leader defines agents inline.",
+    "repo": "https://github.com/arhen/pi-extensions",
+    "homepage": "https://github.com/arhen/pi-extensions#readme",
+    "keywords": [
+      "pi",
+      "pi-coding-agent",
+      "pi-extension",
+      "pi-package",
+      "subagent",
+      "agent-orchestration",
+      "task-graph",
+      "dag",
+      "graph-protocol"
+    ]
+  },
+  {
+    "name": "@henryqw/pi-subagent",
+    "desc": "Delegate bounded single, parallel, or chained tasks to isolated Pi roles.",
+    "repo": "https://github.com/HenryQW/pi-harness",
+    "homepage": "https://github.com/HenryQW/pi-harness#readme",
+    "keywords": [
+      "pi-package",
+      "pi",
+      "subagent",
+      "delegation"
+    ]
+  },
+  {
+    "name": "@ferris1225/pi-subagents",
+    "desc": "A managed sub-agent team for pi: scout, artisan, steward, and sentinel roles, one-shot runs, read-only status, and Git worktree isolation.",
+    "repo": "https://github.com/MCapricorns/pi-subagents",
+    "homepage": "https://github.com/MCapricorns/pi-subagents#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "subagent",
+      "sub-agent",
+      "delegation",
+      "code-cleanup",
+      "dead-code"
+    ]
+  },
+  {
+    "name": "pi-subagents-j0k3r",
+    "desc": "Installable Pi package that adds markdown-defined subagents, delegated task tools, history, and model profiles.",
+    "repo": "https://github.com/j0k3r-dev-rgl/pi-subagents-j0k3r",
+    "homepage": "https://github.com/j0k3r-dev-rgl/pi-subagents-j0k3r#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "pi",
+      "subagents",
+      "coding-agent",
+      "agent",
+      "delegation"
+    ]
+  },
+  {
+    "name": "@baryonlabs/pi-agent-harness",
+    "desc": "Team-architecture factory for the pi coding agent — turns one domain sentence into a multi-agent team: specialist agents (.pi/agents), their skills (.pi/skills), and orchestration prompts (.pi/prompts), with six team patterns and a bundled subagent (singl",
+    "repo": "https://github.com/baryonlabs/pi-agent-harness",
+    "homepage": "https://github.com/baryonlabs/pi-agent-harness",
+    "keywords": [
+      "pi-package",
+      "pi",
+      "pi-coding-agent",
+      "pi-agent",
+      "pi-plugin",
+      "harness",
+      "harness-factory",
+      "team-architecture-factory",
+      "agent-team",
+      "subagent",
+      "skill-architect",
+      "meta-skill",
+      "orchestration",
+      "agent-scaffolding",
+      "multi-agent",
+      "agent-skills",
+      "pipeline",
+      "fan-out-fan-in",
+      "expert-pool",
+      "producer-reviewer",
+      "supervisor",
+      "hierarchical-delegation"
+    ]
+  },
+  {
+    "name": "pi-web-access",
+    "desc": "Web search, URL fetching, GitHub repo cloning, PDF extraction, YouTube video understanding, and local video analysis for Pi coding agent. Supports OpenAI, Brave, Parallel, TinyFish, Search1API, Searchinfinity, Querit, Tavily, Firecrawl, Crawl4AI, Jina, SE",
+    "repo": "https://github.com/nicobailon/pi-web-access",
+    "homepage": "https://github.com/nicobailon/pi-web-access#readme",
+    "keywords": [
+      "pi-package",
+      "pi",
+      "pi-coding-agent",
+      "extension",
+      "web-search",
+      "tinyfish",
+      "search1api",
+      "searchinfinity",
+      "querit",
+      "perplexity",
+      "fetch",
+      "scraping"
+    ]
+  },
+  {
+    "name": "pi-web-search",
+    "desc": "Provider-native web search for pi: Gemini + URL Context, xAI Grok, OpenAI Responses (Azure/Codex/Copilot), Anthropic, and OpenCode Zen/Go",
+    "repo": "https://github.com/ttttmr/pi-web-search",
+    "homepage": "https://github.com/ttttmr/pi-web-search#readme",
+    "keywords": [
+      "pi",
+      "pi-extension",
+      "pi-package",
+      "web-search",
+      "gemini",
+      "google",
+      "xai",
+      "grok",
+      "openai",
+      "anthropic",
+      "opencode",
+      "opencode-zen",
+      "url-context",
+      "url-analysis",
+      "youtube"
+    ]
+  },
+  {
+    "name": "@juicesharp/rpiv-web-tools",
+    "desc": "Pi extension. Web search and fetch for the model with pluggable providers (Brave, Tavily, Serper, Exa, You.com, Jina, Firecrawl, Perplexity, SearXNG, Ollama).",
+    "repo": "https://github.com/juicesharp/rpiv-mono",
+    "homepage": "https://github.com/juicesharp/rpiv-mono/tree/main/packages/rpiv-web-tools#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "rpiv",
+      "web-search",
+      "web-fetch",
+      "search",
+      "fetch",
+      "scrape",
+      "web-scraping",
+      "ai",
+      "llm",
+      "agent",
+      "local",
+      "self-hosted",
+      "brave",
+      "tavily",
+      "serper",
+      "exa",
+      "youcom",
+      "jina",
+      "firecrawl",
+      "perplexity",
+      "searxng",
+      "ollama"
+    ]
+  },
+  {
+    "name": "@ollama/pi-web-search",
+    "desc": "Web search and fetch tools for Pi agent - uses Ollama's web search and fetch APIs",
+    "repo": "",
+    "homepage": "",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "web-search",
+      "ollama"
+    ]
+  },
+  {
+    "name": "@bacnh85/pi-web",
+    "desc": "Pi extension for web search, page extraction, Firecrawl scraping/crawling, Crawl4AI headless browser crawling, real-browser interaction (trusted click/type/evaluate via CDP), Gemini web-tier research, free upstream image generation (Gemini/ChatGPT web/Z.a",
+    "repo": "https://github.com/bacnh85/pi-extensions",
+    "homepage": "https://github.com/bacnh85/pi-extensions/tree/main/pi-web",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "web-search",
+      "brave-search",
+      "firecrawl",
+      "crawl4ai",
+      "scraping",
+      "crawling",
+      "gemini",
+      "deep-research",
+      "image-generation",
+      "zai"
+    ]
+  },
+  {
+    "name": "@narumitw/pi-firecrawl",
+    "desc": "Pi extension that exposes Firecrawl web scraping and crawling tools.",
+    "repo": "https://github.com/narumiruna/pi-extensions",
+    "homepage": "https://github.com/narumiruna/pi-extensions#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "pi",
+      "firecrawl",
+      "scrape",
+      "crawl"
+    ]
+  },
+  {
+    "name": "pi-deepseek-search",
+    "desc": "Web search for Pi using DeepSeek's server side search. Only works with DeepSeek models.",
+    "repo": "https://github.com/bxff/pi-deepseek-search",
+    "homepage": "https://github.com/bxff/pi-deepseek-search#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "web-search",
+      "deepseek",
+      "search"
+    ]
+  },
+  {
+    "name": "pi-ollama-cloud-link",
+    "desc": "Unified pi extension for the Ollama Cloud account: live model discovery with capability/pricing metadata, web search/fetch agent tools with a disk cache, a live /ollama-setup account management TUI (quota bars, per-model spend, catalog browser), and an ol",
+    "repo": "",
+    "homepage": "",
+    "keywords": [
+      "pi-package",
+      "pi",
+      "pi-extension",
+      "ollama",
+      "ollama-cloud",
+      "web-search"
+    ]
+  },
+  {
+    "name": "pi-goal-x",
+    "desc": "Adds /goal to pi: conversational goal planning, flexible or ordered goals, persistent progress, and an independent completion auditor.",
+    "repo": "https://github.com/tmonk/pi-goal-x",
+    "homepage": "https://github.com/tmonk/pi-goal-x#readme",
+    "keywords": [
+      "pi-package",
+      "pi",
+      "pi-extension",
+      "goal",
+      "sisyphus",
+      "autoresearch",
+      "agent-loop",
+      "long-running"
+    ]
+  },
+  {
+    "name": "@narumitw/pi-goal",
+    "desc": "Pi extension for autonomous single-objective /goal completion.",
+    "repo": "https://github.com/narumiruna/pi-extensions",
+    "homepage": "https://github.com/narumiruna/pi-extensions#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "pi",
+      "goal",
+      "automation"
+    ]
+  },
+  {
+    "name": "@schovest/pi-goal",
+    "desc": "Pi extension for autonomous single-objective /goal completion.",
+    "repo": "https://github.com/schovest/pi-package-mono",
+    "homepage": "https://github.com/schovest/pi-package-mono#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "pi",
+      "goal",
+      "automation"
+    ]
+  },
+  {
+    "name": "@narumitw/pi-plan-mode",
+    "desc": "Pi extension that adds a Codex-like read-only /plan collaboration mode.",
+    "repo": "https://github.com/narumiruna/pi-extensions",
+    "homepage": "https://github.com/narumiruna/pi-extensions#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "pi",
+      "plan-mode",
+      "planning"
+    ]
+  },
+  {
+    "name": "@janvitos/pi-plan-build",
+    "desc": "Plan safely, approve explicitly, then implement here or in a clean session.",
+    "repo": "https://github.com/janvitos/pi-plan-build",
+    "homepage": "https://github.com/janvitos/pi-plan-build#readme",
+    "keywords": [
+      "pi-package",
+      "pi-coding-agent",
+      "plan-mode",
+      "build-mode",
+      "developer-tools"
+    ]
+  },
+  {
+    "name": "@mjasnikovs/pi-task",
+    "desc": "Deterministic task planning and spec-orchestration for local models — crash-safe /task pipelines with verify/enforce gates, a real-time remote web view, and web/docs/fetch/worker subagent tools.",
+    "repo": "https://github.com/mjasnikovs/pi-task",
+    "homepage": "https://github.com/mjasnikovs/pi-task#readme",
+    "keywords": [
+      "pi-package",
+      "pi",
+      "pi-extension",
+      "pi-coding-agent",
+      "pi.dev",
+      "coding-agent",
+      "ai-agent",
+      "agent",
+      "subagent",
+      "task-orchestration",
+      "spec-orchestration",
+      "spec-driven",
+      "task-planning",
+      "planning",
+      "autonomous",
+      "local-llm",
+      "llm",
+      "llama-server",
+      "remote",
+      "web-view",
+      "web-push"
+    ]
+  },
+  {
+    "name": "@quintinshaw/pi-dynamic-workflows",
+    "desc": "Claude-Code-style dynamic workflows for Pi — fan a task out across 100s of subagents with real model routing, token/cost accounting, resume, git-worktree isolation, an interactive /workflows TUI, and a real /deep-research.",
+    "repo": "https://github.com/QuintinShaw/pi-dynamic-workflows",
+    "homepage": "https://github.com/QuintinShaw/pi-dynamic-workflows#readme",
+    "keywords": [
+      "pi-package",
+      "pi",
+      "pi-coding-agent",
+      "workflow",
+      "workflows",
+      "dynamic-workflows",
+      "orchestration",
+      "subagents",
+      "multi-agent",
+      "agents",
+      "ai-agents",
+      "parallel",
+      "fan-out",
+      "claude-code",
+      "deep-research",
+      "code-review",
+      "llm"
+    ]
+  },
+  {
+    "name": "@akagilnc/pi-workflow-roles",
+    "desc": "Soul-bound workflow roles for Pi",
+    "repo": "https://github.com/Akagilnc/ak-pi-workflow-roles",
+    "homepage": "https://github.com/Akagilnc/ak-pi-workflow-roles#readme",
+    "keywords": [
+      "pi-package",
+      "ai-agents",
+      "agents",
+      "agentic",
+      "multi-agent",
+      "agent-framework",
+      "agent-orchestration",
+      "ai-governance",
+      "human-in-the-loop",
+      "claude-code",
+      "codex",
+      "code-review",
+      "llm",
+      "ai",
+      "typescript"
+    ]
+  },
+  {
+    "name": "@tintinweb/pi-tasks",
+    "desc": "A pi extension that brings Claude Code-style task tracking and coordination to pi.",
+    "repo": "https://github.com/tintinweb/pi-tasks",
+    "homepage": "https://github.com/tintinweb/pi-tasks#readme",
+    "keywords": [
+      "pi-package",
+      "pi",
+      "pi-extension",
+      "task",
+      "tasks",
+      "todo",
+      "coordination"
+    ]
+  },
+  {
+    "name": "pi-goal-list-loop-audit",
+    "desc": "Mission control for long running pi work: interview drafted goals, an audited task queue, and metric or audit loops that run for hours. Every completion is rechecked by a detached auditor with raw evidence, while Confirm drafts, decision pauses, and conse",
+    "repo": "https://github.com/DraconDev/pi-goal-list-loop-audit",
+    "homepage": "https://github.com/DraconDev/pi-goal-list-loop-audit#readme",
+    "keywords": [
+      "pi-package",
+      "pi",
+      "pi-extension",
+      "goal",
+      "loop",
+      "list",
+      "audit",
+      "isolated-auditor",
+      "anti-bamboozle",
+      "agent-loop",
+      "long-running",
+      "verification-contract"
+    ]
+  },
+  {
+    "name": "billion-context",
+    "desc": "Context-compression proxy that lets AI coding agents run for days — billions of tokens through one context window. Sits between any agent (Claude Code, Codex, Cursor, Aider, …) and its model API, folding consumed conversation into reversible, prefix-cache",
+    "repo": "https://github.com/ranxianglei/billion-context",
+    "homepage": "https://github.com/ranxianglei/billion-context#readme",
+    "keywords": [
+      "context",
+      "compression",
+      "proxy",
+      "acp",
+      "ai",
+      "agent",
+      "claude-code",
+      "cursor",
+      "codex",
+      "aider",
+      "anthropic",
+      "openai",
+      "pi-package"
+    ]
+  },
+  {
+    "name": "billion-context-pi",
+    "desc": "One billion, not one million. Model-driven context management for the Pi coding agent.",
+    "repo": "https://github.com/ranxianglei/billion-context-pi",
+    "homepage": "https://github.com/ranxianglei/billion-context-pi",
+    "keywords": [
+      "pi",
+      "acp",
+      "context",
+      "compression",
+      "context-management",
+      "llm",
+      "pi-package"
+    ]
+  },
+  {
+    "name": "context-mode",
+    "desc": "MCP plugin that saves 98% of your context window. Works with Claude Code, Gemini CLI, VS Code Copilot, OpenCode, and Codex CLI. Sandboxed code execution, FTS5 knowledge base, and intent-driven search.",
+    "repo": "https://github.com/mksglu/context-mode",
+    "homepage": "https://github.com/mksglu/context-mode#readme",
+    "keywords": [
+      "mcp",
+      "model-context-protocol",
+      "claude",
+      "claude-code",
+      "gemini-cli",
+      "vscode-copilot",
+      "opencode",
+      "openclaw",
+      "codex-cli",
+      "context-window",
+      "sandbox",
+      "code-execution",
+      "fts5",
+      "bm25",
+      "pi-package"
+    ]
+  },
+  {
+    "name": "pi-cache-optimizer",
+    "desc": "Improve Pi prompt/KV cache hit rates with stable prompts, OpenAI-compatible cache keys, proxy compat warnings, and footer cache stats.",
+    "repo": "https://github.com/jiangge/pi-cache-optimizer",
+    "homepage": "https://github.com/jiangge/pi-cache-optimizer#readme",
+    "keywords": [
+      "pi-package",
+      "deepseek",
+      "openai",
+      "claude",
+      "gemini",
+      "cache",
+      "kv-cache",
+      "prompt-cache",
+      "optimizer"
+    ]
+  },
+  {
+    "name": "pi-max-context",
+    "desc": "Set a persistent maximum context length for pi. When reached, compacts the session and prompts the model to continue.",
+    "repo": "",
+    "homepage": "",
+    "keywords": [
+      "pi",
+      "pi-plugin",
+      "extension",
+      "context",
+      "compaction",
+      "tokens"
+    ]
+  },
+  {
+    "name": "@d3ara1n/pi-context-include",
+    "desc": "@path syntax for AGENTS.md — include files by reference with recursive resolution",
+    "repo": "https://github.com/d3ara1n/pi-extensions",
+    "homepage": "https://github.com/d3ara1n/pi-extensions/tree/main/packages/pi-context-include#readme",
+    "keywords": [
+      "pi-package",
+      "pi",
+      "pi-extension"
+    ]
+  },
+  {
+    "name": "pi-context-view",
+    "desc": "Pi extension to visualize context usage and inspect the hidden parts: base prompt, tools defs, and extension injections",
+    "repo": "https://github.com/dimk90/pi-context-view",
+    "homepage": "https://github.com/dimk90/pi-context-view#readme",
+    "keywords": [
+      "pi",
+      "pi-extension",
+      "pi-package",
+      "coding-agent",
+      "context",
+      "tokens",
+      "tui"
+    ]
+  },
+  {
+    "name": "@earendil-works/pi-radius",
+    "desc": "Radius provider, web search, and API access for Pi",
+    "repo": "https://github.com/earendil-works/pi-extensions",
+    "homepage": "https://github.com/earendil-works/pi-extensions#readme",
+    "keywords": [
+      "pi-package"
+    ]
+  },
+  {
+    "name": "@earendil-works/pi-radius-work",
+    "desc": "Radius Google Workspace and image generation extensions for Pi",
+    "repo": "https://github.com/earendil-works/pi-extensions",
+    "homepage": "https://github.com/earendil-works/pi-extensions#readme",
+    "keywords": [
+      "pi-package"
+    ]
+  },
+  {
+    "name": "pi-provider-litellm",
+    "desc": "LiteLLM proxy provider extension for Pi",
+    "repo": "https://github.com/balcsida/pi-provider-litellm",
+    "homepage": "https://github.com/balcsida/pi-provider-litellm",
+    "keywords": [
+      "pi-mono",
+      "pi-package",
+      "litellm",
+      "llm",
+      "extension",
+      "provider",
+      "proxy"
+    ]
+  },
+  {
+    "name": "pi-extension-nvidia-nim",
+    "desc": "Model-aware NVIDIA NIM reasoning compatibility for the pi coding agent",
+    "repo": "https://github.com/Tibbee/pi-nvidia-nim-provider",
+    "homepage": "https://github.com/Tibbee/pi-nvidia-nim-provider#readme",
+    "keywords": [
+      "pi-package",
+      "pi",
+      "nvidia",
+      "nim",
+      "nvidia-nim",
+      "llm",
+      "reasoning",
+      "thinking",
+      "openai-compatible",
+      "provider"
+    ]
+  },
+  {
+    "name": "pi-nvidia-nim",
+    "desc": "NVIDIA NIM API provider extension for pi coding agent — access 100+ models from build.nvidia.com",
+    "repo": "https://github.com/xRyul/pi-nvidia-nim",
+    "homepage": "https://github.com/xRyul/pi-nvidia-nim",
+    "keywords": [
+      "pi-package"
+    ]
+  },
+  {
+    "name": "pi-antigravity",
+    "desc": "Personal Antigravity / Cloud Code Assist provider for Pi Coding Agent",
+    "repo": "https://github.com/Rahularya01/pi-antigravity",
+    "homepage": "https://github.com/Rahularya01/pi-antigravity#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "antigravity",
+      "google",
+      "oauth",
+      "provider"
+    ]
+  },
+  {
+    "name": "pi-tokenrouter",
+    "desc": "TokenRouter provider extension for pi — dynamic model discovery with OpenRouter-compatible pricing",
+    "repo": "https://github.com/liaowang11/pi-tokenrouter",
+    "homepage": "https://github.com/liaowang11/pi-tokenrouter#readme",
+    "keywords": [
+      "pi",
+      "pi-package",
+      "pi-extension",
+      "pi-provider",
+      "tokenrouter",
+      "openrouter",
+      "llm",
+      "ai"
+    ]
+  },
+  {
+    "name": "pi-llama-cpp",
+    "desc": "Pi extension for llama.cpp integration. Supports router, single and legacy models. Supports multiple servers.",
+    "repo": "https://github.com/gsanhueza/pi-llama-cpp",
+    "homepage": "https://github.com/gsanhueza/pi-llama-cpp#readme",
+    "keywords": [
+      "pi",
+      "pi-package",
+      "pi-extension",
+      "llama-cpp"
+    ]
+  },
+  {
+    "name": "pi-commandcode-provider",
+    "desc": "pi custom provider for Command Code API (commandcode.ai)",
+    "repo": "https://github.com/patlux/pi-commandcode-provider",
+    "homepage": "https://github.com/patlux/pi-commandcode-provider#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "commandcode",
+      "provider"
+    ]
+  },
+  {
+    "name": "pi-deepseek-usage",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "@alexanderfortin/pi-deepseek-usage",
+    "desc": "Pi extension for monitoring DeepSeek API balance",
+    "repo": "https://github.com/shaftoe/pi-deepseek-usage",
+    "homepage": "https://github.com/shaftoe/pi-deepseek-usage#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "deepseek",
+      "usage-monitoring",
+      "api-balance"
+    ]
+  },
+  {
+    "name": "@narumitw/pi-usage",
+    "desc": "Pi extension that shows current-account usage and DeepSeek API balance for supported providers.",
+    "repo": "https://github.com/narumiruna/pi-extensions",
+    "homepage": "https://github.com/narumiruna/pi-extensions#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "pi",
+      "usage",
+      "quota",
+      "balance",
+      "deepseek",
+      "fireworks",
+      "baseten",
+      "vercel-ai-gateway",
+      "codex",
+      "kimi",
+      "kimi-coding",
+      "moonshot",
+      "moonshotai",
+      "minimax",
+      "token-plan",
+      "copilot",
+      "openrouter",
+      "opencode",
+      "zen",
+      "zai",
+      "glm",
+      "xai",
+      "grok"
+    ]
+  },
+  {
+    "name": "@sreetej510/pi-usage",
+    "desc": "Pi extension that reports provider usage/rate-limit budgets (Codex, Anthropic OAuth, etc.) via /usage, with a live statusline widget.",
+    "repo": "https://github.com/Sreetej510/pi-extensions",
+    "homepage": "https://github.com/Sreetej510/pi-extensions#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "pi",
+      "usage",
+      "rate-limit",
+      "statusline"
+    ]
+  },
+  {
+    "name": "pi-token-speed",
+    "desc": "Pi extension to measure tokens per second via sliding window.",
+    "repo": "https://github.com/gsanhueza/pi-token-speed",
+    "homepage": "https://github.com/gsanhueza/pi-token-speed#readme",
+    "keywords": [
+      "pi",
+      "pi-package",
+      "pi-extension"
+    ]
+  },
+  {
+    "name": "@czottmann/pi-nebius-token-factory",
+    "desc": "Nebius Token Factory API provider extension for pi coding agent.",
+    "repo": "https://github.com/czottmann/pi-nebius-token-factory",
+    "homepage": "https://github.com/czottmann/pi-nebius-token-factory#readme",
+    "keywords": [
+      "pi",
+      "pi-extension",
+      "pi-package",
+      "pi-plugin",
+      "nebius",
+      "nebius-token-factory",
+      "token-factory",
+      "llm",
+      "coding-agent"
+    ]
+  },
+  {
+    "name": "@twogiants/pi-anthropic-vertex",
+    "desc": "Anthropic Claude models on Google Cloud Vertex AI for pi",
+    "repo": "https://github.com/twoGiants/pi-anthropic-vertex",
+    "homepage": "https://github.com/twoGiants/pi-anthropic-vertex#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "anthropic",
+      "vertex-ai",
+      "claude"
+    ]
+  },
+  {
+    "name": "msco-pi-lot",
+    "desc": "Microsoft Copilot provider extension for pi coding agent.",
+    "repo": "ssh://git@github.com/atomic-reactor/msco-pi-lot",
+    "homepage": "https://github.com/atomic-reactor/msco-pi-lot#readme",
+    "keywords": [
+      "pi",
+      "pi-extension",
+      "pi-package",
+      "microsoft-copilot",
+      "copilot-provider",
+      "coding-agent",
+      "msco",
+      "pi-plugin"
+    ]
+  },
+  {
+    "name": "@atomic-ai/msco-pi-lot",
+    "desc": "Microsoft Copilot provider extension for pi coding agent.",
+    "repo": "ssh://git@github.com/atomic-reactor/msco-pi-lot",
+    "homepage": "https://github.com/atomic-reactor/msco-pi-lot#readme",
+    "keywords": [
+      "pi",
+      "pi-extension",
+      "pi-package",
+      "microsoft-copilot",
+      "copilot-provider",
+      "coding-agent",
+      "msco",
+      "pi-plugin"
+    ]
+  },
+  {
+    "name": "pi-freeflow",
+    "desc": "Thin provider for OMP/Pi — model list + dumb relay proxy + log; host pi-ai owns thinking/normalization",
+    "repo": "https://github.com/trefeon/pi-freeflow",
+    "homepage": "https://github.com/trefeon/pi-freeflow#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "oh-my-pi",
+      "omp",
+      "free-models",
+      "opencode",
+      "kilocode",
+      "ai-models",
+      "relay"
+    ]
+  },
+  {
+    "name": "auto-model-router",
+    "desc": "Local cost/complexity-aware model router for Oh My Pi, backed by OpenRouter",
+    "repo": "https://github.com/drewappling/auto-model-router",
+    "homepage": "https://github.com/drewappling/auto-model-router",
+    "keywords": [
+      "pi-package"
+    ]
+  },
+  {
+    "name": "pi-lens",
+    "desc": "Real-time code feedback for pi — LSP, linters, formatters, type-checking, structural analysis & booboo",
+    "repo": "https://github.com/apmantza/pi-lens",
+    "homepage": "https://github.com/apmantza/pi-lens#readme",
+    "keywords": [
+      "pi",
+      "pi-extension",
+      "pi-package",
+      "linter",
+      "biome",
+      "ast-grep",
+      "ruff",
+      "typescript",
+      "code-quality",
+      "feedback",
+      "type-coverage",
+      "jscpd",
+      "knip"
+    ]
+  },
+  {
+    "name": "@narumitw/pi-lsp",
+    "desc": "Pi extension that exposes configurable, language-agnostic LSP tools through a shared runner.",
+    "repo": "https://github.com/narumiruna/pi-extensions",
+    "homepage": "https://github.com/narumiruna/pi-extensions#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "pi",
+      "lsp",
+      "language-server-protocol",
+      "configurable",
+      "lint",
+      "diagnostics",
+      "code-action"
+    ]
+  },
+  {
+    "name": "pi-hashline-edit-pro",
+    "desc": "Hash-anchored read/replace/insert/grep tools for pi-coding-agent. Every line gets a unique 4-char tokenizer-friendly anchor that stays stable across edits; stale or ambiguous anchors are rejected, never fuzzy-matched. Undo persists across restarts.",
+    "repo": "https://github.com/YuGiMob/pi-hashline-edit-pro",
+    "homepage": "https://github.com/YuGiMob/pi-hashline-edit-pro#readme",
+    "keywords": [
+      "pi-package",
+      "pi",
+      "coding-agent",
+      "extension",
+      "hashline",
+      "hash-anchored",
+      "hash",
+      "anchors",
+      "read",
+      "replace",
+      "edit",
+      "undo",
+      "file-editing",
+      "stable"
+    ]
+  },
+  {
+    "name": "@ff-labs/pi-fff",
+    "desc": "pi extension: FFF-powered fuzzy file and content search",
+    "repo": "https://github.com/dmtrKovalenko/fff",
+    "homepage": "https://github.com/dmtrKovalenko/fff/tree/main/packages/pi-fff",
+    "keywords": [
+      "pi",
+      "pi-package",
+      "pi-extension",
+      "fff",
+      "search",
+      "grep",
+      "fuzzy-search",
+      "ai-agent"
+    ]
+  },
+  {
+    "name": "@xynogen/pix-pretty",
+    "desc": "Enhanced tool output rendering with syntax highlighting, file icons, tree views, diff rendering, and FFF search",
+    "repo": "https://github.com/xynogen/pix-mono",
+    "homepage": "https://github.com/xynogen/pix-mono/tree/main/packages/pix-pretty#readme",
+    "keywords": [
+      "pi",
+      "pi-package",
+      "pi-extension",
+      "syntax-highlighting",
+      "fff",
+      "paste-chips",
+      "tool-rendering"
+    ]
+  },
+  {
+    "name": "@heyhuynhgiabuu/pi-pretty",
+    "desc": "Pretty terminal output for pi — syntax-highlighted file reads, colored bash output, tree-view directory listings, and more.",
+    "repo": "https://github.com/heyhuynhgiabuu/pi-pretty",
+    "homepage": "https://github.com/heyhuynhgiabuu/pi-pretty#readme",
+    "keywords": [
+      "pi",
+      "pi-extension",
+      "pi-package",
+      "pretty-print",
+      "shiki",
+      "syntax-highlighting",
+      "terminal"
+    ]
+  },
+  {
+    "name": "@peppa_q/pi-collapse-tools",
+    "desc": "Pi plugin that collapses built-in tool calls (bash, read, edit, write, grep, find, ls) into a single compact row with an expand badge.",
+    "repo": "ssh://git@github.com/Q-Peppa/pi-collapse-tools",
+    "homepage": "https://github.com/Q-Peppa/pi-collapse-tools#readme",
+    "keywords": [
+      "pi",
+      "pi-plugin",
+      "pi-coding-agent",
+      "earendil",
+      "earendil-works",
+      "collapse",
+      "compact",
+      "tool",
+      "tool-call",
+      "tool-renderer",
+      "tui",
+      "cli",
+      "terminal",
+      "developer-tools",
+      "ux"
+    ]
+  },
+  {
+    "name": "@narumitw/pi-stamp",
+    "desc": "Pi extension for transcript timestamps, assistant metadata, and tool timing.",
+    "repo": "https://github.com/narumiruna/pi-extensions",
+    "homepage": "https://github.com/narumiruna/pi-extensions#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "pi",
+      "timestamp",
+      "metadata",
+      "provenance",
+      "tool-timing",
+      "messages",
+      "tui"
+    ]
+  },
+  {
+    "name": "@gotgenes/pi-permission-system",
+    "desc": "Permission enforcement extension for the Pi coding agent.",
+    "repo": "https://github.com/gotgenes/pi-packages",
+    "homepage": "https://github.com/gotgenes/pi-packages/tree/main/packages/pi-permission-system#readme",
+    "keywords": [
+      "pi-package",
+      "pi",
+      "pi-extension",
+      "pi-coding-agent",
+      "coding-agent",
+      "permissions",
+      "policy",
+      "access-control",
+      "authorization",
+      "security"
+    ]
+  },
+  {
+    "name": "cc-safety-net",
+    "desc": "A coding agent CLI hook - block destructive commands and secret file access",
+    "repo": "https://github.com/kenryu42/cc-safety-net",
+    "homepage": "https://ccsafetynet.com",
+    "keywords": [
+      "claude-code",
+      "opencode",
+      "safety",
+      "plugin",
+      "security",
+      "pi-package",
+      "cursor",
+      "amp",
+      "grok",
+      "grok-build"
+    ]
+  },
+  {
+    "name": "@trim21/personal-pi-extensions",
+    "desc": "Custom pi coding-agent extensions: bwrap sandbox, workspace guard, opencode edit, and more",
+    "repo": "https://github.com/trim21/pi-extensions",
+    "homepage": "https://github.com/trim21/pi-extensions#readme",
+    "keywords": [
+      "pi-package"
+    ]
+  },
+  {
+    "name": "bigpowers",
+    "desc": "73 agent skills synthesizing 17 years of software engineering discipline into a prescriptive methodology for solo developers",
+    "repo": "https://github.com/danielvm-git/bigpowers",
+    "homepage": "https://github.com/danielvm-git/bigpowers#readme",
+    "keywords": [
+      "skills",
+      "agents",
+      "claude",
+      "development",
+      "spec-driven",
+      "test-first",
+      "pi-package"
+    ]
+  },
+  {
+    "name": "@dietrichgebert/ponytail",
+    "desc": "Lazy senior dev mode for AI agents. The best code is the code you never wrote.",
+    "repo": "https://github.com/DietrichGebert/ponytail",
+    "homepage": "https://github.com/DietrichGebert/ponytail",
+    "keywords": [
+      "opencode-plugin",
+      "opencode",
+      "ponytail",
+      "pi-package",
+      "pi",
+      "skills",
+      "qoder"
+    ]
+  },
+  {
+    "name": "@reddb-io/red-skills-dev",
+    "desc": "reddb.io dev plugin - engineering skills for code agents (autonomous /afk loop, /go dispatch, triage, tdd, diagnose, graph-aware codebase understanding, ...)",
+    "repo": "https://github.com/reddb-io/redskilled",
+    "homepage": "https://github.com/reddb-io/red-skills",
+    "keywords": [
+      "pi-package",
+      "reddb-io",
+      "red-skills"
+    ]
+  },
+  {
+    "name": "@reddb-io/red-skills-memory",
+    "desc": "reddb.io memory plugin - governed operational memory for code agents that lives on top of dev. Supports markdown notes, RedDB graph memory, zero-token governed recall, context packs, claim checks, readiness, optional lifecycle hooks, MCP/HTTP read surface",
+    "repo": "https://github.com/reddb-io/redskilled",
+    "homepage": "https://github.com/reddb-io/red-skills",
+    "keywords": [
+      "pi-package",
+      "reddb-io",
+      "red-skills",
+      "dep:dev"
+    ]
+  },
+  {
+    "name": "@7n/rules",
+    "desc": "CLI еталонних правил і skills (префікс n-): синк у репозиторій, дельта-lint, конформність",
+    "repo": "https://github.com/nitra/7n-rules",
+    "homepage": "https://github.com/nitra/7n-rules#readme",
+    "keywords": [
+      "cli",
+      "rules",
+      "lint",
+      "mdc",
+      "n",
+      "pi-package"
+    ]
+  },
+  {
+    "name": "@nitra/cursor",
+    "desc": "CLI для завантаження cursor-правил (префікс n-) у локальний репозиторій",
+    "repo": "https://github.com/n/cursor",
+    "homepage": "https://github.com/n/cursor#readme",
+    "keywords": [
+      "cli",
+      "cursor",
+      "cursor-rules",
+      "mdc",
+      "n",
+      "pi-package"
+    ]
+  },
+  {
+    "name": "@mutmutco/pi-plugin",
+    "desc": "MMI workflow skills and org gates delivery.",
+    "repo": "",
+    "homepage": "https://github.com/mutmutco/MMI-Hub",
+    "keywords": [
+      "mmi",
+      "mutmutco",
+      "pi-package",
+      "jervcode"
+    ]
+  },
+  {
+    "name": "pi-open-tui",
+    "desc": "A polished TUI for Pi coding agent: animated logo header, Starship-style footer, rounded editor with model metadata, and prompt-box user messages.",
+    "repo": "https://github.com/OldSuns/pi-open-tui",
+    "homepage": "https://github.com/OldSuns/pi-open-tui#readme",
+    "keywords": [
+      "pi-package",
+      "pi",
+      "pi-coding-agent",
+      "pi-extension",
+      "tui",
+      "starship",
+      "theme"
+    ]
+  },
+  {
+    "name": "pi-zentui",
+    "desc": "A Starship-inspired statusline and Opencode-style TUI for Pi.",
+    "repo": "https://github.com/lmilojevicc/pi-zentui",
+    "homepage": "https://github.com/lmilojevicc/pi-zentui#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "pi-theme",
+      "starship",
+      "tui"
+    ]
+  },
+  {
+    "name": "pi-powerline-footer",
+    "desc": "Powerline-style status bar extension for pi coding agent",
+    "repo": "https://github.com/nicobailon/pi-powerline-footer",
+    "homepage": "https://github.com/nicobailon/pi-powerline-footer#readme",
+    "keywords": [
+      "pi-package",
+      "pi",
+      "coding-agent",
+      "powerline",
+      "status-bar",
+      "extension"
+    ]
+  },
+  {
+    "name": "@narumitw/pi-statusline",
+    "desc": "Pi extension that replaces the footer with an information-rich statusline.",
+    "repo": "https://github.com/narumiruna/pi-extensions",
+    "homepage": "https://github.com/narumiruna/pi-extensions#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "pi",
+      "statusline",
+      "footer"
+    ]
+  },
+  {
+    "name": "@magiusche/pi-webview",
+    "desc": "WebView UI for the pi coding agent: standalone, Chrome Side Panel and IDE companions",
+    "repo": "https://github.com/MagiusCHE/pi-webview",
+    "homepage": "https://github.com/MagiusCHE/pi-webview",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "pi",
+      "webview",
+      "ide",
+      "vscode",
+      "chrome",
+      "side-panel"
+    ]
+  },
+  {
+    "name": "@xynogen/pix-runtime",
+    "desc": "Pix shared runtime — versioned pix.json config, atomic persistence, typed change events",
+    "repo": "https://github.com/xynogen/pix-mono",
+    "homepage": "https://github.com/xynogen/pix-mono/tree/main/packages/pix-runtime#readme",
+    "keywords": [
+      "pi",
+      "pi-package",
+      "pi-extension",
+      "config",
+      "runtime"
+    ]
+  },
+  {
+    "name": "@plannotator/pi-extension",
+    "desc": "Plannotator Pi extension - interactive plan review with annotations, annotate agent messages, and review code/PRs",
+    "repo": "https://github.com/backnotprop/plannotator",
+    "homepage": "https://github.com/backnotprop/plannotator",
+    "keywords": [
+      "pi-package",
+      "plannotator",
+      "plan-review",
+      "ai-agent",
+      "coding-agent"
+    ]
+  },
+  {
+    "name": "@pi-unipi/unipi",
+    "desc": "All-in-one extension suite for Pi coding agent",
+    "repo": "https://github.com/Neuron-Mr-White/unipi",
+    "homepage": "https://github.com/Neuron-Mr-White/unipi#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "pi-coding-agent",
+      "unipi"
+    ]
+  },
+  {
+    "name": "@pi-unipi/core",
+    "desc": "Shared utilities, event types, and constants for Unipi extension suite",
+    "repo": "https://github.com/Neuron-Mr-White/unipi",
+    "homepage": "https://github.com/Neuron-Mr-White/unipi#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "unipi"
+    ]
+  },
+  {
+    "name": "@pi-unipi/notify",
+    "desc": "Cross-platform notification extension for Pi — native OS, Gotify, and Telegram notifications for agent lifecycle events",
+    "repo": "https://github.com/Neuron-Mr-White/unipi",
+    "homepage": "https://github.com/Neuron-Mr-White/unipi#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "pi-coding-agent",
+      "unipi",
+      "notify",
+      "notifications"
+    ]
+  },
+  {
+    "name": "@groeponline/pi-wishcraft",
+    "desc": "Operator cockpit for Pi: live powerline status, searchable skills, idea queue, sticky Bash, hooks, policy controls, and session UX.",
+    "repo": "https://github.com/GroepOnline/pi-wishcraft",
+    "homepage": "https://pi.dev/packages/@groeponline/pi-wishcraft",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "pi-coding-agent",
+      "pi",
+      "wishcraft",
+      "cockpit",
+      "coding-agent",
+      "powerline",
+      "status-bar",
+      "extension",
+      "groeponline",
+      "terminal-ui",
+      "developer-tools",
+      "agent-ui",
+      "productivity",
+      "hooks"
+    ]
+  },
+  {
+    "name": "pi-maestro-flow",
+    "desc": "All-in-one multi-agent orchestration for the Pi coding agent — parallel teammate dispatch, goals, plans, knowledge system, MCP/LSP/browser, and cockpit visualization in a single install",
+    "repo": "",
+    "homepage": "",
+    "keywords": [
+      "pi-package",
+      "pi",
+      "pi-coding-agent",
+      "maestro",
+      "agents",
+      "explore",
+      "delegate",
+      "moa",
+      "workflow",
+      "orchestration",
+      "swarm",
+      "aco",
+      "visualization",
+      "skills",
+      "all-in-one",
+      "multi-agent",
+      "goal",
+      "plan"
+    ]
+  },
+  {
+    "name": "gentle-pi",
+    "desc": "Turn Pi into el Gentleman: a senior-architect development harness with SDD/OpenSpec, subagents, strict TDD evidence, review guardrails, and skill discovery.",
+    "repo": "https://github.com/Gentleman-Programming/gentle-shell",
+    "homepage": "https://github.com/Gentleman-Programming/gentle-shell#readme",
+    "keywords": [
+      "pi-package",
+      "pi",
+      "pi-coding-agent",
+      "gentle-pi",
+      "gentle-ai",
+      "sdd",
+      "openspec",
+      "subagents",
+      "tdd",
+      "code-review",
+      "ai-coding-agent",
+      "agent-harness"
+    ]
+  },
+  {
+    "name": "pi-advisor-flow",
+    "desc": "Advanced Executor/Advisor flow for Pi, fully configurable and extendable.",
+    "repo": "https://github.com/philipbrembeck/pi-advisor",
+    "homepage": "https://github.com/philipbrembeck/pi-advisor",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "pi-coding-agent",
+      "advisor",
+      "pi-advisor",
+      "herdr",
+      "jev"
+    ]
+  },
+  {
+    "name": "pi-interview",
+    "desc": "Interactive interview form extension for pi coding agent",
+    "repo": "https://github.com/nicobailon/pi-interview-tool",
+    "homepage": "https://github.com/nicobailon/pi-interview-tool#readme",
+    "keywords": [
+      "pi",
+      "pi-coding-agent",
+      "pi-package",
+      "interview",
+      "form",
+      "extension",
+      "cli"
+    ]
+  },
+  {
+    "name": "shariq-pi-extensions",
+    "desc": "Cross-platform extension suite for the Pi coding agent.",
+    "repo": "https://github.com/shariqriazz/shariq-pi-extensions",
+    "homepage": "https://github.com/shariqriazz/shariq-pi-extensions#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension"
+    ]
+  },
+  {
+    "name": "tether-agent-core",
+    "desc": "Local DeepSeek-first agent runtime for the Tether desktop workbench (tools, sandbox, sessions, RPC).",
+    "repo": "https://github.com/tt-11-dd/tether-runtime",
+    "homepage": "https://github.com/tt-11-dd/tether-runtime#readme",
+    "keywords": []
+  },
+  {
+    "name": "infinity-harness",
+    "desc": "A pi agent extension that runs a gated build pipeline unattended — enforces phases, validates with deterministic gates, and keeps working for hours or days without losing the plan.",
+    "repo": "https://github.com/bakr-bagaber/infinity-harness",
+    "homepage": "https://github.com/bakr-bagaber/infinity-harness#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "harness",
+      "agent-pipeline",
+      "autonomous",
+      "continuous-development"
+    ]
+  },
+  {
+    "name": "@ashx-j/lunr-agent",
+    "desc": "General-purpose agent with transport abstraction, state management, and attachment support",
+    "repo": "https://github.com/ashx-j/lunR",
+    "homepage": "https://github.com/ashx-j/lunR#readme",
+    "keywords": [
+      "ai",
+      "agent",
+      "llm",
+      "transport",
+      "state-management"
+    ]
+  },
+  {
+    "name": "@cgh567/agent",
+    "desc": "Elyntic self-improvement lab",
+    "repo": "https://github.com/helios-agi/helios-agent",
+    "homepage": "https://github.com/helios-agi/helios-agent#readme",
+    "keywords": [
+      "pi-package",
+      "pi-coding-agent",
+      "elyntic",
+      "ai-agent",
+      "graph-brain"
+    ]
+  },
+  {
+    "name": "@cotal-ai/pi",
+    "desc": "",
+    "repo": "https://github.com/Cotal-AI/Cotal",
+    "homepage": "",
+    "keywords": []
+  },
+  {
+    "name": "@bastani/pi-ai",
+    "desc": "Bastani-branded unified LLM API with automatic model discovery and provider configuration",
+    "repo": "https://github.com/bastani-inc/atomic",
+    "homepage": "https://github.com/bastani-inc/atomic/tree/main/packages/ai#readme",
+    "keywords": [
+      "ai",
+      "llm",
+      "openai",
+      "anthropic",
+      "gemini",
+      "bedrock",
+      "unified",
+      "api",
+      "bastani"
+    ]
+  },
+  {
+    "name": "rolebox",
+    "desc": "Agent plugin — define custom AI agent roles with per-role prompts, models, skills, and permissions",
+    "repo": "https://github.com/EricMoin/rolebox",
+    "homepage": "https://github.com/EricMoin/rolebox#readme",
+    "keywords": [
+      "opencode",
+      "opencode-plugin",
+      "pi-extension",
+      "pi-package",
+      "dsh",
+      "codex",
+      "deepseek",
+      "ai-agent",
+      "llm",
+      "agent-framework",
+      "multi-agent",
+      "agent-orchestration",
+      "subagents",
+      "role",
+      "yaml",
+      "skills",
+      "memory",
+      "lsp",
+      "workflow",
+      "cli",
+      "tui"
+    ]
+  },
+  {
+    "name": "@juicesharp/rpiv-ask-user-question",
+    "desc": "Pi extension. A structured questionnaire the model can put to you when it would otherwise guess, with typed options instead of free-form replies.",
+    "repo": "https://github.com/juicesharp/rpiv-mono",
+    "homepage": "https://github.com/juicesharp/rpiv-mono/tree/main/packages/rpiv-ask-user-question#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "rpiv"
+    ]
+  },
+  {
+    "name": "@juicesharp/rpiv-todo",
+    "desc": "Pi extension. A todo list for the model, rendered as a live overlay that survives /reload and conversation compaction.",
+    "repo": "https://github.com/juicesharp/rpiv-mono",
+    "homepage": "https://github.com/juicesharp/rpiv-mono/tree/main/packages/rpiv-todo#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "rpiv",
+      "todo"
+    ]
+  },
+  {
+    "name": "@juicesharp/rpiv-advisor",
+    "desc": "Pi extension. A second opinion the model can request from a stronger reviewer model before it acts.",
+    "repo": "https://github.com/juicesharp/rpiv-mono",
+    "homepage": "https://github.com/juicesharp/rpiv-mono/tree/main/packages/rpiv-advisor#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "rpiv",
+      "advisor"
+    ]
+  },
+  {
+    "name": "@juicesharp/rpiv-btw",
+    "desc": "Pi extension. The /btw slash command, for putting a one-off side question to the same primary model without polluting the main conversation.",
+    "repo": "https://github.com/juicesharp/rpiv-mono",
+    "homepage": "https://github.com/juicesharp/rpiv-mono/tree/main/packages/rpiv-btw#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "rpiv",
+      "btw",
+      "side-question",
+      "overlay"
+    ]
+  },
+  {
+    "name": "@juicesharp/rpiv-i18n",
+    "desc": "Pi extension. The localization foundation for rpiv-* skills: locale detection, the /languages command, the --locale flag, and a cross-package locale registry.",
+    "repo": "https://github.com/juicesharp/rpiv-mono",
+    "homepage": "https://github.com/juicesharp/rpiv-mono/tree/main/packages/rpiv-i18n#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "rpiv",
+      "i18n",
+      "localization"
+    ]
+  },
+  {
+    "name": "@companion-ai/feynman",
+    "desc": "Research-first CLI agent built on Pi and alphaXiv",
+    "repo": "https://github.com/companion-inc/feynman",
+    "homepage": "https://github.com/companion-inc/feynman#readme",
+    "keywords": [
+      "pi-package",
+      "research-agent",
+      "literature-review",
+      "experiments"
+    ]
+  },
+  {
+    "name": "pi-dsh-pet",
+    "desc": "Floating desktop deepseek chan for the pi coding agent: idle breathing, random actions, screen wandering, and pi event reactivity (thinking/coding/idle → matching animations).",
+    "repo": "https://github.com/SOMWHY/pi-dsh-pet",
+    "homepage": "https://github.com/SOMWHY/pi-dsh-pet#readme",
+    "keywords": [
+      "pi",
+      "pi-plugin",
+      "pi-extension",
+      "pi-package",
+      "desktop-pet",
+      "pet",
+      "electron",
+      "floating-widget"
+    ]
+  },
+  {
+    "name": "imgify-pi",
+    "desc": "pi extension: convert a written prompt into an image and send it to the chat model",
+    "repo": "https://github.com/mandavkarpranjal/imgify",
+    "homepage": "https://github.com/mandavkarpranjal/imgify#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "pi-plugin",
+      "image",
+      "text-to-image",
+      "vision"
+    ]
+  },
+  {
+    "name": "pi-nasty-verbs",
+    "desc": "Replaces Pi's default 'Working...' message with some better words.",
+    "repo": "https://github.com/kynnyhsap/pi-nasty-verbs",
+    "homepage": "https://github.com/kynnyhsap/pi-nasty-verbs",
+    "keywords": [
+      "claude",
+      "coding-agent",
+      "extension",
+      "pi-coding-agent",
+      "pi-extension",
+      "pi-package",
+      "pi-plugin",
+      "plugin",
+      "spinner",
+      "verbs"
+    ]
+  },
+  {
+    "name": "agent-comms",
+    "desc": "Cross-harness communication mesh for LLM agents — rooms, DMs, presence, and real-time push delivery over TCP",
+    "repo": "https://github.com/ExaDev/agent-comms",
+    "homepage": "https://github.com/ExaDev/agent-comms#readme",
+    "keywords": [
+      "agent",
+      "communication",
+      "cross-harness",
+      "dm",
+      "llm",
+      "mcp",
+      "mesh",
+      "pi-package",
+      "presence",
+      "rooms"
+    ]
+  },
+  {
+    "name": "@chronova/pi-plugin",
+    "desc": "Chronova heartbeat tracking extension for oh-my-pi — sends coding activity to your Chronova dashboard via chronova-cli",
+    "repo": "https://github.com/nx-solutions-ug/chronova-pi-plugin",
+    "homepage": "https://github.com/nx-solutions-ug/chronova-pi-plugin#readme",
+    "keywords": [
+      "ai-coding",
+      "chronova",
+      "coding-analytics",
+      "developer-analytics",
+      "heartbeat",
+      "oh-my-pi",
+      "omp",
+      "pi-plugin",
+      "wakatime"
+    ]
+  },
+  {
+    "name": "pi-extension-optimizer",
+    "desc": "Precompile TypeScript Pi extensions into dist-opt/ .js so jiti skips transpilation at cold start (~13.2s → ~3.0s in the author setup). Auto-scans enabled extensions, backs up package.json before rewriting entries, creates harness junctions, and reports re",
+    "repo": "https://github.com/LosLiSang/pi-extension-optimizer",
+    "homepage": "https://github.com/LosLiSang/pi-extension-optimizer#readme",
+    "keywords": [
+      "pi",
+      "pi-extension",
+      "earendil",
+      "startup",
+      "performance",
+      "typescript",
+      "precompile",
+      "jiti",
+      "esbuild",
+      "optimizer"
+    ]
+  },
+  {
+    "name": "@onkernel/browser-loop",
+    "desc": "Browser tools for your agent: framework-neutral tool catalog, per-model compilation, Kernel-browser execution, and a pi binding + extension",
+    "repo": "https://github.com/kernel/browser-loop",
+    "homepage": "https://github.com/kernel/browser-loop/tree/main/packages/browser-loop#readme",
+    "keywords": [
+      "pi-package",
+      "pi-extension",
+      "computer-use",
+      "kernel"
+    ]
+  },
+  {
+    "name": "betterwright",
+    "desc": "A persistent, policy-guarded Playwright browser for AI agents with network controls, trusted credential filling, proof screenshots, and CAPTCHA helpers.",
+    "repo": "https://github.com/BetterWright/betterwright",
+    "homepage": "https://github.com/BetterWright/betterwright#readme",
+    "keywords": [
+      "playwright",
+      "browser",
+      "automation",
+      "agent",
+      "llm",
+      "ai",
+      "captcha",
+      "browser-use",
+      "web-agent",
+      "pi-package"
+    ]
+  },
+  {
+    "name": "glimpseui",
+    "desc": "Native micro-UI for scripts and agents — cross-platform WebView windows with bidirectional JSON communication",
+    "repo": "https://github.com/hazat/glimpse",
+    "homepage": "https://github.com/hazat/glimpse#readme",
+    "keywords": [
+      "macos",
+      "linux",
+      "windows",
+      "webview",
+      "native",
+      "ui",
+      "webkit",
+      "wkwebview",
+      "webview2",
+      "gtk",
+      "swift",
+      "gui",
+      "agent",
+      "dialog",
+      "prompt",
+      "overlay",
+      "pi-package"
+    ]
+  },
+  {
+    "name": "latchkey",
+    "desc": "A CLI tool that injects API credentials into curl requests to third-party services",
+    "repo": "https://github.com/imbue-ai/latchkey",
+    "homepage": "https://github.com/imbue-ai/latchkey#readme",
+    "keywords": [
+      "cli",
+      "curl",
+      "api",
+      "credentials",
+      "authentication",
+      "agents",
+      "imbue",
+      "pi-package"
+    ]
+  },
+  {
+    "name": "confluence-cli",
+    "desc": "A command-line interface for Atlassian Confluence with page creation and editing capabilities",
+    "repo": "https://github.com/pchuri/confluence-cli",
+    "homepage": "https://github.com/pchuri/confluence-cli#readme",
+    "keywords": [
+      "pi-package",
+      "confluence",
+      "atlassian",
+      "cli",
+      "wiki",
+      "documentation"
+    ]
+  },
+  {
+    "name": "@agimon-ai/log-sink-mcp",
+    "desc": "Log sink MCP server with HTTP ingestion and AI analysis",
+    "repo": "",
+    "homepage": "https://agimon.ai",
+    "keywords": [
+      "mcp",
+      "model-context-protocol",
+      "pi-package",
+      "telemetry",
+      "typescript"
+    ]
+  },
+  {
+    "name": "donsetch",
+    "desc": "MCP server that gives AI agents the web: fetch, search, crawl and screenshot from one local Rust binary. Zero API keys, zero accounts, Chrome-true TLS.",
+    "repo": "https://github.com/dondai44423/donsetch",
+    "homepage": "https://github.com/dondai44423/donsetch#readme",
+    "keywords": [
+      "pi-package",
+      "mcp",
+      "mcp-server",
+      "model-context-protocol",
+      "ai-agent",
+      "agent-tools",
+      "web-fetch",
+      "web-search",
+      "web-scraping",
+      "web-crawler",
+      "web-research",
+      "screenshot",
+      "markdown",
+      "pdf",
+      "ocr",
+      "extraction",
+      "anti-bot",
+      "tls",
+      "chrome",
+      "stealth",
+      "no-api-key",
+      "claude",
+      "cursor",
+      "rust"
+    ]
+  },
+  {
+    "name": "@agentskit/doc-bridge",
+    "desc": "Human↔agent documentation bridge — deterministic handoffs, doc-site links, memory→docs, optional AgentsKit RAG/chat.",
+    "repo": "https://github.com/AgentsKit-io/doc-bridge",
+    "homepage": "https://doc-bridge.agentskit.io/",
+    "keywords": [
+      "agentskit",
+      "documentation",
+      "mcp",
+      "pi-package",
+      "for-agents",
+      "llms-txt",
+      "agent-handoff",
+      "rag",
+      "human-agent-bridge"
+    ]
+  },
+  {
+    "name": "agents-gitflow-guard",
+    "desc": "A configurable branch-role guard for AI coding agents (DSH / Claude Code / Codex / OpenCode / Antigravity / Pi / CodeBuddy / ZCode / Cursor) — zero-config defaults (develop+main) out of the box, deep-merge override, per-client native hooks via gitflow-gua",
+    "repo": "https://github.com/FeatureAgents/AgentsGitFlowController",
+    "homepage": "https://github.com/FeatureAgents/AgentsGitFlowController#readme",
+    "keywords": [
+      "dsh",
+      "deepseek-harness",
+      "dsh-plugin",
+      "claude-code",
+      "codex",
+      "opencode",
+      "antigravity",
+      "pi",
+      "pi-agent",
+      "pi-extension",
+      "codebuddy",
+      "zcode",
+      "cursor",
+      "plugin",
+      "hook",
+      "gitflow",
+      "git",
+      "workflow",
+      "guard",
+      "agent",
+      "zero-config",
+      "onboarding",
+      "wire",
+      "setup",
+      "worktree",
+      "clean-working-tree",
+      "upstream-divergence",
+      "dirty-check"
+    ]
+  },
+  {
+    "name": "@cortexkit/magic-context",
+    "desc": "Unified CLI for Magic Context — setup, doctor, and migration across OpenCode, Pi, and OMP",
+    "repo": "https://github.com/cortexkit/magic-context",
+    "homepage": "https://github.com/cortexkit/magic-context#readme",
+    "keywords": [
+      "opencode",
+      "opencode-plugin",
+      "pi",
+      "pi-extension",
+      "omp",
+      "oh-my-pi",
+      "magic-context",
+      "cli",
+      "setup",
+      "doctor"
+    ]
+  },
+  {
+    "name": "@skydiveai/pi-server",
+    "desc": "",
+    "repo": "",
+    "homepage": "https://skydive.com",
+    "keywords": []
+  },
+  {
+    "name": "@earendil-works/pi-server",
+    "desc": "experimental server package for pi",
+    "repo": "https://github.com/earendil-works/pi",
+    "homepage": "https://github.com/earendil-works/pi#readme",
+    "keywords": [
+      "pi",
+      "server"
+    ]
+  },
+  {
+    "name": "@earendil-works/pi-client",
+    "desc": "Transport-neutral client for remote pi sessions over framed CBOR bytes",
+    "repo": "https://github.com/earendil-works/pi",
+    "homepage": "https://github.com/earendil-works/pi#readme",
+    "keywords": [
+      "pi",
+      "client",
+      "protocol",
+      "cbor",
+      "binary"
+    ]
+  },
+  {
+    "name": "@earendil-works/pi-protocol",
+    "desc": "Transport-neutral CBOR protocol for remote pi sessions",
+    "repo": "https://github.com/earendil-works/pi",
+    "homepage": "https://github.com/earendil-works/pi#readme",
+    "keywords": [
+      "pi",
+      "protocol",
+      "cbor",
+      "binary",
+      "framing"
+    ]
+  },
+  {
+    "name": "@earendil-works/pi-telemetry",
+    "desc": "Vendor-neutral telemetry contracts and typed schema utilities for pi",
+    "repo": "https://github.com/earendil-works/pi",
+    "homepage": "https://github.com/earendil-works/pi#readme",
+    "keywords": [
+      "telemetry",
+      "tracing",
+      "observability"
+    ]
+  },
+  {
+    "name": "@earendil-works/pi-web-ui",
+    "desc": "Reusable web UI components for AI chat interfaces powered by @earendil-works/pi-ai",
+    "repo": "",
+    "homepage": "",
+    "keywords": [
+      "ai",
+      "chat",
+      "ui",
+      "components",
+      "llm",
+      "web-components",
+      "mini-lit"
+    ]
+  },
+  {
+    "name": "@earendil-works/pi-session-backend-sqlite-node",
+    "desc": "Node sqlite session backend for @earendil-works/pi-agent-core sessions",
+    "repo": "https://github.com/earendil-works/pi",
+    "homepage": "https://github.com/earendil-works/pi#readme",
+    "keywords": []
+  },
+  {
+    "name": "selesai/code",
+    "error": "HTTP Error 404: Not Found"
+  }
+]
